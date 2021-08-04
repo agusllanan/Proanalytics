@@ -1,17 +1,19 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>Proanalytics</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Bienvenidos a{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
+      <main className="">
+        <Navbar />
+        <h1 className="text-6xl text-center flex justify-center font-bold">
+          Bienvenidos a {''}
+          <a className="text-blue-600 text-center flex justify-center" href="">
             Proanalytics!
           </a>
         </h1>
@@ -27,17 +29,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Creado por Agustín Llanán
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }
