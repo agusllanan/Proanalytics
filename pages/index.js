@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <Layout title="Home | Proanalytics" description="Agregue una descripcion">
+    <Layout title="Proanalytics" description="Agregue una descripcion">
       <main className="">
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
@@ -34,7 +34,7 @@ export default function Home() {
                 src="/img/1.jpeg"
                 width={920}
                 height={800}
-                className="object-cover object-center rounded-lg"
+                className="object-cover rounded-l-xl object-center "
                 alt="Aqui va el alt de la imagen"
               />
             </div>
@@ -230,30 +230,30 @@ export default function Home() {
           </section>
         </section>
         <section className="text-gray-600 body-font">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container w-full">
             <div className="flex flex-wrap -m-4  text-center">
-              <div className="p-4 bg-blue-400 w-1/3">
-                <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
+              <div className="py-10 bg-blue-400 w-1/3">
+                <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
                   2.7K
                 </h2>
-                <p className="leading-relaxed">Users</p>
+                <p className="leading-relaxed font-bold text-lg text-white">Users</p>
               </div>
-              <div className="p-4 bg-blue-300 w-1/3">
-                <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
+              <div className="py-10 bg-blue-300 w-1/3">
+                <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
                   1.8K
                 </h2>
-                <p className="leading-relaxed">Subscribes</p>
+                <p className="leading-relaxed font-bold text-lg text-white">Subscribes</p>
               </div>
-              <div className="p-4 bg-blue-400 w-1/3">
-                <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
+              <div className="py-10 bg-blue-400 w-1/3">
+                <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
                   4
                 </h2>
-                <p className="leading-relaxed">Products</p>
+                <p className="leading-relaxed font-bold text-lg text-white">Products</p>
               </div>
             </div>
           </div>
           {/* //Aca va la seccion de Nuestra experiencia a tu alcance */}
-          <div className="container mx-auto bg-blue-200 flex px-5 py-5 md:flex-row flex-col items-center">
+          <div className="container mx-auto bg-blue-200 flex px-5 py-16 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-6xl mb-4 font-medium text-gray-400">
                 Nuestra experiencia <br />{" "}

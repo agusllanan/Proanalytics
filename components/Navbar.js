@@ -9,29 +9,29 @@ const Navbar = () => {
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link href="/">
-            <a className="mr-5 hover:text-gray-600">Inicio</a>
+            <a className="mr-5 text-xl hover:text-gray-600">Inicio</a>
             </Link>
             <Link href="/nosotros">
-            <a className="mr-5 hover:text-gray-600">Nosotros</a>
+            <a className="mr-5 text-xl hover:text-gray-600">Nosotros</a>
             </Link>
             <Link href="/servicios">
-            <a className="mr-5 hover:text-gray-600">Servicio</a>
+            <a className="mr-5 text-xl hover:text-gray-600">Servicio</a>
             </Link>
             <Link href="/diferenciadores">
-            <a className="mr-5 hover:text-gray-600">Diferenciadores</a>
+            <a className="mr-5 text-xl hover:text-gray-600">Diferenciadores</a>
             </Link>
             <Link href="/experiencia">
-            <a className="mr-5 hover:text-gray-600">Experiencia</a>
+            <a className="mr-5 text-xl hover:text-gray-600">Experiencia</a>
             </Link>
             <Link href="/mas">
-            <a className="mr-5 hover:text-gray-600">Más</a>
+            <a className="mr-5 text-xl hover:text-gray-600">Más</a>
             </Link>
             <Link href="/blog">
-            <a className="mr-5 hover:text-gray-600">Blog</a>
+            <a className="mr-5 text-xl hover:text-gray-600">Blog</a>
             </Link>
         </nav>
         <Link href="/contactanos"> 
-        <button className="inline-flex items-center text-white bg-green-600 border-0 py-2 px-4 focus:outline-none hover:bg-green-400 rounded text-base mt-4 md:mt-0">
+        <button className="inline-flex text-xl items-center text-white bg-green-400 border-0 py-2 px-4 focus:outline-none hover:bg-green-400 rounded-md mt-4 md:mt-0">
             Contáctanos
             <svg
             fill="none"
