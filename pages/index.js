@@ -1,7 +1,22 @@
 import Layout from "../components/Layout";
+import { useEffect } from "react";
 import Image from "next/image";
+import firebase from "../firebase/initFirebase";
 
 export default function Home() {
+  useEffect(() => {
+    const obtenerDatos = async () => {
+      try {
+        const db = firebase.firestore();
+        const data = await db.collection("users").get();
+        console.log(data.docs);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    obtenerDatos();
+  }, []);
+
   return (
     <Layout title="Proanalytics" description="Agregue una descripcion">
       <main className="">
@@ -41,7 +56,7 @@ export default function Home() {
           </div>
 
           {/* Aca va la seccion del video */}
-          <div className="container mx-auto bg-green-500 flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="container mx-auto bg-green-500 flex px-5 py-16 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-6xl mb-4 font-medium text-white">
                 Quienes somos?{" "}
@@ -91,7 +106,7 @@ export default function Home() {
                       </p>
                       <div className="flex items-center flex-wrap ">
                         <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
+                          Más información
                         </a>
                       </div>
                     </div>
@@ -231,24 +246,30 @@ export default function Home() {
         </section>
         <section className="text-gray-600 body-font">
           <div className="container w-full">
-            <div className="flex flex-wrap -m-4  text-center">
+            <div className="flex flex-wrap text-center">
               <div className="py-10 bg-blue-400 w-1/3">
                 <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
                   2.7K
                 </h2>
-                <p className="leading-relaxed font-bold text-lg text-white">Users</p>
+                <p className="leading-relaxed font-bold text-lg text-white">
+                  Users
+                </p>
               </div>
               <div className="py-10 bg-blue-300 w-1/3">
                 <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
                   1.8K
                 </h2>
-                <p className="leading-relaxed font-bold text-lg text-white">Subscribes</p>
+                <p className="leading-relaxed font-bold text-lg text-white">
+                  Subscribes
+                </p>
               </div>
               <div className="py-10 bg-blue-400 w-1/3">
                 <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
                   4
                 </h2>
-                <p className="leading-relaxed font-bold text-lg text-white">Products</p>
+                <p className="leading-relaxed font-bold text-lg text-white">
+                  Products
+                </p>
               </div>
             </div>
           </div>
@@ -279,6 +300,110 @@ export default function Home() {
                 alt="Aqui va el alt de la imagen"
               />
             </div>
+          </div>
+        </section>
+        {/* Para hacer un hover scale o rotation hay que hacer esto hover:scale-105 transform transition-all duration-500 */}
+        <section>
+          <div className="container w-full py-10">
+            <h3 className="py/3 text-2xl mb-4 ml-4 font-bold text-blue-500"> PODCAST </h3>
+            <div className="flex flex-nowrap flex-row justify-between">
+              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
+                <div className="p-4">
+                  <img
+                    className="rounded-xl"
+                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
+                    alt="Dog"
+                  />
+                </div>
+                <div className="flex justify-between p-6">
+                  <div className="flex flex-col text-justify">
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Titulo Podcast
+                    </h3>
+                    <p className="text-base text-gray-700 font-normal">
+                      Este es el subtitulo
+                    </p>
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Episodio 1
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
+                <div className="p-4">
+                  <img
+                    className="rounded-xl"
+                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
+                    alt="Dog"
+                  />
+                </div>
+                <div className="flex justify-between p-6">
+                  <div className="flex flex-col text-justify">
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Titulo Podcast
+                    </h3>
+                    <p className="text-base text-gray-700 font-normal">
+                      Este es el subtitulo
+                    </p>
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Episodio 2
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
+                <div className="p-4">
+                  <img
+                    className="rounded-xl"
+                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
+                    alt="Dog"
+                  />
+                </div>
+                <div className="flex justify-between p-6">
+                  <div className="flex flex-col text-justify">
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Titulo Podcast
+                    </h3>
+                    <p className="text-base text-gray-700 font-normal">
+                      Este es el subtitulo
+                    </p>
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Episodio 3
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
+                <div className="p-4">
+                  <img
+                    className="rounded-xl"
+                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
+                    alt="Dog"
+                  />
+                </div>
+                <div className="flex justify-between p-6">
+                  <div className="flex flex-col text-justify">
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Titulo Podcast
+                    </h3>
+                    <p className="text-base text-gray-700 font-normal">
+                      Este es el subtitulo
+                    </p>
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Episodio 4
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <div className="container flex justify-end">
+                  <p className="text-lg text-gray-700 mr-4 font-bold py-3"> Ver todos </p>
+                </div>
+          </div>
+        </section>
+        <section>
+          <div className="container flex">
+
           </div>
         </section>
       </main>

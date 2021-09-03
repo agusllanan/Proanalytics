@@ -8,7 +8,7 @@ export default function blog () {
         title="Contactanos | Proanalytics"
         description="Agregue una descripcion"
         >
-            <h1>Blog</h1>
+            <h1 className="text-center py-4 font-bold text-4xl text-green-600">Blog</h1>
             <section className="text-gray-600 body-font relative">
     <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-12">
@@ -78,7 +78,7 @@ export default function blog () {
                     </Link> 
                 </div>
                 <div>{item.date.toString()}</div>
-                <div>{item.content}</div>
+                <div className="text-green-500">{item.content}</div>
             </div>
         ))}
     </div>

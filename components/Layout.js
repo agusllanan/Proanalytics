@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Head from "next/head";
 
@@ -11,7 +11,7 @@ export default function Layout({ children, title, description }) {
         <link rel="icon" href="/favicon.ico" />
         </Head>
         <nav>
-        <NavBar />
+        <Navbar />
         </nav>
         <main>{children}</main>
         <footer>

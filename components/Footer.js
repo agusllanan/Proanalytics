@@ -6,29 +6,36 @@ const Footer = () => {
     <footer className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap md:text-left text-center order-first">
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <nav className="list-none flex flex-col mb-10 border-l-2 border-r-2 mx-2">
+      <div className="lg:w-1/3 md:w-1/2 w-full px-4 flex">
+        <div className="flex xl:flex-nowrap lg:flex-wrap flex-wrap justify-center items-center">
+          <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+            <h2 className="aling-center mx-auto justify-center font-bold text-2xl"><span classname="text-green-500">Pro</span>Analytics</h2>
+          </div>
+          </div>
+      </div>  
+      <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+        <nav className="list-none flex flex-col mb-10 mx-2">
           <Link href="/">
-            <a className="py-2 text-gray-600 hover:text-gray-800">Inicio</a>
+            <a className="py-2 text-gray-600 hover:text-green-700">Inicio</a>
           </Link >
           <Link href="/nosotros">
-            <a className="py-2 text-gray-600 hover:text-gray-800">Nosotros</a>
+            <a className="py-2 text-gray-600 hover:text-green-700">Nosotros</a>
           </Link>
           <Link href="/servicios">
-            <a className="py-2 text-gray-600 hover:text-gray-800">Servicio</a>
+            <a className="py-2 text-gray-600 hover:text-green-700">Servicio</a>
           </Link>
           <Link href="/diferenciadores">
-            <a className="py-2 text-gray-600 hover:text-gray-800">Diferenciadores</a>
+            <a className="py-2 text-gray-600 hover:text-green-700">Diferenciadores</a>
           </Link>
           <Link href="/experiencia">
-            <a className="py-2 text-gray-600 hover:text-gray-800">Experiencia</a>
+            <a className="py-2 text-gray-600 hover:text-green-700">Experiencia</a>
           </Link>
           <Link href="/mas">
-            <a className="py-2 text-gray-600 hover:text-gray-800">Más</a>
+            <a className="py-2 text-gray-600 hover:text-green-700">Más</a>
           </Link>
         </nav>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div className="lg:w-1/3 md:w-1/2 w-full px-4 items-center">
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Suscribete a nuestro newsletter</h2>
         <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
           <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
@@ -48,7 +55,7 @@ const Footer = () => {
     <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       </a>
-      <p className="text-sm text-white sm:ml-6 sm:mt-0 mt-4">© 2021 Proanalytics
+      <p className="flex text-sm text-white sm:ml-6 sm:justify-center sm:mt-0 mt-4">© 2021 Proanalytics
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <a className="text-white">

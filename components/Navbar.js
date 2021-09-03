@@ -9,25 +9,25 @@ const Navbar = () => {
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link href="/">
-            <a className="mr-5 text-xl hover:text-gray-600">Inicio</a>
+            <a className="mr-5 text-xl hover:text-green-600">Inicio</a>
             </Link>
             <Link href="/nosotros">
-            <a className="mr-5 text-xl hover:text-gray-600">Nosotros</a>
+            <a className="mr-5 text-xl hover:text-green-600">Nosotros</a>
             </Link>
             <Link href="/servicios">
-            <a className="mr-5 text-xl hover:text-gray-600">Servicio</a>
+            <a className="mr-5 text-xl hover:text-green-600">Servicio</a>
             </Link>
             <Link href="/diferenciadores">
-            <a className="mr-5 text-xl hover:text-gray-600">Diferenciadores</a>
+            <a className="mr-5 text-xl hover:text-green-600">Diferenciadores</a>
             </Link>
             <Link href="/experiencia">
-            <a className="mr-5 text-xl hover:text-gray-600">Experiencia</a>
+            <a className="mr-5 text-xl hover:text-green-600">Experiencia</a>
             </Link>
             <Link href="/mas">
-            <a className="mr-5 text-xl hover:text-gray-600">Más</a>
+            <a className="mr-5 text-xl hover:text-green-600">Más</a>
             </Link>
             <Link href="/blog">
-            <a className="mr-5 text-xl hover:text-gray-600">Blog</a>
+            <a className="mr-5 text-xl hover:text-green-600">Blog</a>
             </Link>
         </nav>
         <Link href="/contactanos"> 

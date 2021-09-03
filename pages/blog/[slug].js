@@ -1,7 +1,7 @@
 import Layout from "../../components/Layout";
 import { blogPost } from "../../lib/data";
 
-export default function BlogPage({ tile, date, content }) {
+export default function BlogPage({ title, date, content }) {
     return (
     <Layout
         title=" {title} | Proanalytics"
