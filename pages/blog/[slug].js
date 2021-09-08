@@ -16,18 +16,19 @@ export default function BlogPage({ title, date, content }) {
 
     export async function getStaticProps(context) {
         console.log('hi!', context);
+        const { params } = context;
     return {
-    props: {}, // will be passed to the page component as props
+        props: {}, // will be passed to the page component as props
     };
 }
 
 export async function getStaticPaths() {
     return {
-        path : blogPost.map((item) => ({
-            params : {
+                paths : blogPost.map((item) => ({
+                params : {
                 slug : item.slug,
-            }
+            },
         })),
         fallback: false,
     };
-    }   
+}   

@@ -1,7 +1,6 @@
 import Layout from "../components/Layout";
 import { useEffect } from "react";
 import Image from "next/image";
-import firebase from "../firebase/initFirebase";
 
 export default function Home() {
   useEffect(() => {
@@ -44,12 +43,12 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <div className="lg:max-w-lg lg:ml-4 lg:w-full md:w-1/2 w-5/6">
               <Image
-                src="/img/1.jpeg"
-                width={920}
-                height={800}
-                className="object-cover rounded-l-xl object-center "
+                src="/img/home/Portada.jpeg"
+                width={900}
+                height={1100}
+                className="object-cover rounded-l-xl object-left"
                 alt="Aqui va el alt de la imagen"
               />
             </div>
@@ -83,20 +82,22 @@ export default function Home() {
           </div>
           {/* Seccion de nuestros servicios */}
           <section className="text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto">
-              <h1 className="font-bold text-4xl flex justify-center pb-6 text-green-500">
+            <div className="container px-5 py-16 mx-auto">
+              <h1 className="font-bold text-4xl flex justify-center pb-10 text-green-500">
                 {" "}
                 Nuestros Servicios{" "}
               </h1>
               <div className="flex flex-wrap -m-4">
                 <div className="p-4 md:w-1/3">
-                  <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      className="lg:h-72 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/720x400"
-                      alt="blog"
-                    />
+                  <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <div className="p-6">
+                    <Image
+                      src="/img/home/Servicio - SixSigma.jpg"
+                      width={1200}
+                      height={1200}
+                      className="object-cover rounded-xl object-center "
+                      alt="Aqui va el alt de la imagen"
+                    />
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                         Six Figma
                       </h1>
@@ -105,21 +106,23 @@ export default function Home() {
                         jianbing microdosing tousled waistcoat.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Más información
-                        </a>
+                      <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                      Ver más
+                      </button>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="p-4 md:w-1/3">
-                  <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      className="lg:h-72 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/721x401"
-                      alt="blog"
-                    />
+                  <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <div className="p-6">
+                  <Image
+                      src="/img/home/Servicio - Clima Laboral.jpg"
+                      width={1200}
+                      height={1200}
+                      className="object-cover rounded-xl object-center "
+                      alt="Aqui va el alt de la imagen"
+                    />
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                         Clima Laboral
                       </h1>
@@ -128,62 +131,23 @@ export default function Home() {
                         jianbing microdosing tousled waistcoat.
                       </p>
                       <div className="flex items-center flex-wrap">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            className="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                        <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                          <svg
-                            className="w-4 h-4 mr-1"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                          </svg>
-                          1.2K
-                        </span>
-                        <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                          <svg
-                            className="w-4 h-4 mr-1"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>
-                          6
-                        </span>
+                      <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                      Ver más
+                      </button>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="p-4 md:w-1/3">
-                  <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      className="lg:h-72 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/722x402"
-                      alt="blog"
-                    />
+                  <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <div className="p-6">
+                  <Image
+                      src="/img/home/Servicio - Smartsheet.jpg"
+                      width={1200}
+                      height={1200}
+                      className="object-cover rounded-xl object-center "
+                      alt="Aqui va el alt de la imagen"
+                    />
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                         SMARTSHEET
                       </h1>
@@ -192,50 +156,9 @@ export default function Home() {
                         jianbing microdosing tousled waistcoat.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            className="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                        <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                          <svg
-                            className="w-4 h-4 mr-1"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                          </svg>
-                          1.2K
-                        </span>
-                        <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                          <svg
-                            className="w-4 h-4 mr-1"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>
-                          6
-                        </span>
+                      <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                      Ver más
+                      </button>
                       </div>
                     </div>
                   </div>
@@ -293,9 +216,9 @@ export default function Home() {
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <Image
-                src="/img/1.jpeg"
-                width={920}
-                height={800}
+                src="/img/home/experiencia.jpeg"
+                width={1000}
+                height={900}
                 className="object-cover object-center rounded-lg"
                 alt="Aqui va el alt de la imagen"
               />
@@ -305,7 +228,7 @@ export default function Home() {
         {/* Para hacer un hover scale o rotation hay que hacer esto hover:scale-105 transform transition-all duration-500 */}
         <section>
           <div className="container w-full py-10">
-            <h3 className="py/3 text-2xl mb-4 ml-4 font-bold text-blue-500"> PODCAST </h3>
+            <h3 className="py/3 text-2xl mb-4 ml-4 font-bold text-blue-400"> PODCAST </h3>
             <div className="flex flex-nowrap flex-row justify-between">
               <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
                 <div className="p-4">
@@ -397,13 +320,73 @@ export default function Home() {
               </div>
             </div>
                 <div className="container flex justify-end">
-                  <p className="text-lg text-gray-700 mr-4 font-bold py-3"> Ver todos </p>
+                  <p className="text-lg text-gray-700 mr-6 font-bold py-6"> Ver todos </p>
+                </div>
+          </div>
+        </section>
+        <section>
+          <div className="container w-full py-10">
+            <h3 className="py/3 text-2xl mb-4 ml-4 font-bold text-blue-400"> WEBCAST </h3>
+            <div className="flex flex-nowrap flex-row justify-evenly">
+              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
+                <div className="p-4">
+                  <img
+                    className="rounded-xl"
+                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
+                    alt="Dog"
+                  />
+                </div>
+                <div className="flex justify-between p-6">
+                  <div className="flex flex-col text-justify">
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Titulo Podcast
+                    </h3>
+                    <p className="text-base text-gray-700 font-normal">
+                      Este es el subtitulo
+                    </p>
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Episodio 1
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
+                <div className="p-4">
+                  <img
+                    className="rounded-xl"
+                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
+                    alt="Dog"
+                  />
+                </div>
+                <div className="flex justify-between p-6">
+                  <div className="flex flex-col text-justify">
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Titulo Podcast
+                    </h3>
+                    <p className="text-base text-gray-700 font-normal">
+                      Este es el subtitulo
+                    </p>
+                    <h3 className="text-lg text-gray-900 font-bold">
+                      Episodio 3
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <div className="container flex justify-end">
+                  <p className="text-lg text-gray-700 mr-6 font-bold py-6"> Ver todos </p>
                 </div>
           </div>
         </section>
         <section>
           <div className="container flex">
-
+          <Image
+                src="/img/home/Footer.jpeg"
+                width={1920}
+                height={700}
+                className="object-cover object-top"
+                alt="Aqui va el alt de la imagen"
+              />
           </div>
         </section>
       </main>
