@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import { useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   useEffect(() => {
@@ -106,9 +107,13 @@ export default function Home() {
                         jianbing microdosing tousled waistcoat.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                      <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
-                      Ver más
-                      </button>
+                      <Link href="/sixFigma">
+                        <a>
+                          <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                          Ver más
+                          </button>
+                        </a>
+                      </Link>
                       </div>
                     </div>
                   </div>
@@ -131,9 +136,13 @@ export default function Home() {
                         jianbing microdosing tousled waistcoat.
                       </p>
                       <div className="flex items-center flex-wrap">
-                      <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
-                      Ver más
-                      </button>
+                      <Link href="/climaLaboral">
+                        <a>
+                          <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                          Ver más
+                          </button>
+                        </a>
+                      </Link>
                       </div>
                     </div>
                   </div>
@@ -156,8 +165,8 @@ export default function Home() {
                         jianbing microdosing tousled waistcoat.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                      <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
-                      Ver más
+                      <button className="cursor-default inline-flex text-white font-bold bg-gray-400 border-0 py-2 px-6 focus:outline-none rounded text-lg">
+                      Proximamente
                       </button>
                       </div>
                     </div>

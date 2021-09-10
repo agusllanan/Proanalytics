@@ -15,7 +15,7 @@ const Navbar = () => {
             <a className="mr-5 text-xl hover:text-green-600">Nosotros</a>
             </Link>
             <Link href="/servicios">
-            <a className="mr-5 text-xl hover:text-green-600">Servicio</a>
+            <a className="mr-5 text-xl hover:text-green-600">Servicios</a>
             </Link>
             <Link href="/diferenciadores">
             <a className="mr-5 text-xl hover:text-green-600">Diferenciadores</a>
@@ -31,7 +31,7 @@ const Navbar = () => {
             </Link>
         </nav>
         <Link href="/contactanos"> 
-        <button className="inline-flex text-xl items-center text-white bg-green-400 border-0 py-2 px-4 focus:outline-none hover:bg-green-400 rounded-md mt-4 md:mt-0">
+        <button className="inline-flex text-xl items-center text-white bg-green-600 border-0 py-2 px-4 focus:outline-none hover:bg-green-400 rounded-md mt-4 md:mt-0">
             Contáctanos
             <svg
             fill="none"

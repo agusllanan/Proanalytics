@@ -1,10 +1,17 @@
+import Layout from "../../components/Layout";
+
+import Image from "next/image";
 
 export default function climaLaboral() {
     return (
-        <div>
-            <h1>
-                This is Clima Laboral
-            </h1>
-        </div>
+        <Layout>
+            <div 
+            className="container h-2/3 w-full bg-green-600"
+            >
+                <h1>
+                    Hi
+                </h1>
+            </div>
+        </Layout>
     )
 }
