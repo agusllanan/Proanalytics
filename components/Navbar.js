@@ -4,34 +4,31 @@ const Navbar = () => {
     return (
     <header className="text-white-600 body-font bg-white-400 border-b">
         <div className="container mx-auto flex flex-nowrap p-5 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium itemKTs-center text-gray-900 mb-4 md:mb-0">
-            <span className="ml-3 text-xl text-green-400">Pro<span className="text-gray-500">Analytics</span></span>
+        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img className="w-1/3" src="/img/logo.png"></img>
         </a>
-        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <nav className="md:ml-auto flex flex-nowrap items-center text-base justify-center">
             <Link href="/">
-            <a className="mr-5 text-xl hover:text-green-600">Inicio</a>
+            <a className="mr-5 text-xl hover:text-keppel-600">Inicio</a>
             </Link>
             <Link href="/nosotros">
-            <a className="mr-5 text-xl hover:text-green-600">Nosotros</a>
+            <a className="mr-5 text-xl hover:text-keppel-600">Nosotros</a>
             </Link>
             <Link href="/servicios">
-            <a className="mr-5 text-xl hover:text-green-600">Servicios</a>
+            <a className="mr-5 text-xl hover:text-keppel-600">Servicios</a>
             </Link>
             <Link href="/diferenciadores">
-            <a className="mr-5 text-xl hover:text-green-600">Diferenciadores</a>
+            <a className="mr-5 text-xl hover:text-keppel-600">Aprendizaje</a>
             </Link>
             <Link href="/experiencia">
-            <a className="mr-5 text-xl hover:text-green-600">Experiencia</a>
-            </Link>
-            <Link href="/mas">
-            <a className="mr-5 text-xl hover:text-green-600">Más</a>
+            <a className="mr-5 text-xl hover:text-keppel-600">Casos</a>
             </Link>
             <Link href="/blog">
-            <a className="mr-5 text-xl hover:text-green-600">Blog</a>
+            <a className="mr-5 text-xl hover:text-keppel-600">Blog</a>
             </Link>
         </nav>
         <Link href="/contactanos"> 
-        <button className="inline-flex text-xl items-center text-white bg-green-600 border-0 py-2 px-4 focus:outline-none hover:bg-green-400 rounded-md mt-4 md:mt-0">
+        <button className="inline-flex text-xl items-center text-white bg-keppel-500 border-0 py-2 px-4 focus:outline-none hover:bg-keppel-600 rounded-md mt-4 md:mt-0">
             Contáctanos
             <svg
             fill="none"

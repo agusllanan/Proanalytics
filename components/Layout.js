@@ -14,6 +14,8 @@ export default function Layout({ children, title, description }) {
         <Navbar />
         </nav>
         <main>{children}</main>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div className="elfsight-app-55ac348d-8925-484c-962d-c0efaa30f6cb"></div>
         <footer>
         <Footer />
         </footer>

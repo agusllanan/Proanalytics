@@ -25,7 +25,7 @@ export default function Home() {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-6xl mb-4 font-medium text-gray-400">
                 Lo que no se mide <br />{" "}
-                <span className="font-bold text-green-600">
+                <span className="font-bold text-keppel-600">
                   no se puede mejorar
                 </span>
               </h1>
@@ -39,24 +39,24 @@ export default function Home() {
                 hot chicken authentic tumeric truffaut hexagon try-hard chambray
               </p>
               <div className="flex justify-center">
-                <button className="inline-flex text-white mx-auto bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                <button className="inline-flex text-white mx-auto bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
                   Contactanos
                 </button>
               </div>
             </div>
-            <div className="lg:max-w-lg lg:ml-4 lg:w-full md:w-1/2 w-5/6">
+            <div className="lg:ml-4 md:w-1/2 lg:w-1/2">
               <Image
                 src="/img/home/Portada.jpeg"
                 width={900}
                 height={1100}
-                className="object-cover rounded-l-xl object-left"
+                className="object-cover rounded-l-xl object-center"
                 alt="Aqui va el alt de la imagen"
               />
             </div>
           </div>
 
           {/* Aca va la seccion del video */}
-          <div className="container mx-auto bg-green-500 flex px-5 py-16 md:flex-row flex-col items-center">
+          <div className="container mx-auto bg-keppel-500 flex px-5 py-16 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-6xl mb-4 font-medium text-white">
                 Quienes somos?{" "}
@@ -84,7 +84,7 @@ export default function Home() {
           {/* Seccion de nuestros servicios */}
           <section className="text-gray-600 body-font">
             <div className="container px-5 py-16 mx-auto">
-              <h1 className="font-bold text-4xl flex justify-center pb-10 text-green-500">
+              <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
                 {" "}
                 Nuestros Servicios{" "}
               </h1>
@@ -100,7 +100,7 @@ export default function Home() {
                       alt="Aqui va el alt de la imagen"
                     />
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                        Six Figma
+                        Six Sigma
                       </h1>
                       <p className="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -109,7 +109,7 @@ export default function Home() {
                       <div className="flex items-center flex-wrap ">
                       <Link href="/sixFigma">
                         <a>
-                          <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                          <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
                           Ver más
                           </button>
                         </a>
@@ -138,7 +138,7 @@ export default function Home() {
                       <div className="flex items-center flex-wrap">
                       <Link href="/climaLaboral">
                         <a>
-                          <button className="inline-flex text-white font-bold bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                          <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
                           Ver más
                           </button>
                         </a>
@@ -154,7 +154,7 @@ export default function Home() {
                       src="/img/home/Servicio - Smartsheet.jpg"
                       width={1200}
                       height={1200}
-                      className="object-cover rounded-xl object-center "
+                      className="object-cover rounded-xl object-center"
                       alt="Aqui va el alt de la imagen"
                     />
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
@@ -165,8 +165,8 @@ export default function Home() {
                         jianbing microdosing tousled waistcoat.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                      <button className="cursor-default inline-flex text-white font-bold bg-gray-400 border-0 py-2 px-6 focus:outline-none rounded text-lg">
-                      Proximamente
+                      <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none rounded text-lg hover:bg-keppel-400">
+                      Ver más
                       </button>
                       </div>
                     </div>
@@ -336,55 +336,8 @@ export default function Home() {
         <section>
           <div className="container w-full py-10">
             <h3 className="py/3 text-2xl mb-4 ml-4 font-bold text-blue-400"> WEBCAST </h3>
-            <div className="flex flex-nowrap flex-row justify-evenly">
-              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
-                <div className="p-4">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
-                    alt="Dog"
-                  />
-                </div>
-                <div className="flex justify-between p-6">
-                  <div className="flex flex-col text-justify">
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Titulo Podcast
-                    </h3>
-                    <p className="text-base text-gray-700 font-normal">
-                      Este es el subtitulo
-                    </p>
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Episodio 1
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
-                <div className="p-4">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
-                    alt="Dog"
-                  />
-                </div>
-                <div className="flex justify-between p-6">
-                  <div className="flex flex-col text-justify">
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Titulo Podcast
-                    </h3>
-                    <p className="text-base text-gray-700 font-normal">
-                      Este es el subtitulo
-                    </p>
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Episodio 3
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-                <div className="container flex justify-end">
-                  <p className="text-lg text-gray-700 mr-6 font-bold py-6"> Ver todos </p>
-                </div>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div className="elfsight-app-9ed6c0ff-4917-4325-aae1-8937cac11a8b"></div>
           </div>
         </section>
         <section>
