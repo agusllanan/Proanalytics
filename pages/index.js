@@ -2,6 +2,9 @@ import Layout from "../components/Layout";
 import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Servicios from "../components/Servicios";
+import Dropdown from "../components/Dropdown";
+import "animate.css"
 
 export default function Home() {
   useEffect(() => {
@@ -20,6 +23,7 @@ export default function Home() {
   return (
     <Layout title="Proanalytics" description="Agregue una descripcion">
       <main className="">
+        <Dropdown/>
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -29,7 +33,7 @@ export default function Home() {
                   no se puede mejorar
                 </span>
               </h1>
-              <p className="mb-8 leading-relaxed">
+              <p className="mb-8 leading-relaxed w-full text-justify">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
                 air plant cold-pressed tacos poke beard tote bag. Heirloom echo
                 park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -44,12 +48,12 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="lg:ml-4 md:w-1/2 lg:w-1/2">
+            <div className="lg:ml-4 w-1/2">
               <Image
                 src="/img/home/Portada.jpeg"
-                width={900}
-                height={1100}
-                className="object-cover rounded-l-xl object-center"
+                width={1400}
+                height={1000}
+                className="animate__animated animate__fadeInRight relative h-0 object-cover rounded-xl object-center pb-2/3"
                 alt="Aqui va el alt de la imagen"
               />
             </div>
@@ -61,7 +65,7 @@ export default function Home() {
               <h1 className="title-font sm:text-6xl mb-4 font-medium text-white">
                 Quienes somos?{" "}
               </h1>
-              <p className="mb-8 leading-relaxed w/80 text-white">
+              <p className="mb-8 w-2/3 leading-relaxed w/80 text-white text-justify">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
                 air plant cold-pressed tacos poke beard tote bag. Heirloom echo
                 park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -81,126 +85,33 @@ export default function Home() {
               />
             </div>
           </div>
-          {/* Seccion de nuestros servicios */}
-          <section className="text-gray-600 body-font">
-            <div className="container px-5 py-16 mx-auto">
-              <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
-                {" "}
-                Nuestros Servicios{" "}
-              </h1>
-              <div className="flex flex-wrap -m-4">
-                <div className="p-4 md:w-1/3">
-                  <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <div className="p-6">
-                    <Image
-                      src="/img/home/Servicio - SixSigma.jpg"
-                      width={1200}
-                      height={1200}
-                      className="object-cover rounded-xl object-center "
-                      alt="Aqui va el alt de la imagen"
-                    />
-                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                        Six Sigma
-                      </h1>
-                      <p className="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
-                      </p>
-                      <div className="flex items-center flex-wrap ">
-                      <Link href="/sixFigma">
-                        <a>
-                          <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
-                          Ver más
-                          </button>
-                        </a>
-                      </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="p-4 md:w-1/3">
-                  <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <div className="p-6">
-                  <Image
-                      src="/img/home/Servicio - Clima Laboral.jpg"
-                      width={1200}
-                      height={1200}
-                      className="object-cover rounded-xl object-center "
-                      alt="Aqui va el alt de la imagen"
-                    />
-                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                        Clima Laboral
-                      </h1>
-                      <p className="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
-                      </p>
-                      <div className="flex items-center flex-wrap">
-                      <Link href="/climaLaboral">
-                        <a>
-                          <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
-                          Ver más
-                          </button>
-                        </a>
-                      </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="p-4 md:w-1/3">
-                  <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <div className="p-6">
-                  <Image
-                      src="/img/home/Servicio - Smartsheet.jpg"
-                      width={1200}
-                      height={1200}
-                      className="object-cover rounded-xl object-center"
-                      alt="Aqui va el alt de la imagen"
-                    />
-                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                        SMARTSHEET
-                      </h1>
-                      <p className="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
-                      </p>
-                      <div className="flex items-center flex-wrap ">
-                      <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none rounded text-lg hover:bg-keppel-400">
-                      Ver más
-                      </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <Servicios />
         </section>
         <section className="text-gray-600 body-font">
           <div className="container w-full">
             <div className="flex flex-wrap text-center">
               <div className="py-10 bg-blue-400 w-1/3">
                 <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
-                  2.7K
+                  +20
                 </h2>
                 <p className="leading-relaxed font-bold text-lg text-white">
-                  Users
+                  AÑOS DE EXPERIENCIA
                 </p>
               </div>
               <div className="py-10 bg-blue-300 w-1/3">
                 <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
-                  1.8K
+                  + 1,000
                 </h2>
                 <p className="leading-relaxed font-bold text-lg text-white">
-                  Subscribes
+                  PERSONAS IMPACTADAS
                 </p>
               </div>
               <div className="py-10 bg-blue-400 w-1/3">
                 <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
-                  4
+                  + 300
                 </h2>
                 <p className="leading-relaxed font-bold text-lg text-white">
-                  Products
+                  PROYECTOS EXITOSOS
                 </p>
               </div>
             </div>
@@ -212,7 +123,7 @@ export default function Home() {
                 Nuestra experiencia <br />{" "}
                 <span className="font-bold text-blue-500">a tu alcance</span>
               </h1>
-              <p className="mb-8 leading-relaxed">
+              <p className="mb-8 leading-relaxed w-2/3 text-justify">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
                 air plant cold-pressed tacos poke beard tote bag. Heirloom echo
                 park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -223,11 +134,11 @@ export default function Home() {
               </p>
               <div className="flex justify-center"></div>
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <div className=" lg:w-1/2 md:w-1/2 w-5/6">
               <Image
                 src="/img/home/experiencia.jpeg"
-                width={1000}
-                height={900}
+                width={1400}
+                height={1000}
                 className="object-cover object-center rounded-lg"
                 alt="Aqui va el alt de la imagen"
               />
@@ -257,72 +168,6 @@ export default function Home() {
                     </p>
                     <h3 className="text-lg text-gray-900 font-bold">
                       Episodio 1
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
-                <div className="p-4">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
-                    alt="Dog"
-                  />
-                </div>
-                <div className="flex justify-between p-6">
-                  <div className="flex flex-col text-justify">
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Titulo Podcast
-                    </h3>
-                    <p className="text-base text-gray-700 font-normal">
-                      Este es el subtitulo
-                    </p>
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Episodio 2
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
-                <div className="p-4">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
-                    alt="Dog"
-                  />
-                </div>
-                <div className="flex justify-between p-6">
-                  <div className="flex flex-col text-justify">
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Titulo Podcast
-                    </h3>
-                    <p className="text-base text-gray-700 font-normal">
-                      Este es el subtitulo
-                    </p>
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Episodio 3
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
-                <div className="p-4">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
-                    alt="Dog"
-                  />
-                </div>
-                <div className="flex justify-between p-6">
-                  <div className="flex flex-col text-justify">
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Titulo Podcast
-                    </h3>
-                    <p className="text-base text-gray-700 font-normal">
-                      Este es el subtitulo
-                    </p>
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Episodio 4
                     </h3>
                   </div>
                 </div>

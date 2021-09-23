@@ -3,13 +3,13 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-    <footer className="text-gray-600 body-font">
+    <footer className="text-gray-600 body-font bg-gray-200">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap md:text-left text-center order-first">
       <div className="lg:w-1/3 md:w-1/2 w-full px-4 flex">
         <div className="flex xl:flex-nowrap lg:flex-wrap flex-wrap justify-center items-center">
-          <div className="w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
-              <img className="w-1/2" src="/img/logo.png"></img>
+          <div className="w-full lg:w-2/3 xl:mr-4 lg:mr-4 sm:mr-2">
+              <img className="w-full" src="/img/logo.png"></img>
           </div>
           </div>
       </div>  
@@ -57,7 +57,7 @@ const Footer = () => {
       </a>
       <p className="flex text-sm text-white sm:ml-6 sm:justify-center sm:mt-0 mt-4">© 2021 Proanalytics
       </p>
-      <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start mr-24">
         <a className="text-white" href="https://www.facebook.com/ProanalyticsConsultoria" target="_blank">
           <svg fill="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>

@@ -12,7 +12,7 @@ export default function nosotros() {
             <h1 className="title-font sm:text-6xl mb-4 font-bold text-green-600">
             Nuestro Equipo
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-8 leading-relaxed w-1/2 text-justify">
             Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
             plant cold-pressed tacos poke beard tote bag. Heirloom echo park
             mlkshk tote bag selvage hot chicken authentic tumeric truffaut
@@ -40,10 +40,10 @@ export default function nosotros() {
         <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="text-2xl font-medium title-font mb-4 text-green-600 tracking-widest">
-                Nuestro equipo de trabajo
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-green-500 text-base">
+            <h2 className="text-4xl font-medium title-font mb-4 text-green-600 tracking-widest">
+                NUESTRO EQUIPO DE TRABAJO
+            </h2>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-green-500 text-xl">
                 Nuestro equipo de trabajo cuenta con excelentes capacidades y conocimiento en sus areas de especializacion
             </p>
             </div>

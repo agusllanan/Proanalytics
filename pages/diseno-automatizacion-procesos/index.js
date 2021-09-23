@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function climaLaboral() {
+export default function disenoAutomatizacionProcesos() {
   return (
     <Layout>
       <div
@@ -11,12 +11,12 @@ export default function climaLaboral() {
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
-          <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-2/3 sm:w-full h-auto">
+          <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5">
+            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl sm:w-4/5 w-2/3 h-4/5">
               <div className="mb-4">
                 <h3 className="font-semibold text-4xl py-4 text-scooter-400">
-                  CLIMA
-                  <br /> <span className="text-keppel-700">LABORAL</span>   
+                  Diseño y 
+                  <br /> <span className="text-keppel-700">Automatización de procesos</span>   
                 </h3>
                 <p className="text-gray-500 text-justify">
                 Conoce las posibles causas de rotación en tu empresa y trabaja en estrategias de retención de personal.
@@ -46,7 +46,7 @@ export default function climaLaboral() {
       </div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-16 mx-auto">
-          <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
+          <h1 className="lg:flex-row flex-col font-bold text-4xl flex justify-center pb-10 text-keppel-500">
             NUESTROS SERVICIOS EN <span className="text-bold">CLIMA LABORAL</span>
           </h1>
           <div className="flex flex-wrap -m-4">
