@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "server": "node server.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -9,8 +10,12 @@
     "@headlessui/react": "^1.4.1",
     "@heroicons/react": "^1.0.4",
     "animate.css": "^4.1.1",
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "firebase": "^9.0.1",
     "firebase-admin": "^9.11.1",
+    "mailchimp-api-v3": "^1.15.0",
     "next": "latest",
     "next-images": "^1.8.1",
     "react": "^17.0.2",
@@ -23,5 +28,23 @@
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4"
-  }
+  },
+  "name": "email-api",
+  "description": "This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusllanan/Proanalytics.git"
+  },
+  "proxy": "http://localhost:9001",
+  "author": "Agustin Llanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusllanan/Proanalytics/issues"
+  },
+  "homepage": "https://github.com/agusllanan/Proanalytics#readme"
 }

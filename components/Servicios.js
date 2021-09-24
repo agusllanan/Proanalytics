@@ -24,8 +24,7 @@ import Link from "next/link";
                   Six Sigma
                 </h1>
                 <p className="leading-relaxed mb-3">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                Lean 6 Sigma es un programa de certificación en 4 niveles que le ayudará a potencializar la mejora continua de su organización.
                 </p>
                 <div className="flex items-center flex-wrap ">
                   <Link href="/six-sigma">
@@ -53,8 +52,7 @@ import Link from "next/link";
                   Clima Laboral
                 </h1>
                 <p className="leading-relaxed mb-3">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                Conoce las posibles causas de rotación en tu empresa y trabaja en estrategias de retención de personal.
                 </p>
                 <div className="flex items-center flex-wrap">
                   <Link href="/climaLaboral">
@@ -82,8 +80,7 @@ import Link from "next/link";
                   Diseño y automatización de procesos
                 </h1>
                 <p className="leading-relaxed mb-3">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                Smartsheets es una plataforma ideal para empresas que buscan una solución real a la creación, gestión y automatización de procesos.
                 </p>
                 <div className="flex items-center flex-wrap ">
                   <Link href="/diseno-automatizacion-procesos">

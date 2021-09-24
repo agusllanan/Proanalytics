@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        'mont': ['Montserrat', 'sans-serif'],
+      },
       colors: {
         'curious-blue': {
           '50': '#f4f9fc', 
