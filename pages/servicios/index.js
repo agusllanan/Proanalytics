@@ -14,7 +14,7 @@ export default function servicios() {
             <h1 className="title-font sm:text-6xl mb-4 font-bold text-green-600">
             Servicios
             </h1>
-            <p className="mb-8 leading-relaxed w-1/2 text-justify">
+            <p className="mb-8 leading-relaxed w-2/3 text-justify">
             Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
             plant cold-pressed tacos poke beard tote bag. Heirloom echo park
             mlkshk tote bag selvage hot chicken authentic tumeric truffaut

@@ -39,9 +39,9 @@ const Navbar = ({ toggle }) => {
             <Link href="/nosotros">
               <a className="mr-3 text-lg hover:text-keppel-600">NOSOTROS</a>
             </Link>
-            <Menu.Button className="bg-keppel-400 relative inline-flex justify-center items-center w-full rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-keppel-500 focus-visible:ring-opacity-75 lg:px-2 lg:py-2 mr-2">
+            <Menu.Button className="bg-keppel-400 relative inline-flex justify-center items-center w-full rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-keppel-500 focus-visible:ring-opacity-75 lg:px-2 lg:py-2 mr-2 ">
               <Link href="#">
-                <a className="text-lg hover:text-keppel-600">SERVICIOS</a>
+                <a className="text-lg hover:text-keppel-600 divide-y-2 divide-keppel-600">SERVICIOS</a>
               </Link>
               <ChevronDownIcon
                 className="w-5 h-5 ml-1 text-keppel-600 hover:text-violet-500"
@@ -133,7 +133,7 @@ const Navbar = ({ toggle }) => {
                       )}
                     </Menu.Item>
                   </div>
-                  <div className="bg-keppel-100">
+                  <div className="bg-keppel-100 px-2">
                     <Menu.Item>
                       {({ active }) => (
                         <button
@@ -234,7 +234,7 @@ const Navbar = ({ toggle }) => {
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/nivel1-lean-6sigma-white-belt">
-                            NIVEL 1 / WHITE BELT
+                            NIVEL 1 - WHITE BELT
                           </Link>
                         </button>
                       )}
@@ -249,7 +249,7 @@ const Navbar = ({ toggle }) => {
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/nivel2-lean-6sigma-yellow-belt">
-                            NIVEL 2 / YELLOW BELT
+                            NIVEL 2 - YELLOW BELT
                           </Link>
                         </button>
                       )}
@@ -264,7 +264,7 @@ const Navbar = ({ toggle }) => {
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/nivel3-lean-6sigma-green-belt">
-                            NIVEL 3 / GREEN BELT
+                            NIVEL 3 - GREEN BELT
                           </Link>
                         </button>
                       )}
@@ -279,7 +279,7 @@ const Navbar = ({ toggle }) => {
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/nivel4-lean-6sigma-black-belt">
-                            NIVEL 4 / BLACK BELT
+                            NIVEL 4 - BLACK BELT
                           </Link>
                         </button>
                       )}
@@ -288,7 +288,7 @@ const Navbar = ({ toggle }) => {
                 </div>
               </Menu.Items>
             </Transition>
-            <Link href="/diferenciadores">
+            <Link href="/aprendizaje">
               <a className="mr-5 text-lg hover:text-keppel-600">APRENDIZAJE</a>
             </Link>
             <Link href="/blog">

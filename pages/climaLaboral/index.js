@@ -25,13 +25,15 @@ export default function climaLaboral() {
                 </p>
               </div>
               <div className="space-y-5">
-                <div className="flex flex-col justify-evenly lg:flex-row  ">
-                  <button
+                <div className="flex flex-col justify-evenly lg:flex-row">
+                  <Link href="/contactanos">
+                    <button
                     type="submit"
                     className=" w-full lg:mx-3 flex justify-center bg-transparent border-2 border-keppel-600 text-keppel-600 p-3 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
                   >
                     ESCRIBENOS
                   </button>
+                  </Link>
                   <button
                     type="submit"
                     className="w-full flex justify-center bg-scooter-500  hover:bg-keppel-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
@@ -45,95 +47,98 @@ export default function climaLaboral() {
         </div>
       </div>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-16 mx-auto">
-          <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
-            NUESTROS SERVICIOS EN <span className="text-bold">CLIMA LABORAL</span>
-          </h1>
-          <div className="flex flex-wrap -m-4">
-            <div className="p-4 md:w-1/3">
-              <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <div className="p-6">
-                  <Image
-                    src="/img/clima-laboral/Servicio Encuesta.jpeg"
-                    width={1200}
-                    height={1200}
-                    className="object-cover rounded-xl object-center "
-                    alt="Aqui va el alt de la imagen"
-                  />
-                  <h1 className="title-font text-lg font-medium text-keppel-700 mb-3">
-                    Estudios de Clima Laboral
-                  </h1>
-                  <p className="leading-relaxed mb-3">
-                  Analiza a través de encuestas, entrevistas, sesiones de focus group y otras técnicas el nivel de satisfacción laboral de tus colaboradores.
-                  </p>
-                  <div className="flex items-center flex-wrap ">
-                    <Link href="/sixFigma">
-                      <a>
-                        <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
-                          Ver más
-                        </button>
-                      </a>
-                    </Link>
-                  </div>
+      <div className="container px-5 py-16 mx-auto">
+        <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
+          {" "}
+          NUESTROS SERVICIOS EN CLIMA LABORAL
+        </h1>
+        <div className="flex flex-wrap -m-4">
+          <div className="p-4 md:w-1/3">
+            <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="p-6">
+                <Image
+                  src="/img/clima-laboral/Servicio Encuesta.jpeg"
+                  width={1200}
+                  height={1200}
+                  className="object-cover rounded-xl object-center "
+                  alt="Aqui va el alt de la imagen"
+                />
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                Estudios de Clima Laboral
+                </h1>
+                <p className="leading-relaxed mb-3">
+                Analiza a través de encuestas, entrevistas, sesiones de focus group y otras técnicas el nivel de satisfacción laboral de tus colaboradores.
+                </p>
+                <div className="flex items-center flex-wrap ">
+                  <Link href="/climaLaboral/estudios-clima-laboral">
+                    <a>
+                      <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
+                        Ver más
+                      </button>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
-              <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <div className="p-6">
-                  <Image
-                    src="/img/clima-laboral/Servicio - Auditoria.jpg"
-                    width={1200}
-                    height={1200}
-                    className="object-cover rounded-xl object-center "
-                    alt="Aqui va el alt de la imagen"
-                  />
-                  <h1 className="title-font text-lg font-medium text-keppel-700 mb-3">
-                    Auditorias NOM 035 y NOM 025
-                  </h1>
-                  <p className="leading-relaxed mb-3">
-                  Identifica, prevé y atiende factores de riesgo psicosocial y trabaja en ambientes laborales favorables acorde a la Norma Mexicana 035.
-                  Asesórate y certifícate como Centro de Trabajo con prácticas de Igualdad Laboral y no Discriminación acorde a la Norma Mexicana 025.
-                  </p>
-                  <div className="flex items-center flex-wrap">
-                    <Link href="/climaLaboral">
-                      <a>
-                        <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
-                          Ver más
-                        </button>
-                      </a>
-                    </Link>
-                  </div>
+          </div>
+          <div className="p-4 md:w-1/3">
+            <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="p-6">
+                <Image
+                  src="/img/clima-laboral/Servicio - Auditoria.jpg"
+                  width={1200}
+                  height={1200}
+                  className="object-cover rounded-xl object-center "
+                  alt="Aqui va el alt de la imagen"
+                />
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                Auditorias NOM 035 y NOM 025
+                </h1>
+                <p className="leading-relaxed mb-3">
+                Identifica, prevé y atiende factores de riesgo psicosocial y trabaja en ambientes laborales favorables acorde a la Norma Mexicana 035.
+                Asesórate y certifícate como Centro de Trabajo con prácticas de Igualdad Laboral y no Discriminación acorde a la Norma Mexicana 025.
+                </p>
+                <div className="flex items-center flex-wrap">
+                  <Link href="/climaLaboral/auditorias-nom-035">
+                    <a>
+                      <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
+                        Ver más
+                      </button>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden ">
-                <div className="p-6 h-64 ">
-                  <Image
-                    src="/img/clima-laboral/Servicio - NOM035.jpg"
-                    width={1200}
-                    height={1200}
-                    className="object-cover rounded-xl object-center"
-                    alt="Aqui va el alt de la imagen"
-                  />
-                  <h1 className="title-font text-lg font-medium text-keppel-700 mb-3">
-                    Consultoría y capacitación
-                  </h1>
-                  <p className="leading-relaxed mb-3">
-                  Asesórate y capacita a tus colaboradores en temas relacionados con ambientes laborales favorables, libres de violencia, planes de acción, bienestar, engagement laboral, igualdad laboral y más.
-                  </p>
-                  <div className="flex items-center flex-wrap ">
-                    <button className="inline-flex text-white font-bold bg-keppel-500 border-0 py-2 px-6 focus:outline-none rounded text-lg hover:bg-keppel-400">
-                      Ver más
-                    </button>
-                  </div>
+          </div>
+          <div className="p-4 md:w-1/3">
+            <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="p-6">
+                <Image
+                  src="/img/clima-laboral/Servicio - NOM035.jpg"
+                  width={1200}
+                  height={1200}
+                  className="object-cover rounded-xl object-center"
+                  alt="Aqui va el alt de la imagen"
+                />
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                Consultoría y capacitación
+                </h1>
+                <p className="leading-relaxed mb-3">
+                Asesórate y capacita a tus colaboradores en temas relacionados con ambientes laborales favorables, libres de violencia, planes de acción, bienestar, engagement laboral, igualdad laboral y más.
+                </p>
+                <div className="flex items-center flex-wrap ">
+                  <Link href="/climaLaboral/consultorias-capacitaciones">
+                  <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none rounded text-lg hover:bg-keppel-400">
+                    Ver más
+                  </button>
+                </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
         style={{ backgroundImage: `url(/img/clima-laboral/diagnosticoInicial.jpg)`}}
@@ -169,32 +174,32 @@ export default function climaLaboral() {
       </div>
     <div className="flex sm:flex-row flex-col h-80">
         <div className="bg-blue-400 text-center flex sm:w-1/2 w-full">
-            <h3 className="h-44 py- sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold place-self-center">
+            <h3 className="h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold place-self-center">
             ¿POR QUÉ ES IMPORTANTE <span className="text-scooter-300 mx-1">EL CLIMA LABORAL?</span>
             </h3>
         </div>
         <div className="bg-white w-full sm:w-1/2 text-justify flex flex-col">
-            <p className="text-gray-500 text-xl py-4 justify-center w-4/5 self-center">
+            <p className="text-gray-500 md:text-base lg:text-xl py-4 justify-center w-4/5 self-center">
             Una correcta implementación de Clima laboral puede brindar soluciones en áreas cómo:
             </p>
             <ul className="w-4/5 mx-auto">
-                <li className="text-scooter-500 text-xl">Gestión de la calidad</li>
-                <li className="text-scooter-500 text-xl">Analisis de procesos</li>
-                <li className="text-scooter-500 text-xl">Detección de fallas de calidad</li>
-                <li className="text-scooter-500 text-xl">Identificacipon y correción de retrabajos</li>
-                <li className="text-scooter-500 text-xl">Ahorros</li>
-                <li className="text-scooter-500 text-xl">Problemas administrativos</li>
-                <li className="text-scooter-500 text-xl">Mejora continua</li>
+                <li className="text-scooter-500 md:text-base lg:text-xl">Gestión de la calidad</li>
+                <li className="text-scooter-500 md:text-base lg:text-xl">Analisis de procesos</li>
+                <li className="text-scooter-500 md:text-base lg:text-xl">Detección de fallas de calidad</li>
+                <li className="text-scooter-500 md:text-base lg:text-xl">Identificacipon y correción de retrabajos</li>
+                <li className="text-scooter-500 md:text-base lg:text-xl">Ahorros</li>
+                <li className="text-scooter-500 md:text-base lg:text-xl">Problemas administrativos</li>
+                <li className="text-scooter-500 md:text-base lg:text-xl">Mejora continua</li>
             </ul>
         </div>
     </div>
     <div className="flex sm:flex-row flex-col">
-        <div className="bg-blue-500 text-justify flex sm:w-1/2 w-full">
-            <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto"> +1000 CLIENTES CERTIFICADOS
+        <div className="bg-blue-500 text-center flex sm:w-1/2 w-full">
+            <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold place-self-center justify-center"> +1000 CLIENTES CERTIFICADOS
             </h3>
         </div>
-        <div className="bg-scooter-500 w-full sm:w-1/2 text-justify flex flex-col">
-        <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold place-self-center"> +500 PROYECTOS IMPLEMENTADOS
+        <div className="bg-scooter-500 w-full sm:w-1/2 text-center flex flex-col">
+        <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold justify-center place-self-center"> +500 PROYECTOS IMPLEMENTADOS
             </h3>
         </div>
     </div>
