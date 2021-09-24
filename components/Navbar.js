@@ -34,14 +34,14 @@ const Navbar = ({ toggle }) => {
           <Dropdown />
           <div className="pr-8 lg:flex hidden lg:items-center">
             <Link href="/">
-              <a className="mr-5 text-xl hover:text-keppel-600">Inicio</a>
+              <a className="mr-5 text-lg hover:text-keppel-600">INICIO</a>
             </Link>
             <Link href="/nosotros">
-              <a className="mr-3 text-xl hover:text-keppel-600">Nosotros</a>
+              <a className="mr-3 text-lg hover:text-keppel-600">NOSOTROS</a>
             </Link>
             <Menu.Button className="bg-keppel-400 relative inline-flex justify-center items-center w-full rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-keppel-500 focus-visible:ring-opacity-75 lg:px-2 lg:py-2 mr-2">
               <Link href="#">
-                <a className="text-xl hover:text-keppel-600">Servicios</a>
+                <a className="text-lg hover:text-keppel-600">SERVICIOS</a>
               </Link>
               <ChevronDownIcon
                 className="w-5 h-5 ml-1 text-keppel-600 hover:text-violet-500"
@@ -58,8 +58,7 @@ const Navbar = ({ toggle }) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-right absolute top-14 mt-2 flex flex-col z-10 w-auto h-auto rounded-md shadow-xl bg-gray-100 ring-1 ring-keppel-600 ring-opacity-5 divide-y-4 divide-keppel-600 focus:outline-none justify-center">
-                <div className="py-1 px-1">
+              <Menu.Items className="origin-top-right absolute right-12 top-14 mt-2 flex flex-col z-20 w-auto h-auto rounded-md shadow-xl bg-gray-100 ring-1 ring-keppel-600 ring-opacity-5 focus:outline-none justify-center">
                   <Menu.Item>
                     {({ active }) => (
                       <button
@@ -67,65 +66,237 @@ const Navbar = ({ toggle }) => {
                           active
                             ? "bg-keppel-200 text-keppel-600"
                             : "text-keppel-600"
-                        } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        } group font-bold flex rounded-md items-center w-full px-2 py-2 text-lg justify-center`}
                       >
                         <Link href="/servicios">SERVICIOS</Link>
                       </button>
                     )}
                   </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <button
-                        className={`${
-                          active
-                            ? "bg-keppel-200 text-keppel-600"
-                            : "text-keppel-600"
-                        } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
-                      >
-                        <Link href="/climaLaboral">CLIMA LABORAL</Link>
-                      </button>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <button
-                        className={`${
-                          active
-                            ? "bg-keppel-200 text-keppel-600"
-                            : "text-keppel-600"
-                        } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
-                      >
-                        <Link href="/diseno-automatizacion-procesos">
-                          DISENO Y AUTOMATIZACION DE PROCESOS
-                        </Link>
-                      </button>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <button
-                        className={`${
-                          active
-                            ? "bg-keppel-200 text-keppel-600"
-                            : "text-keppel-600"
-                        } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
-                      >
-                        <Link href="/six-sigma">SIX SIGMA</Link>
-                      </button>
-                    )}
-                  </Menu.Item>
+                <div className="py-1 px-1 flex flex-row">
+                  <div className="bg-curious-blue-100">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-curious-blue-200 text-curious-blue-600"
+                              : "text-curious-blue-600"
+                          } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm justify-center`}
+                        >
+                          <Link href="/climaLaboral">CLIMA LABORAL</Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-curious-blue-200 text-curious-blue-600"
+                              : "text-curious-blue-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/climaLaboral/estudios-clima-laboral">
+                            ESTUDIOS CLIMA LABORAL
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-curious-blue-200 text-curious-blue-600"
+                              : "text-curious-blue-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/climaLaboral/consultorias-capacitaciones">
+                            CONSULTORIAS Y CAPACITACIONES
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-curious-blue-200 text-curious-blue-600"
+                              : "text-curious-blue-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/climaLaboral/auditorias-nom-035">
+                            AUDITORIAS NOM 035 Y NOM 025
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                  </div>
+                  <div className="bg-keppel-100">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/diseno-automatizacion-procesos">
+                            DISEÑO Y AUTOMATIZACIÓN DE PROCESOS
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/diseno-automatizacion-procesos/nivel1-desing-deploy">
+                            NIVEL 1 - DESING & DEPLOY
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/diseno-automatizacion-procesos/nivel2-create-do">
+                            NIVEL 2 - CREATE & DO
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/diseno-automatizacion-procesos/nivel3-project-management">
+                            NIVEL 3 - PROJECT MANAGEMENT
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                  </div>
+                  <div className="bg-green-50">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group font-bold justify-center flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/six-sigma">SIX SIGMA</Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/six-sigma/basic-quick-smart-trainings">
+                            BASIC QUICK SMART TRAININGS
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/six-sigma/nivel1-lean-6sigma-white-belt">
+                            NIVEL 1 / WHITE BELT
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/six-sigma/nivel2-lean-6sigma-yellow-belt">
+                            NIVEL 2 / YELLOW BELT
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/six-sigma/nivel3-lean-6sigma-green-belt">
+                            NIVEL 3 / GREEN BELT
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          className={`${
+                            active
+                              ? "bg-keppel-200 text-keppel-600"
+                              : "text-keppel-600"
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                        >
+                          <Link href="/six-sigma/nivel4-lean-6sigma-black-belt">
+                            NIVEL 4 / BLACK BELT
+                          </Link>
+                        </button>
+                      )}
+                    </Menu.Item>
+                  </div>
                 </div>
               </Menu.Items>
             </Transition>
             <Link href="/diferenciadores">
-              <a className="mr-5 text-xl hover:text-keppel-600">Aprendizaje</a>
+              <a className="mr-5 text-lg hover:text-keppel-600">APRENDIZAJE</a>
             </Link>
             <Link href="/blog">
-              <a className="mr-5 text-xl hover:text-keppel-600">Blog</a>
+              <a className="mr-5 text-lg hover:text-keppel-600">BLOG</a>
             </Link>
             <Link href="/contactanos">
-              <button className="inline-flex text-xl items-center text-white bg-keppel-500 border-0 py-2 px-4 focus:outline-none hover:bg-keppel-600 rounded-md mt-4 md:mt-0">
-                Contáctanos
+              <button className="inline-flex text-lg items-center text-white bg-keppel-500 border-0 py-2 px-4 focus:outline-none hover:bg-keppel-600 rounded-md mt-4 md:mt-0">
+                CONTACTANOS
                 <svg
                   fill="none"
                   stroke="currentColor"
