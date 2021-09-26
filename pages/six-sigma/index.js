@@ -73,7 +73,7 @@ export default function sixSigma() {
                     ajustándose a un tiempo y presupuesto objetivo.
                   </p>
                   <div className="flex items-center flex-wrap ">
-                    <Link href="/six-sigma/basic-quick-smart-training">
+                    <Link href="/six-sigma/basic-quick-smart-trainings">
                       <a>
                         <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
                           Ver más

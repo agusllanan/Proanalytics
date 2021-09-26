@@ -7,19 +7,18 @@ const [email, setEmail] = useState("");
 const [state, setState] = useState("IDLE");
 const [errorMesagge, setErrorMesagge] = useState(null)
 
-const suscribe = async () => {
+const subscribe = async () => {
   setState("Cargando");
   setErrorMesagge(null);
+  console.log("Esta entrando al onClick")
   try {
     const response = await axios.post("/api/newsletter", { email });
     setState("EXITOSO");
-  } catch (error) {
+  } catch (e) {
     setErrorMesagge(e.response.data.error);
     setState("ERROR")
   }
 };
-
-
 
   return (
     <footer className="text-gray-600 body-font bg-gray-200">
@@ -86,11 +85,22 @@ const suscribe = async () => {
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-              <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-keppel-500 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-600 rounded"
+              <button className={`lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-keppel-500 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-600 rounded
+              {state = "Cargando" ? "button-gradient-loading" : "" 
+              }`}
+              type="button"
+              disabled={state === "CARGANDO"}
+              onClick={subscribe}
               >
                 Suscribirse
               </button>
             </div>
+            {state === "ERROR" && (
+              <p className="w-1/2 mt-2 text-red-600">{errorMesagge}</p>
+            )}
+            {state === "EXITOSO" && (
+              <p className="w-1/2 mt-2 text-green-600">¡Agregado con éxito!</p>
+            )}
             <p className="text-gray-700 text-sm mt-2 md:text-left text-center">
               Enterate de nuestra ultimas novedades
               <br className="lg:block hidden" />y promociones en nuestros

@@ -10,7 +10,7 @@ export default function diferenciadores() {
       <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-6xl mb-4 font-bold text-green-600">
-            Aprendizaje
+            Nuestros principales recursos
           </h1>
           <p className="mb-8 leading-relaxed md:w-2/3 text-justify">
             Copper mug try-hard pitchfork pour-over freegan heirloom neutra air

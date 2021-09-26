@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function climaLaboral() {
+export default function climaLaboral(){
   return (
     <Layout>
       <div
@@ -11,8 +11,8 @@ export default function climaLaboral() {
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
-          <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-2/3 sm:w-full h-auto">
+          <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5">
+            <div className="my-2 md:my-0 sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 md:w-2/3 lg:w-full h-auto">
               <div className="mb-4">
                 <h3 className="font-semibold text-4xl py-4 text-scooter-400">
                   CLIMA
@@ -146,7 +146,7 @@ export default function climaLaboral() {
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-2/3 sm:w-full h-auto">
+            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 md:2/3 sm:w-full h-auto">
               <div className="mb-4 divide-y divide-blue-500">
                 <h3 className="font-regular text-3xl py-4 text-scooter-400">
                   ¿QUIERES SABER CÓMO ESTÁ
