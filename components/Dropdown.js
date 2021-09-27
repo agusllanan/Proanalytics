@@ -7,7 +7,7 @@ const Dropdown = ({ isOpen, toggle }) => {
     <Menu
       className={
         isOpen
-          ? "absolute h-full grid grid-rows-6 text-center items-center bg-keppel-600 animate__animated animate__fadeInRight w-full z-10"
+          ? "absolute h-full grid grid-rows-6 text-center items-center bg-keppel-600 animate__animated animate__fadeInRight w-full z-20"
           : "hidden animate__animated animate__fadeInLeft"
       }
       as="nav"

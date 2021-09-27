@@ -319,19 +319,17 @@ export default function sixSigma() {
         </div>
       </div>
       <div className="flex flex-col sm:flex-row">
-        <div className="w-full lg:w-1/2 flex">
+        <div className="w-full lg:w-1/2 flex h-32">
           <h3 className="text-4xl text-gray-600 text-center mx-auto pt-4">
-            QUIERES SABER MAS <br />
+            QUIERES SABER MÁS <br />
             <span className="text-4xl text-scooter-600 text-center mx-auto pb-4">
               DE SIX SIGMA?
             </span>
           </h3>
         </div>
-        <div className="w-full sm:w-1/2 flex divide-y divide-blue-500">
+        <div className="w-full sm:w-1/2 flex divide-y divide-blue-500 h-32">
           <p className="w-4/5 mx-auto text-regular py-8 text-justify">
-            Lorem loremoadosi dasioashd oiahsdoi aoihas doihasdoihas
-            oiasjdoiasjdlkfja sasopdijaosihfo;sihfaso; uio haoish f;oasfh;i
-            asa;soihfo;asihf
+          Conoce más sobre la importancia de la certificación, recursos y estrategias para la mejora continua de tu organización.  ¡Infórmate con nuestro contenido!
           </p>
         </div>
       </div>

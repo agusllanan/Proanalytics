@@ -8,7 +8,7 @@ export const diagnostico = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
         style={{
-          backgroundImage: `url(/img/clima-laboral/portadaClimaLaboral.jpg)`,
+          backgroundImage: `url(/img/clima-laboral/banner-diagnostico.jpg)`,
         }}
       >
         <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center">
@@ -36,7 +36,7 @@ export const diagnostico = () => {
       {/* ---- Nueva seccion --- */}
       <div className="flex sm:flex-row flex-col h-80">
         <div className="bg-white text-center flex sm:w-1/2 w-full">
-          <h3 className="mx-auto h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-blue-500 font-bold place-self-center">
+          <h3 className="mx-auto h-64 sm:py-24 sm:h-72 text-xl sm:text-4xl text-blue-500 font-bold place-self-center">
             ¿POR QUÉ APLICAR NUESTRA{" "}
             <br/>
             <span className="text-scooter-600 mx-1">ENCUESTA DE CLIMA LABORAL?</span>
@@ -60,18 +60,16 @@ export const diagnostico = () => {
           </ul>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col">
-        <div className="bg-blue-500 text-justify flex sm:w-1/2 w-full">
-          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto">
+      <div className="flex flex-col md:flex-row ">
+        <div className="bg-blue-500 flex w-full h-96">
+          <h3 className="py-24 md:py-6 text-xl sm:text-4xl text-scooter-400 font-bold md:justify-start md:ml-4">
             {" "}
-            NUESTRO PROCESO METODOLOGICO
+            NUESTRO PROCESO <br /> 
+            <span className="text-white">
+              METODOLOGICO
+            </span>
           </h3>
-        </div>
-        <div className="bg-scooter-500 w-full sm:w-1/2 text-justify flex flex-col">
-          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold place-self-center">
-            {" "}
-            +500 PROYECTOS IMPLEMENTADOS
-          </h3>
+          
         </div>
       </div>
       <div
