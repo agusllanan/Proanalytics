@@ -112,7 +112,7 @@ const Navbar = ({ toggle }) => {
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/climaLaboral/consultorias-capacitaciones">
-                            CONSULTORIAS Y CAPACITACIONES
+                            CONSULTORIAS Y CAPACITACIÓN
                           </Link>
                         </button>
                       )}

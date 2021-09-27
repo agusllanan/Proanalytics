@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Servicios from "../components/Servicios";
 import Dropdown from "../components/Dropdown";
-import "animate.css"
+import "animate.css";
 
 export default function Home() {
   useEffect(() => {
@@ -19,11 +19,11 @@ export default function Home() {
     };
     obtenerDatos();
   }, []);
-
+  
   return (
     <Layout title="Proanalytics" description="Agregue una descripcion">
       <main className="">
-        <Dropdown/>
+        <Dropdown />
         <section className="text-gray-600 body-font">
           <div className="w-full mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -31,7 +31,7 @@ export default function Home() {
                 LO QUE NO SE MIDE <br />{" "}
                 <span className="font-semibold font-mont text-keppel-600">
                   NO SE PUEDE MEJORAR
-                </span> 
+                </span>
               </h1>
               <p className="mb-8 leading-relaxed w-full text-justify">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -43,9 +43,10 @@ export default function Home() {
                 hot chicken authentic tumeric truffaut hexagon try-hard chambray
               </p>
               <div className="flex justify-center">
-                <button className="inline-flex text-white mx-auto bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
-                  Contactanos
-                </button>
+                  <button 
+                  className="inline-flex text-white mx-auto bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
+                    Comenzar
+                  </button>
               </div>
             </div>
             <div className="lg:ml-4 lg:w-1/2 md:w-1/2 w-5/6">
@@ -120,7 +121,9 @@ export default function Home() {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
               <h1 className="font-normal py-4 md:py-0 text-4xl lg:text-5xl mb-4 text-gray-500">
                 NUETRA EXPERIENCIA <br />{" "}
-                <span className="font-semibold text-blue-500">A TU ALCANCE</span>
+                <span className="font-semibold text-blue-500">
+                  A TU ALCANCE
+                </span>
               </h1>
               <p className="mb-8 leading-relaxed w-full text-justify">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -147,7 +150,10 @@ export default function Home() {
         {/* Para hacer un hover scale o rotation hay que hacer esto hover:scale-105 transform transition-all duration-500 */}
         <section>
           <div className=" w-full py-10">
-            <h3 className="text-center md:text-left mx-auto py-3 text-2xl mb-4 ml-4 font-bold text-blue-400"> PODCAST </h3>
+            <h3 className="text-center md:text-left mx-auto py-3 text-2xl mb-4 ml-4 font-bold text-blue-400">
+              {" "}
+              PODCAST{" "}
+            </h3>
             <div className="flex flex-nowrap flex-row justify-between">
               <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
                 <div className="p-4">
@@ -172,27 +178,36 @@ export default function Home() {
                 </div>
               </div>
             </div>
-                <div className="container flex justify-end">
-                  <p className="text-lg text-gray-700 mr-6 font-bold py-6"> Ver todos </p>
-                </div>
+            <div className="container flex justify-end">
+              <p className="text-lg text-gray-700 mr-6 font-bold py-6">
+                {" "}
+                Ver todos{" "}
+              </p>
+            </div>
           </div>
         </section>
         <section>
           <div className="w-full py-10">
-            <h3 className="text-center md:text-left py-3 text-2xl mb-4 ml-4 font-bold text-blue-400"> WEBCAST </h3>
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <h3 className="text-center md:text-left py-3 text-2xl mb-4 ml-4 font-bold text-blue-400">
+              {" "}
+              WEBCAST{" "}
+            </h3>
+            <script
+              src="https://apps.elfsight.com/p/platform.js"
+              defer
+            ></script>
             <div className="elfsight-app-9ed6c0ff-4917-4325-aae1-8937cac11a8b"></div>
           </div>
         </section>
         <section>
           <div className="flex w-full ">
-          <Image
-                src="/img/home/Footer.jpeg"
-                width={1920}
-                height={700}
-                className="object-cover object-top"
-                alt="Aqui va el alt de la imagen"
-              />
+            <Image
+              src="/img/home/Footer.jpeg"
+              width={1920}
+              height={700}
+              className="object-cover object-top"
+              alt="Aqui va el alt de la imagen"
+            />
           </div>
         </section>
       </main>
