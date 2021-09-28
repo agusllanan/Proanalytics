@@ -8,7 +8,7 @@ export const encuestaClimaLaboral = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
         style={{
-          backgroundImage: `url(/img/clima-laboral/portadaClimaLaboral.jpg)`,
+          backgroundImage: `url(/img/clima-laboral/portada-encuesta.jpg)`,
         }}
       >
         <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
@@ -218,23 +218,21 @@ export const encuestaClimaLaboral = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row">
+      <div className="flex flex-col sm:flex-row h-56">
         <div className="w-full sm:w-1/2 flex">
-          <h3 className="text-4xl text-gray-600 text-center mx-auto pt-4">
-            QUIERES SABER MÁS <br />
-            <span className="text-4xl text-scooter-600 text-center mx-auto pb-4">
-              DE CLIMA LABORAL?
+          <h3 className="text-4xl text-gray-600 text-center mx-auto pt-4 items">
+          ¿Quieres saber más sobre <span className="font-bold  text-4xl text-scooter-600 text-center mx-auto pb-4">Estudios de Clima Laboral?
             </span>
           </h3>
         </div>
         <div className="w-full sm:w-1/2 flex">
-          <p className="w-4/5 mx-auto text-regular py-8">
-          ¿Quieres saber más sobre los temas que impactan al <span className="font-bold">CLIMA ORGANIZACIONAL </span>
-          </p>
+          <p className="items-center w-4/5 mx-auto text-regular py-8 text-lg">
+          Mejora el <span className="font-bold">clima laboral</span> de tu empresa con los recursos y estrategias que tenemos para ti. ¡Impulsa a tus colaboradores todos los días con nuestro contenido!</p>
         </div>
       </div>
     </Layout>
   );
 };
+
 
 export default encuestaClimaLaboral;
