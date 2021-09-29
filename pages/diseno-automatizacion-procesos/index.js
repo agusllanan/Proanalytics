@@ -12,26 +12,16 @@ export default function disenoAutomatizacionProcesos() {
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
-        <div className="h-auto md:min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
+        <div className="h-auto md:min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle font-mont">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5">
             <div className="sm:mx-auto-align my-8 lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 lg:w-full h-4/5">
               <div className="mb-4">
-                <h3 className="font-semibold text-2xl md:text-4xl py-4 text-scooter-400">
-                  DISEÑO Y
-                  <br />{" "}
-                  <span className="text-keppel-700">
-                    AUTOMATIZACIÓN DE PROCESOS
-                  </span>
+                <h3 className="font-semibold text-2xl md:text-4xl py-4 text-keppel-500">
+                DISEÑO Y AUTOMATIZACIÓN DE PROCESOS
                 </h3>
                 <p className="text-gray-500 text-justify text-sm md:text-base">
-                  Conoce las posibles causas de rotación en tu empresa y trabaja
-                  en estrategias de retención de personal. El "engagement",
-                  compromiso organizacional y los mejores indicadores de
-                  productividad de los colaboradores son el resultado de
-                  conocer, medir y atender con ESTRATEGIA. Proanalytics te
-                  acompaña con servicios de consultoría y capacitación, estudios
-                  y encuestas de clima laboral, análisis de factores de riesgo
-                  psicosocial y más.
+                <span className="font-bold text-keppel-500">Smartsheets</span> es una plataforma ideal para empresas que buscan una solución real a la <span className="font-bold text-keppel-500">creación, gestión y automatización de procesos.</span> <br />
+                Somos expertos en la herramienta. Contamos con servicio de entrenamiento y servicio de consultoría con instructores certificados. <span className="font-bold text-keppel-500">Diseño y construcción de procesos</span> personalizados a la medida de su necesidad.
                 </p>
               </div>
               <div className="space-y-5">
@@ -39,17 +29,11 @@ export default function disenoAutomatizacionProcesos() {
                   <Link href="/contactanos">
                     <button
                       type="submit"
-                      className=" w-full lg:mr-3 flex justify-center bg-transparent border-2 border-keppel-600 text-keppel-600 p-3 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
+                      className=" w-1/2 lg:mr-3 flex justify-center bg-keppel-500 border-2 border-keppel-600 text-white p-3 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer hover:bg-keppel-700 hover:text-white transition ease-in duration-500"
                     >
-                      ESCRIBENOS
+                      ESCRÍBENOS
                     </button>
                   </Link>
-                  <button
-                    type="submit"
-                    className="w-full flex justify-center bg-scooter-500  hover:bg-keppel-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
-                  >
-                    HAZ UNA CITA
-                  </button>
                 </div>
               </div>
             </div>
@@ -59,8 +43,7 @@ export default function disenoAutomatizacionProcesos() {
       <section className="text-gray-600 body-font">
         <div className="px-5 md:py-16 mx-auto">
           <h2 className="lg:flex-row flex-col font-bold text-4xl flex justify-center pb-10 text-keppel-500">
-            NUESTROS SERVICIOS EN
-            <span className="text-bold">DYAP</span>
+          <span className="font-bold">CURSOS SMARTSHEETS</span>
           </h2>
           <div className="flex flex-wrap m-4">
             <div className="p-4 md:w-1/3">
@@ -73,14 +56,11 @@ export default function disenoAutomatizacionProcesos() {
                     className="object-cover rounded-xl object-center "
                     alt="Aqui va el alt de la imagen"
                   />
-                  <h3 className="title-font text-lg font-medium text-keppel-700 mb-3">
+                  <h3 className="title-font text-lg font-bold text-keppel-700 mb-3">
                     NIVEL 1 - DESING & DEPLOY
                   </h3>
-                  <p className="leading-relaxed mb-3 h-40">
-                    Analiza a través de encuestas, entrevistas, sesiones de
-                    focus group y otras técnicas el nivel de satisfacción
-                    laboral de tus colaboradores.
-                  </p>
+                  <p className="leading-relaxed mb-3 h-40 text-justify">
+                  El participante tendrá conocimiento pleno de los alcances y limitaciones de la <span className="font-bold text-keppel-500">herramienta Smartsheet.</span> Podrá dimensionar las posibilidades de implementación en su organización.</p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/diseno-automatizacion-procesos/nivel1-desing-deploy">
                       <a>
@@ -103,15 +83,11 @@ export default function disenoAutomatizacionProcesos() {
                     className="object-cover rounded-xl object-center "
                     alt="Aqui va el alt de la imagen"
                   />
-                  <h3 className="title-font text-lg font-medium text-keppel-700 mb-3">
+                  <h3 className="title-font text-lg font-bold text-keppel-700 mb-3">
                     NIVEL 2 - CREATE & DO
                   </h3>
-                  <p className="leading-relaxed mb-3 h-40">
-                    Identifica, prevé y atiende factores de riesgo psicosocial y
-                    trabaja en ambientes laborales favorables acorde a la Norma
-                    Mexicana 035. Asesórate y certifícate como Centro de Trabajo
-                    con prácticas de Igualdad Laboral y no Discriminación acorde
-                    a la Norma Mexicana 025.
+                  <p className="leading-relaxed mb-3 h-40 text-justify">
+                  En este nivel de entrenamiento usted o su equipo de trabajo podrán formular e integrar hojas de trabajo, establecer flujos de información. Crear Dashboards y programar sus principales indicadores.
                   </p>
                   <div className="flex items-center flex-wrap">
                     <Link href="/diseno-automatizacion-procesos/nivel2-create-do">
@@ -135,14 +111,11 @@ export default function disenoAutomatizacionProcesos() {
                     className="object-cover rounded-xl object-center"
                     alt="Aqui va el alt de la imagen"
                   />
-                  <h3 className="title-font text-lg font-medium text-keppel-700 mb-3">
+                  <h3 className="title-font text-lg font-bold text-keppel-700 mb-3">
                     NIVEL 3 - PROJECT MANAGEMENT
                   </h3>
-                  <p className="leading-relaxed mb-3 h-40">
-                    Asesórate y capacita a tus colaboradores en temas
-                    relacionados con ambientes laborales favorables, libres de
-                    violencia, planes de acción, bienestar, engagement laboral,
-                    igualdad laboral y más.
+                  <p className="leading-relaxed mb-3 h-40 text-justify">
+                  Este nivel está enfocado en las <span className="font-bold text-keppel-500">herramientas que ofrece Smartsheets</span> para administrar proyectos. Podrá asignar actividades, tareas y establecer fechas objetivas y más.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/diseno-automatizacion-procesos/nivel3-project-management">
@@ -165,20 +138,15 @@ export default function disenoAutomatizacionProcesos() {
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
-          <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
+          <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10 font-mont">
             <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 md:w-full h-auto">
               <div className="mb-4 divide-y divide-blue-500">
-                <h3 className="font-regular text-3xl py-4 text-scooter-400">
-                  ¿QUIERES SABER CÓMO ESTÁ
-                  <br />{" "}
-                  <span className="text-keppel-700">
-                    TU EMPRESA EN CLIMA LABORAL?
-                  </span>
+                <h3 className="font-bold text-3xl py-4 text-scooter-500">
+                ¿QUIERES SABER SI TU EMPRESA NECESITA <span className="text-keppel-500"> SMARTSHEETS?
+                  </span> 
                 </h3>
-                <p className="text-gray-500">
-                  Conoce cuáles son los factores que generan insatisfacción en
-                  tus colaboradores y estrategias para trabajar en la retención
-                  y engagement de personal.
+                <p className="text-gray-500 py-4">
+                En una primera entrevista buscaremos entender su problema y sugerirle el mejor nivel de entrenamiento.
                 </p>
               </div>
               <div className="space-y-5">
@@ -188,7 +156,7 @@ export default function disenoAutomatizacionProcesos() {
                       type="submit"
                       className="w-full sm:w-2/3 flex justify-center bg-scooter-500  hover:bg-keppel-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
                     >
-                      SOLICITA TU DIAGNÓSTICO GRATUITO
+                      DIAGNÓSTICO INICIAL GRATUITO
                     </button>
                   </Link>
                 </div>
@@ -197,63 +165,64 @@ export default function disenoAutomatizacionProcesos() {
           </div>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col h-80">
-        <div className="bg-blue-400 text-center flex sm:w-1/2 w-full">
-          <h3 className="h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold place-self-center">
-            ¿POR QUÉ ES IMPORTANTE{" "}
-            <span className="text-scooter-300 mx-1">EL CLIMA LABORAL?</span>
+      <div className="flex sm:flex-row flex-col h-auto">
+        <div className="bg-blue-400 text-center flex sm:w-1/2 w-full font-mont">
+          <h3 className="h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto">
+            ¿POR QUÉ IMPLEMENTAR{" "}
+            <span className="text-scooter-400 mx-1">SMARTSHEETS?</span>
           </h3>
         </div>
         <div className="bg-white w-full sm:w-1/2 text-justify flex flex-col">
           <p className="text-gray-500 text-xl py-4 justify-center w-4/5 self-center">
-            Una correcta implementación de Clima laboral puede brindar
-            soluciones en áreas cómo:
+          Las posibilidades y combinaciones son realmente infinitas. Estos son solo algunos ejemplos de áreas de aplicación para usar <span className="font-bold text-keppel-500"> Smartsheets</span>
           </p>
-          <ul className="w-4/5 mx-auto">
-            <li className="text-scooter-500 text-xl">Gestión de la calidad</li>
-            <li className="text-scooter-500 text-xl">Analisis de procesos</li>
-            <li className="text-scooter-500 text-xl">
-              Detección de fallas de calidad
+          <ul className="w-4/5 mx-auto list-disc pb-6">
+            <li className="text-scooter-500 text-lg"><span className="font-bold">Recursos Humanos</span>: Reciba Curriculums y Filtre a candidatos a través de un formulario digital.</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold">Administración de Proyectos</span>: Tenga un diagrama de Gantt. Asigne tareas, solicite actualizaciones de forma colaborativa</li>
+            <li className="text-scooter-500 text-lg">
+            <span className="font-bold">Contabilidad:</span> Lleve un registro de las facturas por proveedor. Reciba notificaciones de fechas vencidas para pago y más: Lleve un registro de sus Clientes, reciba notificaciones y documente sus oportunidades.
             </li>
-            <li className="text-scooter-500 text-xl">
-              Identificacipon y correción de retrabajos
+            <li className="text-scooter-500 text-lg">
+            <span className="font-bold">Compras:</span> Lleve registro de sus importaciones. Muestre un reporte en tiempo real.
             </li>
-            <li className="text-scooter-500 text-xl">Ahorros</li>
-            <li className="text-scooter-500 text-xl">
-              Problemas administrativos
+            <li className="text-scooter-500 text-lg">
+            <span className="font-bold">Almacén:</span> Lleve un control de entradas y salidas de sus insumos. Genere un reporte de sus inventarios en tiempo real.</li>
+            <li className="text-scooter-500 text-lg">
+            <span className="font-bold">Seguimiento a Alumnos:</span> Lleve un control de alumnos matriculados por nivel. 
             </li>
-            <li className="text-scooter-500 text-xl">Mejora continua</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold"> Calidad:</span> Registre desde su celular las fallas. Obtenga un reporte de las más comunes en tiempo real por categoría, ubicación y mes.</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold"> Casos Médicos:</span> Tenga un registro de los casos médicos, asigne a personal médico a atender cada caso, reciba recordatorios y más</li>
           </ul>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col">
-        <div className="bg-blue-500 text-center flex sm:w-1/2 w-full">
-          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto">
-            {" "}
-            +1000 CLIENTES CERTIFICADOS
+      <div className="flex sm:flex-row flex-col h-auto font-mont">
+        <div className="bg-curious-blue-600 text-center flex sm:w-1/2 w-full">
+          <h3 className="h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto">
+            VENTAJAS DE TRABAJAR CON{" "}
+            <span className="text-scooter-400 mx-1">SMARTSHEETS?</span>
           </h3>
         </div>
-        <div className="bg-scooter-500 w-full sm:w-1/2 text-center flex flex-col">
-          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold place-self-center">
-            {" "}
-            +500 PROYECTOS IMPLEMENTADOS
-          </h3>
+        <div className="bg-white w-full sm:w-1/2 text-justify flex flex-col">
+          <ul className="w-4/5 mx-auto list-disc pb-6 place-self-center">
+            <li className="text-scooter-500 text-lg"><span className="font-bold">Efficiency and Productivity:</span> Logre sus objetivos en tiempo record.</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold">Dashboards & Reporting:</span> Obtenga la información que necesite para tomar decisiones fácil y rápido.</li>
+            <li className="text-scooter-500 text-lg">
+            <span className="font-bold">Connectivity and Collaboration:</span> Haga que sus equipos colaboren  profesionalmente. Monitoreando la capacidad de respuesta.
+            </li>
+            <li className="text-scooter-500 text-lg">
+            <span className="font-bold">Data Safety and Protection:</span> Resguarde su información y evite que manipulen datos importantes. </li>
+          </ul>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row">
+      <div className="flex flex-col sm:flex-row font-mont">
         <div className="w-full sm:w-1/2 flex">
-          <h3 className="text-4xl text-gray-600 text-center mx-auto pt-4">
-            QUIERES SABER MAS <br />
-            <span className="text-4xl text-scooter-600 text-center mx-auto pb-4">
-              DE CLIMA LABORAL?
-            </span>
+          <h3 className="w-4/5 text-3xl py-8 place-self-center flex flex-col mx-auto">
+          ¿Quieres saber más sobre <span className="font-bold text-scooter-500">diseño y automatización de procesos?</span>
           </h3>
         </div>
-        <div className="w-full sm:w-1/2 flex">
-          <p className="w-4/5 mx-auto text-regular py-8">
-            Mejora el clima laboral de tu empresa con los recursos y estrategias
-            que tenemos para ti. ¡Impulsa a tus colaboradores todos los días con
-            nuestro contenido!
+        <div className="w-full sm:w-1/2 flex h-56 text-center">
+          <p className="w-4/5 mx-auto text-regular flex py-8 flex-col place-self-center">
+          Encuentra en nuestro contenido; soluciones, tips y herramientas para la <span className="font-bold text-keppel-500">creación, gestión y automatización de procesos en tu empresa.</span>
           </p>
         </div>
       </div>
