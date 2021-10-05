@@ -21,7 +21,7 @@ export default function disenoAutomatizacionProcesos() {
                 </h3>
                 <p className="text-gray-500 text-justify text-sm md:text-base">
                 <span className="font-bold text-keppel-500">Smartsheets</span> es una plataforma ideal para empresas que buscan una solución real a la <span className="font-bold text-keppel-500">creación, gestión y automatización de procesos.</span> <br />
-                Somos expertos en la herramienta. Contamos con servicio de entrenamiento y servicio de consultoría con instructores certificados. <span className="font-bold text-keppel-500">Diseño y construcción de procesos</span> personalizados a la medida de su necesidad.
+                Somos expertos en la herramienta. Contamos con servicio de entrenamiento y servicio de consultoría con instructores certificados. <span className="font-bold text-keppel-500">Diseño y construcción de procesos</span> personalizados a la medida de tus necesidades.
                 </p>
               </div>
               <div className="space-y-5">
@@ -60,7 +60,7 @@ export default function disenoAutomatizacionProcesos() {
                     NIVEL 1 - DESING & DEPLOY
                   </h3>
                   <p className="leading-relaxed mb-3 h-40 text-justify">
-                  El participante tendrá conocimiento pleno de los alcances y limitaciones de la <span className="font-bold text-keppel-500">herramienta Smartsheet.</span> Podrá dimensionar las posibilidades de implementación en su organización.</p>
+                  Al ser participante, tendrás conocimiento pleno de los alcances y limitaciones de la <span className="font-bold text-keppel-500">herramienta Smartsheet.</span> Podrás dimensionar las posibilidades de implementación en tu organización.</p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/diseno-automatizacion-procesos/nivel1-desing-deploy">
                       <a>
@@ -87,7 +87,7 @@ export default function disenoAutomatizacionProcesos() {
                     NIVEL 2 - CREATE & DO
                   </h3>
                   <p className="leading-relaxed mb-3 h-40 text-justify">
-                  En este nivel de entrenamiento usted o su equipo de trabajo podrán formular e integrar hojas de trabajo, establecer flujos de información. Crear Dashboards y programar sus principales indicadores.
+                  En este nivel de entrenamiento tú y tu equipo podrán formular e integrar hojas de trabajo, establecer flujos de información. Crear Dashboards y programar sus principales indicadores.
                   </p>
                   <div className="flex items-center flex-wrap">
                     <Link href="/diseno-automatizacion-procesos/nivel2-create-do">
@@ -115,7 +115,7 @@ export default function disenoAutomatizacionProcesos() {
                     NIVEL 3 - PROJECT MANAGEMENT
                   </h3>
                   <p className="leading-relaxed mb-3 h-40 text-justify">
-                  Este nivel está enfocado en las <span className="font-bold text-keppel-500">herramientas que ofrece Smartsheets</span> para administrar proyectos. Podrá asignar actividades, tareas y establecer fechas objetivas y más.
+                  Este nivel está enfocado en las <span className="font-bold text-keppel-500">herramientas que ofrece Smartsheets</span> para administrar proyectos. Podrás asignar actividades, tareas y establecer fechas objetivas y más.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/diseno-automatizacion-procesos/nivel3-project-management">
@@ -146,7 +146,7 @@ export default function disenoAutomatizacionProcesos() {
                   </span> 
                 </h3>
                 <p className="text-gray-500 py-4">
-                En una primera entrevista buscaremos entender su problema y sugerirle el mejor nivel de entrenamiento.
+                En una primera entrevista buscaremos entender tu problema y sugerirte el mejor nivel de entrenamiento.
                 </p>
               </div>
               <div className="space-y-5">
@@ -176,22 +176,22 @@ export default function disenoAutomatizacionProcesos() {
           <p className="text-gray-500 text-xl py-4 justify-center w-4/5 self-center">
           Las posibilidades y combinaciones son realmente infinitas. Estos son solo algunos ejemplos de áreas de aplicación para usar <span className="font-bold text-keppel-500"> Smartsheets</span>
           </p>
-          <ul className="w-4/5 mx-auto list-disc pb-6">
-            <li className="text-scooter-500 text-lg"><span className="font-bold">Recursos Humanos</span>: Reciba Curriculums y Filtre a candidatos a través de un formulario digital.</li>
-            <li className="text-scooter-500 text-lg"><span className="font-bold">Administración de Proyectos</span>: Tenga un diagrama de Gantt. Asigne tareas, solicite actualizaciones de forma colaborativa</li>
+          <ul className="w-4/5 mx-auto list-disc pb-6 items-center">
+            <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Recursos Humanos:</span> Recibe Curriculums y Filtre a candidatos a través de un formulario digital.</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Administración de Proyectos:</span> Obtén un <span className="font-bold text-keppel-500">diagrama de Gantt.</span> Asigna tareas, recibe recordatorios y más.</li>
             <li className="text-scooter-500 text-lg">
-            <span className="font-bold">Contabilidad:</span> Lleve un registro de las facturas por proveedor. Reciba notificaciones de fechas vencidas para pago y más: Lleve un registro de sus Clientes, reciba notificaciones y documente sus oportunidades.
+            <span className="font-bold text-keppel-500">Contabilidad:</span> Lleva un registro de las facturas por proveedor. Recibe notificaciones de fechas vencidas para pago y más.
             </li>
             <li className="text-scooter-500 text-lg">
-            <span className="font-bold">Compras:</span> Lleve registro de sus importaciones. Muestre un reporte en tiempo real.
+            <span className="font-bold text-keppel-500">Compras:</span> Lleva registro de tus importaciones. Muestra un reporte en tiempo real.  Encuentra áreas de oportunidad en gastos contra presupuestos objetivos. 
             </li>
             <li className="text-scooter-500 text-lg">
-            <span className="font-bold">Almacén:</span> Lleve un control de entradas y salidas de sus insumos. Genere un reporte de sus inventarios en tiempo real.</li>
+            <span className="font-bold text-keppel-500">Almacén:</span> Lleva un control de entradas y salidas de sus insumos. Genera un reporte de tus inventarios en tiempo real.</li>
             <li className="text-scooter-500 text-lg">
-            <span className="font-bold">Seguimiento a Alumnos:</span> Lleve un control de alumnos matriculados por nivel. 
+            <span className="font-bold text-keppel-500">Seguimiento a Alumnos:</span> Lleva un control de alumnos matriculados por nivel.  
             </li>
-            <li className="text-scooter-500 text-lg"><span className="font-bold"> Calidad:</span> Registre desde su celular las fallas. Obtenga un reporte de las más comunes en tiempo real por categoría, ubicación y mes.</li>
-            <li className="text-scooter-500 text-lg"><span className="font-bold"> Casos Médicos:</span> Tenga un registro de los casos médicos, asigne a personal médico a atender cada caso, reciba recordatorios y más</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Calidad:</span> Registra desde tu celular las fallas. Obtén un reporte de las más comunes en tiempo real por categoría, ubicación y mes.</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Casos Médicos:</span> Obtén un registro de los casos médicos. Asigna a personal médico para atender cada caso, recibe recordatorios y más.</li>
           </ul>
         </div>
       </div>
@@ -199,25 +199,25 @@ export default function disenoAutomatizacionProcesos() {
         <div className="bg-curious-blue-600 text-center flex sm:w-1/2 w-full">
           <h3 className="h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto">
             VENTAJAS DE TRABAJAR CON{" "}
-            <span className="text-scooter-400 mx-1">SMARTSHEETS?</span>
+            <span className="text-scooter-400 mx-1">SMARTSHEETS</span>
           </h3>
         </div>
         <div className="bg-white w-full sm:w-1/2 text-justify flex flex-col">
-          <ul className="w-4/5 mx-auto list-disc pb-6 place-self-center">
-            <li className="text-scooter-500 text-lg"><span className="font-bold">Efficiency and Productivity:</span> Logre sus objetivos en tiempo record.</li>
-            <li className="text-scooter-500 text-lg"><span className="font-bold">Dashboards & Reporting:</span> Obtenga la información que necesite para tomar decisiones fácil y rápido.</li>
+          <ul className="w-4/5 mx-auto list-disc pb-6 items-center">
+            <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Efficiency and Productivity:</span> Logra tus objetivos en tiempo record.</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Dashboards & Reporting:</span> Obtén la información que necesitas para tomar decisiones fácil y rápido.</li>
             <li className="text-scooter-500 text-lg">
-            <span className="font-bold">Connectivity and Collaboration:</span> Haga que sus equipos colaboren  profesionalmente. Monitoreando la capacidad de respuesta.
+            <span className="font-bold text-keppel-500">Connectivity and Collaboration: </span> Logra que tus equipos colaboren  profesionalmente, monitoreando la capacidad de respuesta.
             </li>
             <li className="text-scooter-500 text-lg">
-            <span className="font-bold">Data Safety and Protection:</span> Resguarde su información y evite que manipulen datos importantes. </li>
+            <span className="font-bold text-keppel-500">Data Safety and Protection:</span> Resguarda tu información y evita que manipulen datos importantes.</li>
           </ul>
         </div>
       </div>
       <div className="flex flex-col sm:flex-row font-mont">
         <div className="w-full sm:w-1/2 flex">
           <h3 className="w-4/5 text-3xl py-8 place-self-center flex flex-col mx-auto">
-          ¿Quieres saber más sobre <span className="font-bold text-scooter-500">diseño y automatización de procesos?</span>
+          ¿QUIERES SABER MÁS SOBRE <span className="font-bold text-scooter-500">DISEÑO Y AUTOMATIZACIÓN DE PROCESOS?</span>
           </h3>
         </div>
         <div className="w-full sm:w-1/2 flex h-56 text-center">

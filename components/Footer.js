@@ -65,7 +65,7 @@ const subscribe = async () => {
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full px-4 items-center">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              Suscribete a nuestro newsletter
+              Suscríbete a nuestro newsletter
             </h2>
             <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
@@ -92,7 +92,7 @@ const subscribe = async () => {
               disabled={state === "CARGANDO"}
               onClick={subscribe}
               >
-                Suscribirse
+                SUSCRÍBETE
               </button>
             </div>
             {state === "ERROR" && (
@@ -101,10 +101,10 @@ const subscribe = async () => {
             {state === "EXITOSO" && (
               <p className="w-1/2 mt-2 text-green-600">¡Agregado con éxito!</p>
             )}
-            <p className="text-gray-700 text-sm mt-2 md:text-left text-center">
-              Enterate de nuestra ultimas novedades
+            <p className="text-gray-700 text-base mt-2 md:text-left text-center">
+              Entérate de nuestra últimas novedades
               <br className="lg:block hidden" />y promociones en nuestros
-              servicios
+              servicios.
             </p>
           </div>
         </div>

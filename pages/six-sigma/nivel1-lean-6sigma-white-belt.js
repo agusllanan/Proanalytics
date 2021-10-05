@@ -53,53 +53,51 @@ export const whiteBelt = () => {
       {/* ---- Nueva seccion --- */}
       <div className="flex sm:flex-row flex-col h-auto">
         <div className="bg-white text-center flex sm:w-1/2 w-full">
-          <h3 className="mx-auto h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-blue-500 font-bold self-center">
-            ¿POR QUÉ TOMAR LA CERTIFICACIÓN?
+          <h3 className="mx-auto h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-blue-500 font-bold place-self-center">
+            LO QUE VAS A APRENDER EN EL NIVEL 1 -{" "}
+            <span className="font-bold text-keppel-500">WHITE BELT</span>
           </h3>
         </div>
         <div className="bg-white w-full sm:w-1/2 flex justify-center items-center">
-          <ul className="w-full flex-col py-6 list-disc pl-8">
-            <li className="text-scooter-500 text-xl ">
-              Las exigencias de los clientes demandan un alto nivel de calidad
-              en productos y servicios.
+          <ul className="w-4/5 mx-auto list-disc pb-6 place-self-center my-4">
+            <li className="text-scooter-500 text-lg">
+              Introducción al mundo{" "}
+              <span className="font-bold text-keppel-500">White Belt </span>
             </li>
-            <li className="text-scooter-500 text-xl">
+            <li className="text-scooter-500 text-lg">
               <span className="font-bold text-keppel-500">
-                Capacite a su personal
-              </span>{" "}
-              para adquirir el conocimiento y poder cumplir con los
-              requerimientos de cliente internos y externos.
+                Análisis de Causa Raíz
+              </span>
             </li>
-            <li className="text-scooter-500 text-xl">
-              Su personal podrá resolver los problemas de forma metódica, eficaz
-              y contundente.
+            <li className="text-scooter-500 text-lg ml-4">
+              <span className="font-bold text-keppel-500">Ishikawa</span>
             </li>
-            <li className="text-scooter-500 text-xl">
-              Prepararemos a usted y sus miembros del equipo de forma
-              personalizada para cubrir las necesidades y garantizar el éxito de
-              sus proyectos.
+            <li className="text-scooter-500 text-lg ml-4">
+              <span className="font-bold text-keppel-500">Pareto</span>
             </li>
-            <li className="text-scooter-500 text-xl">
-              Todos los proyectos estarán alineados a la estrategia de su
-              empresa.
+            <li className="text-scooter-500 text-lg ml-4">
+              <span className="font-bold text-keppel-500">5 Por qué</span>
             </li>
-            <li className="text-scooter-500 text-xl">
-              Su equipo de trabajo podrá identificar{" "}
+            <li className="text-scooter-500 text-lg ml-4">
+              <span className="font-bold text-keppel-500">FTA</span>
+            </li>
+            <li className="text-scooter-500 text-lg">
               <span className="font-bold text-keppel-500">
-                oportunidades de mejora, optimizar recursos,
-              </span>{" "}
-              incrementar la eficiencia y ejecutar la mejor solución.
+                Eficiencia de Procesos
+              </span>
             </li>
-            <li className="text-scooter-500 text-xl">
-              Su equipo podrá usar un lenguaje global común de trabajo.
+            <li className="text-scooter-500 text-lg">
+              <span className="font-bold text-keppel-500">5S’s </span>
             </li>
-            <li className="text-scooter-500 text-xl">
-              La{" "}
+            <li className="text-scooter-500 text-lg">
               <span className="font-bold text-keppel-500">
-                metodología Lean 6 Sigma
-              </span>{" "}
-              proveerá de conocimiento y entrenamiento suficiente para enfrentar
-              los retos de forma sustentable.
+                Trabajo Estandarizado
+              </span>
+            </li>
+            <li className="text-scooter-500 text-lg">
+              <span className="font-bold text-keppel-500">
+                Sistema de Control Andon
+              </span>
             </li>
           </ul>
         </div>
@@ -111,6 +109,60 @@ export const whiteBelt = () => {
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
+
+        <div className="flex sm:flex-row flex-col h-auto">
+          <div className="bg-blue-500 text-center flex sm:w-1/2 w-full">
+            <h3 className="mx-auto h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold self-center">
+              ¿POR QUÉ TOMAR LA CERTIFICACIÓN?
+            </h3>
+          </div>
+          <div className="bg-white w-full sm:w-1/2 flex justify-center items-center">
+            <ul className="w-full flex-col py-6 list-disc pl-8">
+              <li className="text-scooter-500 text-lg">
+                Las exigencias de los clientes demandan un alto nivel de calidad
+                en productos y servicios.
+              </li>
+              <li className="text-scooter-500 text-lg">
+                <span className="font-bold text-keppel-500">
+                  Capacita a tu personal
+                </span>{" "}
+                para adquirir el conocimiento y poder cumplir con los
+                requerimientos de clientes internos y externos.
+              </li>
+              <li className="text-scooter-500 text-lg">
+                Tu personal podrá resolver los problemas de forma metódica,
+                eficaz y contundente.
+              </li>
+              <li className="text-scooter-500 text-lg">
+                Te preparamos junto con tu equipo, de forma personalizada para
+                cubrir las necesidades y garantizar el éxito de tus proyectos.
+              </li>
+              <li className="text-scooter-500 text-lg">
+                Todos los proyectos estarán alineados a la estrategia de tu
+                empresa.
+              </li>
+              <li className="text-scooter-500 text-lg">
+                Tu equipo de trabajo podrá identificar{" "}
+                <span className="font-bold text-keppel-500">
+                  oportunidades de mejora, optimizar recursos,
+                </span>{" "}
+                incrementar la eficiencia y ejecutar la mejor solución.
+              </li>
+              <li className="text-scooter-500 text-lg">
+                Tu equipo podrá usar un lenguaje global común de trabajo.
+              </li>
+              <li className="text-scooter-500 text-lg">
+                La{" "}
+                <span className="font-bold text-keppel-500">
+                  metodología Lean Six Sigma
+                </span>{" "}
+                proveerá de conocimiento y entrenamiento a todo el equipo para
+                enfrentar los retos de forma sustentable.
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
             <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-2/3 sm:w-full h-auto">
@@ -142,17 +194,17 @@ export const whiteBelt = () => {
       </div>
       <div className="flex flex-col sm:flex-row h-48">
         <div className="w-full sm:w-1/2 flex">
-          <h3 className="text-4xl text-gray-600 text-center mx-auto self-center">
+          <h3 className="text-4xl text-scooter-500 text-center mx-auto self-center">
             ENTRENAMIENTO Y PERFILES
           </h3>
         </div>
         <div className="w-full sm:w-1/2 flex">
           <p className="w-4/5 mx-auto text-regular self-center">
             <span className="font-bold text-keppel-500">
-              Quick Smart Trainings
+              Lean 6 Sigma White Belt
             </span>{" "}
-            - No hay restricción ni perfil exclusivo. Cualquier persona que
-            quiera adquirir el conocimiento y/o habilidades.
+            - No hay restricción ni perfil exclusivo. Cualquier persona puede
+            adquirir el conocimiento y/o habilidades.
           </p>
         </div>
       </div>

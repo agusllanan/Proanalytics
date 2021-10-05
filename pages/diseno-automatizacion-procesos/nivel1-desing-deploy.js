@@ -20,13 +20,9 @@ export const nivel1DesingDeploy = () => {
               </span>
             </h3>
             <p className="w-4/5 mx-auto justify-center text-justify pb-10">
-              El participante tendrá conocimiento pleno de los alcances y
-              limitaciones de la herramienta, podrá dimensionar las
-              posibilidades de implementación en su organización. crear nuevas
-              hojas de trabajo, diseñar procesos y usar las herramientas de
-              comunicación. <br /> <br />
-              Para lograr el certificado de cumplimiento de nivel, el
-              participante deberá aprobar un examen práctico.
+            Como participante tendrás conocimiento pleno de los alcances y limitaciones de la herramienta, podrás dimensionar las posibilidades de implementación en tu organización, crear nuevas hojas de trabajo, diseñar procesos y usar las herramientas de comunicación.
+            <br /> <br />
+            Para lograr el certificado de cumplimiento de nivel, los participantes deberán aprobar un examen práctico.
             </p>
           </div>
           <div className="flex flex-col container bg-curious-blue-500 shadow-2xl lg:w-1/3 lg:rounded-r-xl w-4/5">
@@ -117,12 +113,12 @@ export const nivel1DesingDeploy = () => {
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle font-mont">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 md:w-2/3 h-auto">
-              <div className="mb-4 divide-y divide-scooter-500">
+            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 h-auto">
+              <div className="mb-4 divide-y-4 divide-scooter-500">
                 <h3 className="font-regular text-3xl py-4 text-scooter-400">
-                  ¿Quieres saber más sobre{" "}
+                  ¿QUIERES SABER MÁS SOBRE{" "}
                   <span className="font-bold text-keppel-500">
-                    diseño y automatización de procesos?
+                    DISEÑO Y AUTOMATIZACIÓN DE PROCESOS?
                   </span>
                 </h3>
                 <p className="text-gray-500 py-2">

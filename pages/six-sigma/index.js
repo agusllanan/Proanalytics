@@ -25,16 +25,16 @@ export default function sixSigma() {
                   <span className="font-bold text-keppel-500">
                     programa de certificación
                   </span>{" "}
-                  en 4 niveles que le ayudará a potencializar la{" "}
+                  en 4 niveles que te ayudará a potencializar la{" "}
                   <span className="font-bold text-keppel-500">
-                    mejora continua de su organización.
+                    mejora continua de tu organización.
                   </span>{" "}
                   Los proyectos bajo la{" "}
                   <span className="font-bold text-keppel-500">
                     metodología 6 Sigma
                   </span>{" "}
-                  constan pasos reconocidos internacionalmente con el estándar
-                  DMAIC.
+                  constan de pasos reconocidos internacionalmente con el
+                  estándar DMAIC.
                 </p>
               </div>
               <div className="space-y-5">
@@ -62,7 +62,7 @@ export default function sixSigma() {
         <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
           NUESTROS SERVICIOS EN SIX SIGMA
         </h1>
-        <div className="container px-5 pt-16 mx-auto">
+        <div className="container px-5 pt-16 mx-auto font-mont">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -81,9 +81,9 @@ export default function sixSigma() {
                     </span>
                   </h3>
                   <p className="leading-relaxed mb-3 text-justify">
-                    Con la asesoría de nuestro Coach, usted podrá elegir entre
-                    uno o varios temas de nuestro catálogo de servicios
-                    ajustándose a un tiempo y presupuesto objetivo.
+                    Con la asesoría de nuestro Coach, podrás elegir entre uno o
+                    varios temas de nuestro catálogo de servicios ajustándose a
+                    un tiempo y presupuesto objetivo.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/six-sigma/basic-quick-smart-trainings">
@@ -151,12 +151,12 @@ export default function sixSigma() {
                     </span>
                   </h1>
                   <p className="leading-relaxed mb-3 text-justify">
-                    Durante el proceso de certificación el participante podrá
-                    adquirir conocimientos y usar{" "}
+                    Durante el proceso de certificación podrás adquirir
+                    conocimientos y usar{" "}
                     <span className="font-bold text-keppel-500">
                       herramientas comunes de Lean
                     </span>
-                    . Los participantes podrán liderar proyectos{" "}
+                    . Al finalizar, podrás liderar proyectos{" "}
                     <span className="font-bold text-keppel-500">
                       Lean 6 Sigma
                     </span>{" "}
@@ -179,7 +179,7 @@ export default function sixSigma() {
           </div>
         </div>
       </div>
-      <div className="container lg:pl-10 px-5 pb-16 mx-auto">
+      <div className="container lg:pl-10 px-5 pb-16 mx-auto font-mont">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -202,9 +202,9 @@ export default function sixSigma() {
                   <span className="font-bold text-keppel-500">
                     Lean 6 Sigma.
                   </span>{" "}
-                  El participante se desarrollará como líder de proyectos de
-                  mejora continua importantes que requieran un complejo nivel de
-                  análisis y precisar toma de decisiones.
+                  Podrás desarrollarte como líder de proyectos de mejora
+                  continua que requieran un complejo nivel de análisis y toma de
+                  decisiones.
                 </p>
                 <div className="flex items-center flex-wrap ">
                   <Link href="/six-sigma/nivel3-lean-6sigma-green-belt">
@@ -243,9 +243,9 @@ export default function sixSigma() {
                   <span className="font-bold text-keppel-500">
                     Green o Yellow belts.
                   </span>{" "}
-                  El participante desarrollará habilidades y conocimientos
-                  enfocados a liderar proyectos complejos clave y de alto
-                  impacto a la organización.
+                  Como participante, podrás desarrollar habilidades y
+                  conocimientos enfocados a liderar proyectos complejos clave y
+                  de alto impacto a la organización.
                 </p>
                 <div className="flex items-center flex-wrap ">
                   <Link href="/six-sigma/nivel4-lean-6sigma-black-belt">
@@ -277,33 +277,35 @@ export default function sixSigma() {
                   <span className="text-keppel-700">NECESITA SIX SIGMA?</span>
                 </h3>
                 <p className="text-gray-500 text-justify">
-                  En una primera entrevista buscaremos entender su problema y
-                  sugerirle el mejor nivel de entrenamiento. Como ejemplo, aquí
+                  En una primera entrevista buscaremos entender tu problema y
+                  sugerirte el mejor nivel de entrenamiento. Como ejemplo, aquí
                   mostramos solo algunos de los casos o síntomas más comunes que
-                  su organización puede manifestar.
+                  tu organización puede manifestar.
                 </p>
               </div>
               <ul className="w-full py-4 mx-auto list-disc">
-                <li className="text-scooter-500 text-xl">
+                <li className="text-scooter-500 text-lg">
                   ¿Quejas frecuentes de clientes sin atender?
                 </li>
-                <li className="text-scooter-500 text-xl">
-                  ¿Tiene problemas de calidad sin análisis de causa raíz o
-                  solución?
+                <li className="text-scooter-500 text-lg">
+                  <span className="font-bold text-scooter-600">
+                    ¿Problemas de calidad
+                  </span>{" "}
+                  sin análisis de causa raíz o solución?
                 </li>
-                <li className="text-scooter-500 text-xl">
-                  ¿Tiene procesos inestables sin mediciones u objetivos claros?
+                <li className="text-scooter-500 text-lg">
+                  ¿Procesos inestables sin mediciones u objetivos claros?
                 </li>
-                <li className="text-scooter-500 text-xl">
+                <li className="text-scooter-500 text-lg">
                   ¿Fuga de recursos y tiempo en la cadena productiva?
                 </li>
-                <li className="text-scooter-500 text-xl">
+                <li className="text-scooter-500 text-lg">
                   ¿Está cumpliendo con sus objetivos de costos o inventarios?
                 </li>
-                <li className="text-scooter-500 text-xl">
+                <li className="text-scooter-500 text-lg">
                   ¿Retrabajos y/o inspecciones en varias partes del proceso?
                 </li>
-                <li className="text-scooter-500 text-xl">
+                <li className="text-scooter-500 text-lg">
                   ¿Problemas de capacidad y cuellos de botella?
                 </li>
               </ul>
@@ -333,29 +335,29 @@ export default function sixSigma() {
             <span className="font-bold text-keppel-500">
               Master Black Belts;
             </span>{" "}
-            mentores que guiarán a su equipo por el proceso de certificación
+            mentores que guiarán a tu equipo por el proceso de certificación
             para lograr los resultados esperados.
           </p>
           <ul className="w-4/5 mx-auto py-4 list-disc">
-            <li className="text-scooter-500 text-xl">
-              INCREMENTO EN EL NIVEL DE SERVICIO
+            <li className="text-scooter-500 text-lg">
+              Incremento en el nivel de servicio
             </li>
-            <li className="text-scooter-500 text-xl">
-              INCREMENTO EN LA SATISFACCIÓN DEL CLIENTE
+            <li className="text-scooter-500 text-lg">
+              Incremento en la satisfacción del cliente
             </li>
-            <li className="text-scooter-500 text-xl">
-              REDUCCIÓN DE TIEMPO CICLO
+            <li className="text-scooter-500 text-lg">
+              Reducción de tiempo ciclo
             </li>
-            <li className="text-scooter-500 text-xl">REDUCCIÓN DE COSTOS</li>
-            <li className="text-scooter-500 text-xl">
-              INCREMENTO DE PRODUCTIVIDAD
+            <li className="text-scooter-500 text-lg">Reducción de costos</li>
+            <li className="text-scooter-500 text-lg">
+              Incremento de productividad
             </li>
-            <li className="text-scooter-500 text-xl">
-              INCREMENTO EN LA EFICIENCIA
+            <li className="text-scooter-500 text-lg">
+              Incremento en la eficiencia
             </li>
-            <li className="text-scooter-500 text-xl">REDUCCIÓN EN DEFECTOS</li>
-            <li className="text-scooter-500 text-xl">
-              INCREMENTO EN LA HABILIDAD DEL PROCESO
+            <li className="text-scooter-500 text-lg">Reducción en Defectos</li>
+            <li className="text-scooter-500 text-lg">
+              Incremento en habilidad del proceso
             </li>
           </ul>
         </div>
