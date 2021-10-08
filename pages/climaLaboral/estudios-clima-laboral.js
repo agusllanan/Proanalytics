@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const encuestaClimaLaboral = () => {
+
+
   return (
     <Layout>
       <div
@@ -11,7 +13,9 @@ export const encuestaClimaLaboral = () => {
           backgroundImage: `url(/img/clima-laboral/portada-encuesta.jpg)`,
         }}
       >
-        <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
+        <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont"
+        id="aqui"
+        >
           <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/3 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center">
             <h3 className="w-4/5 mx-auto text-2xl py-12 font-bold text-scooter-500">
               ESTUDIOS DE
@@ -78,7 +82,7 @@ export const encuestaClimaLaboral = () => {
             />
             {/* <textarea className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out">Escríbenos tus inquietudes y horario de contacto</textarea> */}
             <button className="ml-4 text-white font-bold bg-keppel-500 border-0 py-2 mb-4 mt-4 focus:outline-none hover:bg-keppel-600 rounded w-4/5">
-              SOLICITA TU DIAGNOSTICO GRATUITO AHORA
+              SOLICITA TU DIAGNÓSTICO GRATUITO
             </button>
           </div>
         </div>
@@ -127,7 +131,7 @@ export const encuestaClimaLaboral = () => {
         <div className="bg-blue-500 text-justify flex flex-col h-auto w-full font-mont">
           <h3 className="py-24 sm:py-8 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto">
             {" "}
-            NUESTRO PROCESO METODOLOGICO
+            NUESTRA METODOLOGÍA
           </h3>
           <div className="div w-full flex flex-col place-content-center md:flex-row">
             <div className="w-full h-80 md:w-1/3 bg-blue-500">
@@ -138,7 +142,7 @@ export const encuestaClimaLaboral = () => {
                 className=" relative object-fill rounded-xl place-self-center m-2  flex"
                 alt="Aqui va el alt de la imagen"
               />
-              <h3 className="text-white mx-auto">ENTREVISTA DIAGNOSTICO</h3>
+              <h3 className="text-white md:ml-4 mx-auto">ENTREVISTA DIAGNÓSTICO</h3>
               <p className="w-4/5 text-white md:ml-4">
                 Permítenos identificar la necesidades y expectativas de tu
                 empresa.
@@ -172,7 +176,7 @@ export const encuestaClimaLaboral = () => {
               />
               <h3 className="text-white">RESULTADOS Y PLAN DE ACCIÓN</h3>
               <p className="w-4/5 text-white">
-              Con los resultados te acompañamos en el diseño de acciones y seguimientos para la <span className="font-bold">mejora del clima laboral</span>
+              Con los resultados te acompañamos en el diseño de acciones y seguimiento para la <span className="font-bold">mejora del clima laboral</span>
               </p>
             </div>
           </div>

@@ -45,21 +45,21 @@ const subscribe = async () => {
               </Link>
               <Link href="/servicios">
                 <a className="py-2 text-gray-600 hover:text-keppel-700">
-                  Servicio
+                  Servicios
                 </a>
               </Link>
-              <Link href="/diferenciadores">
+              <Link href="/aprendizaje">
                 <a className="py-2 text-gray-600 hover:text-keppel-700">
-                  Diferenciadores
+                  Aprendizaje
                 </a>
               </Link>
-              <Link href="/experiencia">
+              <Link href="/blog">
                 <a className="py-2 text-gray-600 hover:text-keppel-700">
-                  Experiencia
+                  Blog
                 </a>
               </Link>
-              <Link href="/mas">
-                <a className="py-2 text-gray-600 hover:text-keppel-700">Más</a>
+              <Link href="/contactanos">
+                <a className="py-2 text-gray-600 hover:text-keppel-700">Contáctanos</a>
               </Link>
             </nav>
           </div>
@@ -102,9 +102,7 @@ const subscribe = async () => {
               <p className="w-1/2 mt-2 text-green-600">¡Agregado con éxito!</p>
             )}
             <p className="text-gray-700 text-base mt-2 md:text-left text-center">
-              Entérate de nuestra últimas novedades
-              <br className="lg:block hidden" />y promociones en nuestros
-              servicios.
+              Entérate de nuestra últimas novedades.
             </p>
           </div>
         </div>
@@ -135,18 +133,6 @@ const subscribe = async () => {
             </a>
             <a className="ml-3 text-white">
               <svg
-                fill="currentColor"
-                strokeLinecap="round"
-                stroke-linejoin="round"
-                strokeWidth="2"
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-            <a className="ml-3 text-white">
-              <svg
                 fill="none"
                 stroke="currentColor"
                 strokeLinecap="round"
@@ -159,7 +145,10 @@ const subscribe = async () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a className="ml-3 text-white">
+            <a className="ml-3 text-white"
+            href="https://www.facebook.com/ProanalyticsConsultoria"
+            target="_blank"
+            >
               <svg
                 fill="currentColor"
                 stroke="currentColor"

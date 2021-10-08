@@ -36,7 +36,7 @@ export default async (req, res) => {
     return res.status(201).json({ error: null });
   } catch (error) {
     return res.status(400).json({
-      error: `Oh, algo salio mal... Envianos un email a contacto@proanalytics.com y te agregare al newsletter`,
+      error: `Oh, algo salio mal... Envíanos un email a contacto@proanalytics.com y te agregaremos al newsletter.`,
     });
 
     // Reportar los errores al Sentry

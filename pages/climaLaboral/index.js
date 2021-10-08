@@ -117,7 +117,7 @@ export default function climaLaboral() {
                     alt="Aqui va el alt de la imagen"
                   />
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Auditorias NOM 035 y NOM 025
+                  Asesorías en NOM-035-STPS-2018 y NMX-R-025-SCFI-2015
                   </h1>
                   <p className="leading-relaxed mb-3">
                     Identifica, prevé y atiende factores de riesgo psicosocial y
@@ -242,33 +242,29 @@ export default function climaLaboral() {
       <div className="flex sm:flex-row flex-col h-80">
         <div className="bg-blue-400 text-center flex sm:w-1/2 w-full">
           <h3 className="h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold place-self-center">
-            ¿POR QUÉ ES IMPORTANTE{" "}
+            ¿POR QUÉ ES IMPORTANTE ANALIZAR{" "}
             <span className="text-scooter-300 mx-1">EL CLIMA LABORAL?</span>
           </h3>
         </div>
         <div className="bg-white w-full sm:w-1/2 text-justify flex flex-col font-mont">
-          <p className="text-gray-500 md:text-base lg:text-xl py-4 justify-center w-4/5 self-center">
-            Conocer la <span className="font-bold">satisfacción laboral</span>{" "}
-            de las personas con diagnósticos correctos permite a las empresas:
-          </p>
-          <ul className="w-4/5 mx-auto list-disc">
-            <li className="text-scooter-500 md:text-base lg:text-xl">
-              Identificar las{" "}
+          <ul className="w-4/5 mx-auto list-disc place-items-center">
+            <li className="text-scooter-500 md:text-base lg:text-xl ">
+              Identifica las{" "}
               <span className="font-bold">ventajas competitivas</span> y las
               áreas de oportunidad
             </li>
             <li className="text-scooter-500 md:text-base lg:text-xl">
-              Trabajar en necesidades reales y prioritarias.
+              Trabaja en necesidades reales y prioritarias.
             </li>
             <li className="text-scooter-500 md:text-base lg:text-xl">
-              Impactar en KPIs:{" "}
+              Impacta en KPIs:{" "}
               <span className="font-bold">
                 rotación, retención, engagement laboral, attrition, orgullo y
                 sentido de pertenencia.
               </span>
             </li>
             <li className="text-scooter-500 md:text-base lg:text-xl">
-              Atender temas normativos en México relacionados con el{" "}
+              Atiende temas normativos en México relacionados con el{" "}
               <span className="font-bold">
                 estrés laboral, riesgos psicosociales, violencia laboral,
               </span>{" "}
@@ -294,8 +290,7 @@ export default function climaLaboral() {
       <div className="flex flex-col sm:flex-row">
       <div className="text-center flex sm:w-1/2 w-full ">
           <h3 className="flex h-44 py-24 md:py-8 md:h-72 text-xl sm:text-4xl text-scooter-500 font-bold mx-auto items-center">
-            ¿QUIERES SABER MÁS {""}
-            <span className="mx-0">DE CLIMA LABORAL?</span>
+            ¿QUIERES SABER MÁS DE CLIMA LABORAL?
           </h3>
         </div>
         <div className="w-full sm:w-1/2 flex font-mont">

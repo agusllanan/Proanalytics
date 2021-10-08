@@ -14,7 +14,8 @@ export const auditorias = () => {
         <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
           <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/3 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center">
             <span className="w-4/5 mx-auto text-2xl py-12 font-bold text-scooter-500">
-              AUDITORÍAS NOM 035 <br /> y NOM 025
+            TRABAJA EN EL DESARROLLO INTEGRAL 
+            DE LAS Y LOS TRABAJADORES
             </span>
             <p className="w-4/5 mx-auto justify-center text-justify pb-16">
               Identifica los requisitos de la
@@ -25,19 +26,19 @@ export const auditorias = () => {
               que necesitas trabajar con nuestra lista de verificación. <br />{" "}
               Analiza qué tan lista está tu empresa para certificarse en la{" "}
               <span className="font-bold text-keppel-500">
-                NOM-025-STPS-2008
+              NMX-R-025-SCFI-2015
               </span>{" "}
               de{" "}
               <span className="font-bold text-keppel-500">
                 Igualdad Laboral y no Discriminación
               </span>{" "}
-              con nuestra lista de verificación y diagnóstico.
+              con nuestro diagnóstico y asesoría.
             </p>
           </div>
           <div className="flex flex-col container content-center bg-curious-blue-500 shadow-2xl lg:w-1/3 lg:rounded-r-xl w-4/5">
             <p className="self-center w-4/5 md:ml-4 text-white text-justify pt-4 pb-4">
-              ASESÓRATE EN LOS PROCESOS DE LA{" "}
-              <span className="font-bold">NOM035 O NOM025</span>
+            Analiza el estatus de tu empresa en los procesos de estas Normas: <br /> {" "}
+              <span className="font-bold">NOM-035-STPS-2018 y NMX-R-025-SCFI-2015</span>
             </p>
             <label
               htmlFor="footer-field"
@@ -77,7 +78,7 @@ export const auditorias = () => {
             />
             {/* <textarea className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out">Escríbenos tus inquietudes y horario de contacto</textarea> */}
             <button className="ml-4 text-white font-bold bg-keppel-500 border-0 py-2 mb-4 mt-4 focus:outline-none hover:bg-keppel-600 rounded w-4/5 flex place-content-center self-center">
-              SOLICITA TU DIAGNÓSTICO GRATUITO
+              SOLICITA TU ASESORÍA GRATUITA
             </button>
           </div>
         </div>
@@ -88,7 +89,7 @@ export const auditorias = () => {
           <h3 className="mx-auto w-4/5 h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-blue-500 font-bold place-self-center">
             ¿POR QUÉ ASESORARTE EN LOS PROCESOS DE LA{" "}
             <span className="font-bold text-scooter-500">
-              NOM035 <span className="text-blue-500">O</span> NOM025?
+              NÓM035 <span className="text-blue-500">O</span> NÓM025?
             </span>
           </h3>
         </div>
@@ -115,7 +116,7 @@ export const auditorias = () => {
         <div className="bg-blue-500 text-justify flex flex-col h-auto w-full font-mont">
           <h3 className="py-24 sm:py-8 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto">
             {" "}
-            NUESTRO PROCESO METODOLÓGICO
+            NUESTRA METODOLOGÍA
           </h3>
           <div className="div w-full flex flex-col place-content-center md:flex-row">
             <div className="w-full h-80 md:w-1/3 bg-blue-500">
@@ -126,7 +127,7 @@ export const auditorias = () => {
                 className=" relative object-fill rounded-xl place-self-center m-2  flex"
                 alt="Aqui va el alt de la imagen"
               />
-              <h3 className="text-white mx-auto">DIAGNÓSTICO</h3>
+              <h3 className="text-white md:ml-4 mx-auto">DIAGNÓSTICO</h3>
               <p className="w-4/5 text-white md:ml-4">
                 Realiza tu lista de verificación, recibe tu diagnóstico e
                 identifica tus necesidades
@@ -144,7 +145,7 @@ export const auditorias = () => {
               <p className="w-4/5 text-white">
                 Recibe el acompañamiento en cada etapa de tu proceso y {""}
                 <span className="font-bold">capacita al personal</span>
-                {""}que se requiera para cumplir con los requerimientos.
+                {" "}que se requiera para cumplir con los requerimientos.
               </p>
             </div>
             <div className="w-full h-80 md:w-1/3 bg-blue-500">
@@ -176,9 +177,7 @@ export const auditorias = () => {
             <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-2/3 sm:w-full h-auto font-mont">
               <div className="mb-4 divide-y divide-blue-500">
                 <h3 className="font-regular text-3xl py-4 text-scooter-400">
-                  ¿QUIERES CERTIFICARTE EN LA <br />{" "}
-                  <span className="font-bold text-keppel-500">NOM-025</span> y{" "}
-                  <span className="font-bold text-keppel-500">NOM-035</span>?
+                ¿QUIERES CONOCER MÁS DE ESTAS NORMAS Y SU PROPÓSITO?
                 </h3>
                 <p className="text-gray-500 py-4">
                   Norma Mexicana{" "}
@@ -199,7 +198,7 @@ export const auditorias = () => {
                       type="submit"
                       className="w-full sm:w-2/3 flex justify-center bg-scooter-500  hover:bg-keppel-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
                     >
-                      SOLICITA TU DIAGNÓSTICO GRATUITO
+                      SOLICITA TU ASESORÍA GRATUITA
                     </button>
                   </Link>
                 </div>

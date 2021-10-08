@@ -19,7 +19,7 @@ export const consultorias = () => {
           <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
             <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/3 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center">
               <h3 className="w-4/5 mx-auto text-2xl py-12 font-bold text-scooter-500">
-                CONSULTORIA Y
+                CONSULTORÍA Y
                 <br />
                 <span className="text-curious-blue-500">CAPACITACIÓN</span>
               </h3>
@@ -28,7 +28,7 @@ export const consultorias = () => {
                 <span className="font-bold text-keppel-500 py-4">
                   ambiente organizacional
                 </span>{" "}
-                favorable, dignos, libre de{" "}
+                favorable, digno, libre de{" "}
                 <span className="font-bold text-keppel-500">
                   violencia laboral y discriminación
                 </span>{" "}
@@ -68,7 +68,7 @@ export const consultorias = () => {
               />
               {/* <textarea className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out">Escríbenos tus inquietudes y horario de contacto</textarea> */}
               <button className="ml-4 text-white font-bold bg-keppel-500 border-0 py-2 mb-4 mt-4 focus:outline-none hover:bg-keppel-600 rounded w-4/5 flex place-content-center self-center">
-                SUSCRÍBETE A NUESTRO NEWSLETTER
+                SUSCRÍBETE
               </button>
             </div>
           </div>

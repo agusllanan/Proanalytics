@@ -87,7 +87,7 @@ export default function disenoAutomatizacionProcesos() {
                     NIVEL 2 - CREATE & DO
                   </h3>
                   <p className="leading-relaxed mb-3 h-40 text-justify">
-                  En este nivel de entrenamiento tú y tu equipo podrán formular e integrar hojas de trabajo, establecer flujos de información. Crear Dashboards y programar sus principales indicadores.
+                  En este nivel de entrenamiento tú y tu equipo podrán formular e integrar hojas de trabajo, establecer flujos de información, crear Dashboards y programar sus principales indicadores.
                   </p>
                   <div className="flex items-center flex-wrap">
                     <Link href="/diseno-automatizacion-procesos/nivel2-create-do">
@@ -174,10 +174,10 @@ export default function disenoAutomatizacionProcesos() {
         </div>
         <div className="bg-white w-full sm:w-1/2 text-justify flex flex-col">
           <p className="text-gray-500 text-xl py-4 justify-center w-4/5 self-center">
-          Las posibilidades y combinaciones son realmente infinitas. Estos son solo algunos ejemplos de áreas de aplicación para usar <span className="font-bold text-keppel-500"> Smartsheets</span>
+          Las posibilidades y combinaciones son realmente infinitas. Éstos son solo algunos ejemplos de áreas de aplicación para usar <span className="font-bold text-keppel-500"> Smartsheets</span>
           </p>
           <ul className="w-4/5 mx-auto list-disc pb-6 items-center">
-            <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Recursos Humanos:</span> Recibe Curriculums y Filtre a candidatos a través de un formulario digital.</li>
+            <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Recursos Humanos:</span> Recibe curriculums y filtre a candidatos a través de un formulario digital.</li>
             <li className="text-scooter-500 text-lg"><span className="font-bold text-keppel-500">Administración de Proyectos:</span> Obtén un <span className="font-bold text-keppel-500">diagrama de Gantt.</span> Asigna tareas, recibe recordatorios y más.</li>
             <li className="text-scooter-500 text-lg">
             <span className="font-bold text-keppel-500">Contabilidad:</span> Lleva un registro de las facturas por proveedor. Recibe notificaciones de fechas vencidas para pago y más.

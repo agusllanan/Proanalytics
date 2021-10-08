@@ -34,14 +34,14 @@ const Navbar = ({ toggle }) => {
           <Dropdown />
           <div className="pr-8 lg:flex hidden lg:items-center">
             <Link href="/">
-              <a className="mr-5 text-lg hover:text-keppel-600 font-mont">INICIO</a>
+              <a className="mr-5 text-sm hover:text-keppel-600 font-mont">INICIO</a>
             </Link>
             <Link href="/nosotros">
-              <a className="mr-3 text-lg hover:text-keppel-600 font-mont">NOSOTROS</a>
+              <a className="mr-3 text-sm hover:text-keppel-600 font-mont">NOSOTROS</a>
             </Link>
-            <Menu.Button className="bg-keppel-400 relative inline-flex justify-center items-center w-full rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-keppel-500 focus-visible:ring-opacity-75 lg:px-2 lg:py-2 mr-2 ">
+            <Menu.Button className="relative inline-flex justify-center items-center w-full rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-keppel-500 focus-visible:ring-opacity-75 lg:px-2 lg:py-2 mr-2 ">
               <Link href="#">
-                <a className="text-lg hover:text-keppel-600 divide-y-2 divide-keppel-600 font-mont">SERVICIOS</a>
+                <a className="text-sm hover:text-keppel-600 divide-y-2 divide-keppel-600 font-mont">SERVICIOS</a>
               </Link>
               <ChevronDownIcon
                 className="w-5 h-5 ml-1 text-keppel-600 hover:text-violet-500"
@@ -58,22 +58,22 @@ const Navbar = ({ toggle }) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-right absolute right-12 top-14 mt-2 flex flex-col z-20 w-auto h-auto rounded-md shadow-xl bg-gray-100 ring-1 ring-keppel-600 ring-opacity-5 focus:outline-none justify-center">
+              <Menu.Items className="origin-top-right absolute right-12 top-20 mt-2 flex flex-col z-20 w-auto h-auto rounded-md shadow-xl bg-white ring-1 ring-keppel-600 ring-opacity-5 focus:outline-none justify-center">
                   <Menu.Item>
                     {({ active }) => (
                       <button
                         className={`${
                           active
-                            ? "bg-keppel-200 text-keppel-600"
+                            ? "text-keppel-600"
                             : "text-keppel-600"
-                        } group font-bold flex rounded-md items-center w-full px-2 py-2 text-lg justify-center`}
+                        } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm justify-center`}
                       >
                         <Link href="/servicios">SERVICIOS</Link>
                       </button>
                     )}
                   </Menu.Item>
                 <div className="py-1 px-1 flex flex-row">
-                  <div className="bg-curious-blue-100">
+                  <div className="">
                     <Menu.Item>
                       {({ active }) => (
                         <button
@@ -111,8 +111,8 @@ const Navbar = ({ toggle }) => {
                               : "text-curious-blue-600"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
-                          <Link href="/climaLaboral/consultorias-capacitaciones">
-                            CONSULTORIAS Y CAPACITACIÓN
+                          <Link href="/climaLaboral/auditorias-nom-035">
+                          ASESORÍA EN NOM-035-STPS-2018 y NMX-R-025-SCFI-2015
                           </Link>
                         </button>
                       )}
@@ -126,14 +126,14 @@ const Navbar = ({ toggle }) => {
                               : "text-curious-blue-600"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
-                          <Link href="/climaLaboral/auditorias-nom-035">
-                            AUDITORIAS NOM 035 Y NOM 025
+                          <Link href="/climaLaboral/consultorias-capacitaciones">
+                            CONSULTORÍAS Y CAPACITACIÓN
                           </Link>
                         </button>
                       )}
                     </Menu.Item>
                   </div>
-                  <div className="bg-keppel-100 px-2">
+                  <div className="px-2">
                     <Menu.Item>
                       {({ active }) => (
                         <button
@@ -195,7 +195,7 @@ const Navbar = ({ toggle }) => {
                       )}
                     </Menu.Item>
                   </div>
-                  <div className="bg-green-50">
+                  <div className="">
                     <Menu.Item>
                       {({ active }) => (
                         <button
@@ -289,14 +289,14 @@ const Navbar = ({ toggle }) => {
               </Menu.Items>
             </Transition>
             <Link href="/aprendizaje">
-              <a className="mr-5 text-lg hover:text-keppel-600 font-mont">APRENDIZAJE</a>
+              <a className="mr-5 text-sm hover:text-keppel-600 font-mont">APRENDIZAJE</a>
             </Link>
             <Link href="/blog">
-              <a className="mr-5 text-lg hover:text-keppel-600 font-mont">BLOG</a>
+              <a className="mr-5 text-sm hover:text-keppel-600 font-mont">BLOG</a>
             </Link>
             <Link href="/contactanos">
-              <button className="inline-flex text-lg items-center text-white bg-keppel-500 border-0 py-2 px-4 focus:outline-none hover:bg-keppel-600 rounded-md mt-4 md:mt-0 font-mont">
-                CONTACTANOS
+              <button className="inline-flex text-sm items-center text-white bg-keppel-500 border-0 py-2 px-4 focus:outline-none hover:bg-keppel-600 rounded-md mt-4 md:mt-0 font-mont">
+                CONTÁCTANOS
                 <svg
                   fill="none"
                   stroke="currentColor"

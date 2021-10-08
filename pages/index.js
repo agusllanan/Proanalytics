@@ -19,7 +19,7 @@ export default function Home() {
     };
     obtenerDatos();
   }, []);
-  
+
   return (
     <Layout title="Proanalytics" description="Agregue una descripcion">
       <main className="">
@@ -27,26 +27,29 @@ export default function Home() {
         <section className="text-gray-600 body-font">
           <div className="w-full mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font text-3xl py-4 md:py-0 md:text-5xl mb-4 font-mont font-normal text-gray-500">
-                LO QUE NO SE MIDE <br />{" "}
+              <h2 className="title-font text-3xl py-4 md:py-0 md:text-5xl mb-4 font-mont font-normal text-gray-500">
+                ANALIZA Y<br />{" "}
                 <span className="font-semibold font-mont text-keppel-600">
-                  NO SE PUEDE MEJORAR
+                  MONITOREA
                 </span>
-              </h1>
-              <p className="mb-8 leading-relaxed w-full text-justify">
-                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-                air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-                park mlkshk tote bag selvage hot chicken authentic tumeric
-                truffaut hexagon try-hard chambray.Copper mug try-hard pitchfork
-                pour-over freegan heirloom neutra air plant cold-pressed tacos
-                poke beard tote bag. Heirloom echo park mlkshk tote bag selvage
-                hot chicken authentic tumeric truffaut hexagon try-hard chambray
+              </h2>
+              <p className="mb-8 leading-relaxed w-full text-lg text-justify">
+                Lo que se mide, se puede mejorar. <br /> <br />
+                Conoce cómo las personas pueden ser más productivas y felices en
+                su trabajo con{" "}
+                <span className="font-bold text-keppel-500">
+                  procesos más efectivos y eficientes
+                </span>{" "}
+                a través del{" "}
+                <span className="font-bold text-keppel-500">
+                  análisis y monitoreo de información, uso de herramientas e
+                  implementación de metodologías.{" "}
+                </span>
               </p>
               <div className="flex justify-center">
-                  <button 
-                  className="inline-flex text-white mx-auto bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
-                    Comenzar
-                  </button>
+                <button className="inline-flex text-white mx-auto bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
+                  Comenzar
+                </button>
               </div>
             </div>
             <div className="lg:ml-4 lg:w-1/2 md:w-1/2 w-5/6">
@@ -66,13 +69,12 @@ export default function Home() {
                 QUIENES SOMOS?{" "}
               </h1>
               <p className="mb-8 w-2/3 leading-relaxed w/80 text-white text-justify">
-                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-                air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-                park mlkshk tote bag selvage hot chicken authentic tumeric
-                truffaut hexagon try-hard chambray.Copper mug try-hard pitchfork
-                pour-over freegan heirloom neutra air plant cold-pressed tacos
-                poke beard tote bag. Heirloom echo park mlkshk tote bag selvage
-                hot chicken authentic tumeric truffaut hexagon try-hard chambray
+                Profesionales que han trabajado con y para personas y que
+                valoran servir, conforman{" "}
+                <span className="font-bold">PROANALYTICS:</span> una empresa
+                dedicada a utilizar la experiencia y las herramientas para
+                obtener mejores resultados en beneficio de las empresas y sus
+                colaboradores.
               </p>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -126,13 +128,19 @@ export default function Home() {
                 </span>
               </h1>
               <p className="mb-8 leading-relaxed w-full text-justify">
-                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-                air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-                park mlkshk tote bag selvage hot chicken authentic tumeric
-                truffaut hexagon try-hard chambray.Copper mug try-hard pitchfork
-                pour-over freegan heirloom neutra air plant cold-pressed tacos
-                poke beard tote bag. Heirloom echo park mlkshk tote bag selvage
-                hot chicken authentic tumeric truffaut hexagon try-hard chambray
+                <span className="font-bold text-keppel-500">Herramientas:</span>{" "}
+                conoce las mejores herramientas de gestión y cómo usarlas para
+                obtener mejores resultados en tu empresa. <br />
+                <span className="font-bold text-keppel-500">
+                  Experiencia:
+                </span>{" "}
+                te acompañamos y asesoramos en tus proyectos para que alcances
+                tus objetivos. <br />
+                <span className="font-bold text-keppel-500">
+                  Resultados:
+                </span>{" "}
+                mide el impacto de la implementación de nuestra experiencia y
+                herramientas como lo han hecho nuestros clientes.
               </p>
               <div className="flex justify-center"></div>
             </div>
