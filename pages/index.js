@@ -25,7 +25,7 @@ export default function Home() {
       <main className="">
         <Dropdown />
         <section className="text-gray-600 body-font">
-          <div className="w-full mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+          <div className="w-full mx-auto flex px-14 py-10 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h2 className="title-font text-3xl py-4 md:py-0 md:text-5xl mb-4 font-mont font-normal text-gray-500">
                 ANALIZA Y<br />{" "}
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
           </div>
           {/* Aca va la seccion del video */}
-          <div className="w-full mx-auto bg-keppel-500 flex px-5 py-16 md:flex-row flex-col items-center">
+          <div className="w-full mx-auto bg-keppel-500 flex px-14 py-16 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font text-3xl md:text-6xl py-4 md:py-0 mb-4 font-mont font-medium text-white">
                 QUIENES SOMOS?{" "}
@@ -119,10 +119,10 @@ export default function Home() {
             </div>
           </div>
           {/* //Aca va la seccion de Nuestra experiencia a tu alcance */}
-          <div className="w-full mx-auto bg-curious-blue-1 00 flex px-5 py-16 md:flex-row flex-col items-center bg-curious-blue-100">
+          <div className="w-full mx-auto bg-curious-blue-1 00 flex px-14 py-16 md:flex-row flex-col items-center bg-curious-blue-100">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
               <h1 className="font-normal py-4 md:py-0 text-4xl lg:text-5xl mb-4 text-gray-500">
-                NUETRA EXPERIENCIA <br />{" "}
+                NUESTRA EXPERIENCIA <br />{" "}
                 <span className="font-semibold text-blue-500">
                   A TU ALCANCE
                 </span>

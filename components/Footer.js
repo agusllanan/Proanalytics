@@ -102,7 +102,7 @@ const subscribe = async () => {
               <p className="w-1/2 mt-2 text-green-600">¡Agregado con éxito!</p>
             )}
             <p className="text-gray-700 text-base mt-2 md:text-left text-center">
-              Entérate de nuestra últimas novedades.
+              Entérate de nuestras últimas novedades.
             </p>
           </div>
         </div>

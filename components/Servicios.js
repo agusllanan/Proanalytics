@@ -4,8 +4,8 @@ import Link from "next/link";
   const Servicios = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-16 mx-auto">
-        <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
+      <div className="container px-5 md:px-14 py-16 mx-auto font-mont">
+        <h1 className="font-regular text-4xl flex justify-center pb-10 text-keppel-500">
           {" "}
           Nuestros Servicios{" "}
         </h1>

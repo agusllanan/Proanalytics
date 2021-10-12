@@ -68,7 +68,7 @@ export const nivel1DesingDeploy = () => {
             />
             {/* <textarea className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out">Escríbenos tus inquietudes y horario de contacto</textarea> */}
             <button className="ml-4 text-white font-bold bg-keppel-500 border-0 py-2 mb-4 mt-4 focus:outline-none hover:bg-keppel-600 rounded w-4/5">
-              SOLICITA TU DIAGNOSTICO GRATUITO
+              SOLICITA TU DIAGNÓSTICO GRATUITO
             </button>
           </div>
         </div>
