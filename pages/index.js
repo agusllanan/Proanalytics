@@ -157,12 +157,12 @@ export default function Home() {
         </section>
         {/* Para hacer un hover scale o rotation hay que hacer esto hover:scale-105 transform transition-all duration-500 */}
         <section>
-          <div className=" w-full py-10">
-            <h3 className="text-center md:text-left mx-auto py-3 text-2xl mb-4 ml-4 font-bold text-blue-400">
+          <div className=" w-full py-10 font-mont">
+            <h3 className="text-center md:text-left mx-auto py-3 px-10 text-2xl mb-4 ml-4 font-bold text-keppel-500">
               {" "}
               PODCAST{" "}
             </h3>
-            <div className="flex flex-nowrap flex-row justify-between">
+            <div className="flex flex-nowrap flex-row justify-between px-10">
               <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
                 <div className="p-4">
                   <img
@@ -196,7 +196,7 @@ export default function Home() {
         </section>
         <section>
           <div className="w-full py-10">
-            <h3 className="text-center md:text-left py-3 text-2xl mb-4 ml-4 font-bold text-blue-400">
+            <h3 className="text-center md:text-left py-3 text-2xl mb-4 ml-4 font-bold font-mont text-keppel-500">
               {" "}
               WEBCAST{" "}
             </h3>
