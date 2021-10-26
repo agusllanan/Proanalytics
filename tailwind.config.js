@@ -8,6 +8,30 @@ module.exports = {
         'mont': ['Montserrat', 'sans-serif'],
       },
       colors: {
+        'twilight-blue': {
+          '50': '#feffff', 
+          '100': '#fdffff', 
+          '200': '#fbfeff', 
+          '300': '#f8fdff', 
+          '400': '#f3fcff', 
+          '500': '#eefbff', 
+          '600': '#d6e2e6', 
+          '700': '#b3bcbf', 
+          '800': '#8f9799', 
+          '900': '#757b7d'
+      },
+        'shakespeare': {
+          '50': '#f7fbfd', 
+          '100': '#eff8fb', 
+          '200': '#d7ecf6', 
+          '300': '#bfe1f0', 
+          '400': '#90cbe4', 
+          '500': '#60b4d9', 
+          '600': '#56a2c3', 
+          '700': '#4887a3', 
+          '800': '#3a6c82', 
+          '900': '#2f586a'
+      },
         'curious-blue': {
           '50': '#f4f9fc', 
           '100': '#eaf4f9', 
@@ -53,5 +77,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('tailwind-scrollbar-hide'),
+  ],
 }

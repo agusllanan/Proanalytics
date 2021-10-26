@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Menu, Transition } from "@headlessui/react";
-import "animate.css"
+import "animate.css";
 
 const Dropdown = ({ isOpen, toggle }) => {
   return (

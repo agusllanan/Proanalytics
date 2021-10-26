@@ -1,7 +1,6 @@
 import Layout from "../components/Layout";
 import { useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import Servicios from "../components/Servicios";
 import Dropdown from "../components/Dropdown";
 import "animate.css";
@@ -54,7 +53,7 @@ export default function Home() {
             </div>
             <div className="lg:ml-4 lg:w-1/2 md:w-1/2 w-5/6">
               <Image
-                src="/img/home/Portada.jpeg"
+                src="/img/home/portada-general.jpeg"
                 width={1400}
                 height={1000}
                 className="animate__animated animate__fadeInRight relative h-0 object-cover rounded-xl object-center pb-2/3"
@@ -62,13 +61,22 @@ export default function Home() {
               />
             </div>
           </div>
-          {/* Aca va la seccion del video */}
-          <div className="w-full mx-auto bg-keppel-500 flex px-14 py-16 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font text-3xl md:text-6xl py-4 md:py-0 mb-4 font-mont font-medium text-white">
-                QUIENES SOMOS?{" "}
-              </h1>
-              <p className="mb-8 w-2/3 leading-relaxed w/80 text-white text-justify">
+
+          <div className="w-full mx-auto flex px-14 py-10 md:flex-row flex-col items-center bg-keppel-500">
+          <div className="lg:w-1/2 md:w-1/2 w-5/6">
+              <Image
+                src="/img/home/foto-nosotros.jpg"
+                width={1400}
+                height={1000}
+                className="relative h-0 object-cover rounded-xl object-center pb-2/3"
+                alt="Aqui va el alt de la imagen"
+              />
+            </div>
+            <div className="lg:flex-grow md:pl-20 md:pr-2 md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center mx-auto text-center">
+              <h2 className="title-font text-3xl md:py-0 md:text-5xl mb-4 font-mont font-normal text-gray-50">
+              ¿QUIÉNES SOMOS?{" "}
+              </h2>
+              <p className="mb-8 w-full leading-relaxed text-white text-justify pr-4">
                 Profesionales que han trabajado con y para personas y que
                 valoran servir, conforman{" "}
                 <span className="font-bold">PROANALYTICS:</span> una empresa
@@ -76,72 +84,70 @@ export default function Home() {
                 obtener mejores resultados en beneficio de las empresas y sus
                 colaboradores.
               </p>
-            </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <Image
-                src="/img/1.jpeg"
-                width={920}
-                height={800}
-                className="object-cover object-center rounded-lg"
-                alt="Aqui va el alt de la imagen"
-              />
+              <div className="flex justify-center">
+                <button className="inline-flex text-keppel-500 mx-auto bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-100 rounded text-lg">
+                  Conócenos
+                </button>
+              </div>
             </div>
           </div>
+
           <Servicios />
         </section>
         <section className="text-gray-600 body-font">
           <div className="w-full">
             <div className="flex flex-wrap text-center">
-              <div className="py-10 bg-blue-400 w-1/3">
-                <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
+              <div className="py-10 bg-curious-blue-500 w-1/3">
+                <h2 className="title-font font-bold md:text-6xl text-3xl text-white">
                   +20
                 </h2>
-                <p className="leading-relaxed font-bold text-lg text-white">
+                <p className="leading-relaxed font-regular text-base text-white">
                   AÑOS DE EXPERIENCIA
                 </p>
               </div>
-              <div className="py-10 bg-blue-300 w-1/3">
-                <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
-                  + 1,000
+              <div className="py-10 bg-shakespeare-500 w-1/3">
+                <h2 className="title-font font-bold md:text-6xl text-3xl text-white">
+                  +1,000
                 </h2>
-                <p className="leading-relaxed font-bold text-lg text-white">
+                <p className="leading-relaxed font-regular text-base text-white">
                   PERSONAS IMPACTADAS
                 </p>
               </div>
-              <div className="py-10 bg-blue-400 w-1/3">
-                <h2 className="title-font font-bold sm:text-4xl text-3xl text-white">
-                  + 300
+              <div className="py-10 bg-curious-blue-500 w-1/3">
+                <h2 className="title-font font-bold md:text-6xl text-3xl text-white">
+                  +300
                 </h2>
-                <p className="leading-relaxed font-bold text-lg text-white">
+                <p className="leading-relaxed font-regular text-base text-white">
                   PROYECTOS EXITOSOS
                 </p>
               </div>
             </div>
           </div>
           {/* //Aca va la seccion de Nuestra experiencia a tu alcance */}
-          <div className="w-full mx-auto bg-curious-blue-1 00 flex px-14 py-16 md:flex-row flex-col items-center bg-curious-blue-100">
+          <div className="w-full mx-auto bg-curious-blue-1 00 flex px-14 py-16 md:flex-row flex-col items-center bg-twilight-blue-500">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
-              <h1 className="font-normal py-4 md:py-0 text-4xl lg:text-5xl mb-4 text-gray-500">
+              <h2 className="font-normal py-4 md:py-0 text-4xl lg:text-5xl mb-4 text-gray-500">
                 NUESTRA EXPERIENCIA <br />{" "}
-                <span className="font-semibold text-blue-500">
+                <span className="font-bold text-curious-blue-500 mb-10">
                   A TU ALCANCE
                 </span>
-              </h1>
+              </h2> <br />
               <p className="mb-8 leading-relaxed w-full text-justify">
-                <span className="font-bold text-keppel-500">Herramientas:</span>{" "}
+                <span className="font-bold text-curious-blue-500">Herramientas:</span>{" "}
                 conoce las mejores herramientas de gestión y cómo usarlas para
-                obtener mejores resultados en tu empresa. <br />
-                <span className="font-bold text-keppel-500">
+                obtener mejores resultados en tu empresa. <br /> <br />
+                <span className="font-bold text-curious-blue-500">
                   Experiencia:
                 </span>{" "}
                 te acompañamos y asesoramos en tus proyectos para que alcances
-                tus objetivos. <br />
-                <span className="font-bold text-keppel-500">
+                tus objetivos. <br /> <br />
+                <span className="font-bold text-curious-blue-500">
                   Resultados:
                 </span>{" "}
                 mide el impacto de la implementación de nuestra experiencia y
                 herramientas como lo han hecho nuestros clientes.
               </p>
+              <div className="flex justify-center"> <button className="inline-flex text-white mx-auto bg-curious-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-curious-blue-400 rounded text-lg"> Explora nuestro contenido </button> </div>
               <div className="flex justify-center"></div>
             </div>
             <div className=" lg:w-1/2 md:w-1/2 w-5/6">
@@ -210,10 +216,10 @@ export default function Home() {
         <section>
           <div className="flex w-full ">
             <Image
-              src="/img/home/Footer.jpeg"
+              src="/img/home/footer.jpeg"
               width={1920}
               height={700}
-              className="object-cover object-top"
+              className="object-cover object-center"
               alt="Aqui va el alt de la imagen"
             />
           </div>

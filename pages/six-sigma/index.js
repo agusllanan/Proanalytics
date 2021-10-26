@@ -12,7 +12,7 @@ export default function sixSigma() {
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-full font-mont">
+            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-5/6 font-mont">
               <div className="mb-4">
                 <h3 className="text-4xl py-4 text-keppel-500 font-bold">
                   SIX SIGMA
@@ -62,10 +62,10 @@ export default function sixSigma() {
         <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
           NUESTROS SERVICIOS EN SIX SIGMA
         </h1>
-        <div className="container px-5 pt-16 mx-auto font-mont">
-          <div className="flex flex-wrap -m-4">
-            <div className="p-4 md:w-1/3">
-              <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div className="relative flex-col px-5 pt-16 mx-auto font-mont">
+          <div className="flex flex-nowrap -m-4 first-letter:overflow-y-hidden overflow-x-scroll">
+            <div className="p-4 md:w-1/3 min-w-full ">
+              <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg ">
                 <div className="p-6">
                   <Image
                     src="/img/six-sigma/Certificaciones_Mesa de trabajo 1.png"
@@ -85,7 +85,7 @@ export default function sixSigma() {
                     varios temas de nuestro catálogo de servicios ajustándose a
                     un tiempo y presupuesto objetivo.
                   </p>
-                  <div className="flex items-center flex-wrap ">
+                  <div className="flex items-center flex-nowrap">
                     <Link href="/six-sigma/basic-quick-smart-trainings">
                       <a>
                         <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
@@ -176,12 +176,7 @@ export default function sixSigma() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="container lg:pl-10 px-5 pb-16 mx-auto font-mont">
-        <div className="flex flex-wrap -m-4">
-          <div className="p-4 md:w-1/3">
+            <div className="p-4 md:w-1/3">
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
@@ -259,9 +254,13 @@ export default function sixSigma() {
               </div>
             </div>
           </div>
+          </div>
         </div>
       </div>
-
+      <div className="container lg:pl-10 px-5 pb-16 mx-auto font-mont">
+        <div className="flex flex-wrap -m-4">
+        </div>
+      </div>
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
         style={{ backgroundImage: `url(/img/six-sigma/Diagnóstico.jpg)` }}

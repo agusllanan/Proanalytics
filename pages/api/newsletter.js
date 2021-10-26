@@ -30,9 +30,7 @@ export default async (req, res) => {
   try {
     const { url, data, headers } = getRequestParams(email);
     const response = await axios.post(url, data, { headers });
-
     // Exitoso!
-
     return res.status(201).json({ error: null });
   } catch (error) {
     return res.status(400).json({

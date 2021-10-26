@@ -67,29 +67,18 @@ const Navbar = ({ toggle }) => {
               leaveTo="opacity-0 scale-95"
             >
               <Menu.Items className="origin-top-right absolute right-12 top-20 mt-2 flex flex-col z-20 w-auto h-auto rounded-md shadow-xl bg-white ring-1 ring-keppel-600 ring-opacity-5 focus:outline-none justify-center">
-                <Menu.Item>
-                  {({ active }) => (
-                    <button
-                      className={`${
-                        active ? "text-keppel-600" : "text-keppel-600"
-                      } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm justify-center`}
-                    >
-                      <Link href="/servicios">SERVICIOS</Link>
-                    </button>
-                  )}
-                </Menu.Item>
-                <div className="py-1 px-1 flex flex-row">
-                  <div className="">
+                <div className="py-1 px-1 flex flex-row divide-x-2 divide-keppel-500">
+                  <div className="px-4">
                     <Menu.Item>
                       {({ active }) => (
                         <button
                           className={`${
                             active
-                              ? "bg-curious-blue-200 text-curious-blue-600"
-                              : "text-curious-blue-600"
-                          } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm justify-center`}
+                              ? "bg-curious-blue-200 text-gray-500"
+                              : "text-gray-500"
+                          } group font-bold flex rounded-md  w-full px-2 py-2 text-sm `}
                         >
-                          <Link href="/climaLaboral">CLIMA LABORAL</Link>
+                          <Link href="/climaLaboral">Clima Laboral</Link>
                         </button>
                       )}
                     </Menu.Item>
@@ -98,12 +87,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-curious-blue-200 text-curious-blue-600"
-                              : "text-curious-blue-600"
+                              ? "bg-curious-blue-200 text-gray-500"
+                              : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/climaLaboral/estudios-clima-laboral">
-                            ESTUDIOS CLIMA LABORAL
+                            Estudios de clima laboral
                           </Link>
                         </button>
                       )}
@@ -113,12 +102,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-curious-blue-200 text-curious-blue-600"
-                              : "text-curious-blue-600"
+                            ? "bg-curious-blue-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/climaLaboral/auditorias-nom-035">
-                            ASESORÍA EN NOM-035-STPS-2018 y NMX-R-025-SCFI-2015
+                            Asesoría en NOM-035-STPS-2018 y NMX-R-025-SCFI-2015
                           </Link>
                         </button>
                       )}
@@ -128,29 +117,29 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-curious-blue-200 text-curious-blue-600"
-                              : "text-curious-blue-600"
+                            ? "bg-curious-blue-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/climaLaboral/consultorias-capacitaciones">
-                            CONSULTORÍAS Y CAPACITACIÓN
+                            Consultoría y Capacitación
                           </Link>
                         </button>
                       )}
                     </Menu.Item>
                   </div>
-                  <div className="px-2">
+                  <div className="px-4">
                     <Menu.Item>
                       {({ active }) => (
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-curious-blue-200 text-gray-500"
+                            : "text-gray-500"
                           } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/diseno-automatizacion-procesos">
-                            DISEÑO Y AUTOMATIZACIÓN DE PROCESOS
+                            Diseño y automatización de Procesos
                           </Link>
                         </button>
                       )}
@@ -160,12 +149,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-curious-blue-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/diseno-automatizacion-procesos/nivel1-desing-deploy">
-                            NIVEL 1 - DESING & DEPLOY
+                            Nivel 1 - Desing & Deploy
                           </Link>
                         </button>
                       )}
@@ -175,12 +164,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-curious-blue-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/diseno-automatizacion-procesos/nivel2-create-do">
-                            NIVEL 2 - CREATE & DO
+                            Nivel 2 - Create & Do
                           </Link>
                         </button>
                       )}
@@ -190,28 +179,28 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-curious-blue-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/diseno-automatizacion-procesos/nivel3-project-management">
-                            NIVEL 3 - PROJECT MANAGEMENT
+                            Nivel 3 - Project Management
                           </Link>
                         </button>
                       )}
                     </Menu.Item>
                   </div>
-                  <div className="">
+                  <div className="px-4 pb-2">
                     <Menu.Item>
                       {({ active }) => (
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
-                          } group font-bold justify-center flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                            ? "bg-keppel-200 text-gray-500"
+                            : "text-gray-500"
+                          } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
-                          <Link href="/six-sigma">SIX SIGMA</Link>
+                          <Link href="/six-sigma">Six Sigma</Link>
                         </button>
                       )}
                     </Menu.Item>
@@ -220,12 +209,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-keppel-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/basic-quick-smart-trainings">
-                            BASIC QUICK SMART TRAININGS
+                            Basic Quick Smart Trainings
                           </Link>
                         </button>
                       )}
@@ -235,12 +224,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-keppel-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/nivel1-lean-6sigma-white-belt">
-                            NIVEL 1 - WHITE BELT
+                            Nivel 1 - White Belt
                           </Link>
                         </button>
                       )}
@@ -250,12 +239,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-keppel-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/nivel2-lean-6sigma-yellow-belt">
-                            NIVEL 2 - YELLOW BELT
+                            Nivel 2 - Yellow Belt
                           </Link>
                         </button>
                       )}
@@ -265,12 +254,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-keppel-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/nivel3-lean-6sigma-green-belt">
-                            NIVEL 3 - GREEN BELT
+                            Nivel 3 - Green Belt
                           </Link>
                         </button>
                       )}
@@ -280,12 +269,12 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-keppel-200 text-keppel-600"
-                              : "text-keppel-600"
+                            ? "bg-keppel-200 text-gray-500"
+                            : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/six-sigma/nivel4-lean-6sigma-black-belt">
-                            NIVEL 4 - BLACK BELT
+                            Nivel 4 - Black Belt
                           </Link>
                         </button>
                       )}

@@ -14,13 +14,13 @@ import Link from "next/link";
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/img/home/Servicio - SixSigma.jpg"
+                  src="/img/home/servicio-six-sigma.jpg"
                   width={1200}
                   height={1200}
                   className="object-cover rounded-xl object-center "
                   alt="Aqui va el alt de la imagen"
                 />
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                <h1 className="title-font text-xl font-bold text-gray-900 my-2">
                   Six Sigma
                 </h1>
                 <p className="leading-relaxed mb-3">
@@ -42,13 +42,13 @@ import Link from "next/link";
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/img/home/Servicio - Clima Laboral.jpg"
+                  src="/img/home/servicio-clima-laboral.jpeg"
                   width={1200}
                   height={1200}
                   className="object-cover rounded-xl object-center "
                   alt="Aqui va el alt de la imagen"
                 />
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                <h1 className="title-font text-xl font-bold text-gray-900 my-2">
                   Clima Laboral
                 </h1>
                 <p className="leading-relaxed mb-3">
@@ -70,13 +70,13 @@ import Link from "next/link";
             <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/img/home/Servicio - Smartsheet.jpg"
+                  src="/img/home/servicio-optimizacion.jpg"
                   width={1200}
                   height={1200}
-                  className="object-cover rounded-xl object-center"
+                  className="object-cover rounded-xl object-left"
                   alt="Aqui va el alt de la imagen"
                 />
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                <h1 className="title-font text-xl font-bold text-gray-900 my-2">
                   Diseño y automatización de procesos
                 </h1>
                 <p className="leading-relaxed mb-3">
