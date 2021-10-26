@@ -6,38 +6,41 @@ export default function climaLaboral() {
   return (
     <Layout>
       <div
-        className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
+        className="bg-no-repeat bg-cover relative border-b-4 border-bright-turquoise-500"
         style={{
-          backgroundImage: `url(/img/clima-laboral/portadaClimaLaboral.jpg)`,
+          backgroundImage: `url(/img/clima-laboral/portada-clima-laboral.jpeg)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
-        <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
+        <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle font-mont">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5">
             <div className="my-2 md:my-0 sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 md:w-2/3 lg:w-full h-auto">
               <div className="mb-4">
-                <h3 className="font-semibold text-4xl py-4 text-scooter-400">
+                <h3 className="font-bold text-5xl py-4 text-bright-turquoise-500">
                   CLIMA
-                  <br /> <span className="text-keppel-700">LABORAL</span>
+                  <br />{" "}
+                  <span className="text-curious-blue-500 font-normal">
+                    LABORAL
+                  </span>
                 </h3>
                 <p className="text-gray-500 text-justify py-4">
                   Conoce las posibles causas de{" "}
-                  <span className="font-bold text-keppel-500">
+                  <span className="font-bold text-curious-blue-500">
                     rotación en tu empresa
                   </span>{" "}
                   y trabaja en estrategias de{" "}
-                  <span className="font-bold text-keppel-500">
-                    retención de personal.
+                  <span className="font-bold text-curious-blue-500">
+                    retención de personal. <br />
                   </span>{" "}
                   <br />
                   El "engagement",{" "}
-                  <span className="font-bold text-keppel-500">
+                  <span className="font-bold text-curious-blue-500">
                     compromiso organizacional
                   </span>{" "}
                   y los mejores indicadores de productividad de los
                   colaboradores son el resultado de conocer, medir y atender con
                   ESTRATEGIA. Proanalytics te acompaña con{" "}
-                  <span className="font-bold text-keppel-500">
+                  <span className="font-bold text-curious-blue-500">
                     servicios de consultoría y capacitación, estudios y
                     encuestas de clima laboral
                   </span>
@@ -49,14 +52,14 @@ export default function climaLaboral() {
                   <Link href="/contactanos">
                     <button
                       type="submit"
-                      className=" w-full lg:mx-3 flex justify-center bg-transparent border-2 border-keppel-600 text-keppel-600 p-3 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
+                      className=" w-full lg:mx-3 flex justify-center bg-transparent border-2 border-curious-blue-500 text-curious-blue-500 p-3 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250 hover:bg-curious-blue-500 hover:text-white"
                     >
                       ESCRÍBENOS
                     </button>
                   </Link>
                   <button
                     type="submit"
-                    className="w-full flex justify-center bg-scooter-500  hover:bg-keppel-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
+                    className="w-full flex justify-center bg-bright-turquoise-500  hover:bg-curious-blue-500 hover:text-bright-turquoise-500 text-curious-blue-500 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
                   >
                     HAZ UNA CITA
                   </button>
@@ -66,30 +69,31 @@ export default function climaLaboral() {
           </div>
         </div>
       </div>
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font font-mont">
         <div className="container px-5 py-16 mx-auto">
-          <h1 className="font-bold text-4xl flex justify-center pb-10 text-keppel-500">
+          <h2 className="font-regular text-4xl flex justify-center pb-10 text-curious-blue-500">
             {" "}
-            NUESTROS SERVICIOS EN CLIMA LABORAL
-          </h1>
+            NUESTROS SERVICIOS EN {""}
+            <span className="font-bold ml-2">CLIMA LABORAL</span>
+          </h2>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/clima-laboral/Servicio Encuesta.jpeg"
+                    src="/img/clima-laboral/servicio-diagnostico.jpeg"
                     width={1200}
                     height={1200}
-                    className="object-cover rounded-xl object-center "
+                    className="object-cover rounded-xl object-right"
                     alt="Aqui va el alt de la imagen"
                   />
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h2 className="title-font text-lg font-bold pt-4 text-gray-900 mb-3">
                     Estudios de Clima Laboral
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed mb-3">
                     Analiza a través de encuestas, entrevistas, sesiones de
                     focus group y otras técnicas el nivel de{" "}
-                    <span className="font-bold text-keppel-500">
+                    <span className="font-bold text-curious-blue-500">
                       satisfacción laboral
                     </span>{" "}
                     de tus colaboradores.
@@ -97,7 +101,7 @@ export default function climaLaboral() {
                   <div className="flex items-center flex-wrap ">
                     <Link href="/climaLaboral/estudios-clima-laboral">
                       <a>
-                        <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
+                        <button className="inline-flex text-curious-blue-500 font-bold bg-bright-turquoise-500 border-0 py-2 px-6 focus:outline-none hover:bg-curious-blue-500 hover:text-bright-turquoise-500 rounded text-lg transition ease-in duration-250">
                           Ver más
                         </button>
                       </a>
@@ -110,40 +114,40 @@ export default function climaLaboral() {
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/clima-laboral/Servicio - Auditoria.jpg"
+                    src="/img/clima-laboral/servicio-nom35.jpeg"
                     width={1200}
                     height={1200}
                     className="object-cover rounded-xl object-center "
                     alt="Aqui va el alt de la imagen"
                   />
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                  Asesorías en NOM-035-STPS-2018 y NMX-R-025-SCFI-2015
-                  </h1>
+                  <h2 className="title-font text-lg font-bold pt-4 text-gray-900 mb-3">
+                    Asesorías en NOM-035-STPS-2018 y NMX-R-025-SCFI-2015
+                  </h2>
                   <p className="leading-relaxed mb-3">
                     Identifica, prevé y atiende factores de riesgo psicosocial y
                     trabaja en{" "}
-                    <span className="font-bold text-keppel-500">
+                    <span className="font-bold text-curious-blue-500">
                       ambientes laborales favorables
                     </span>{" "}
                     acorde a la{" "}
-                    <span className="font-bold text-keppel-500">
+                    <span className="font-bold text-curious-blue-500">
                       Norma Mexicana 035.
                     </span>{" "}
                     <br />
                     Asesórate y certifícate como Centro de Trabajo con prácticas
                     de{" "}
-                    <span className="font-bold text-keppel-500">
+                    <span className="font-bold text-curious-blue-500">
                       Igualdad Laboral y no Discriminación
                     </span>{" "}
                     acorde a la{" "}
-                    <span className="font-bold text-keppel-500">
+                    <span className="font-bold text-curious-blue-500">
                       Norma Mexicana 025.
                     </span>
                   </p>
                   <div className="flex items-center flex-wrap">
                     <Link href="/climaLaboral/auditorias-nom-035">
                       <a>
-                        <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
+                        <button className="inline-flex text-curious-blue-500 font-bold bg-bright-turquoise-500 border-0 py-2 px-6 focus:outline-none hover:bg-curious-blue-500 hover:text-bright-turquoise-500 rounded text-lg transition ease-in duration-250">
                           Ver más
                         </button>
                       </a>
@@ -156,33 +160,33 @@ export default function climaLaboral() {
               <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/clima-laboral/Servicio - NOM035.jpg"
+                    src="/img/clima-laboral/servicio-consultoría.jpeg"
                     width={1200}
                     height={1200}
-                    className="object-cover rounded-xl object-center"
+                    className="object-cover rounded-xl object-left"
                     alt="Aqui va el alt de la imagen"
                   />
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h2 className="title-font text-lg font-bold pt-4 text-gray-900 mb-3">
                     Consultoría y capacitación
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed mb-3">
                     Asesórate y{" "}
-                    <span className="font-bold text-keppel-500">
+                    <span className="font-bold text-curious-blue-500">
                       capacita a tus colaboradores
                     </span>{" "}
                     en temas relacionados con{" "}
-                    <span className="font-bold text-keppel-500">
+                    <span className="font-bold text-curious-blue-500">
                       ambientes laborales
                     </span>{" "}
                     favorables, libres de violencia, planes de acción,{" "}
-                    <span className="font-bold text-keppel-500">
+                    <span className="font-bold text-curious-blue-500">
                       bienestar, engagement laboral, igualdad laboral
                     </span>{" "}
                     y más.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/climaLaboral/consultorias-capacitaciones">
-                      <button className="inline-flex text-white font-bold bg-keppel-600 border-0 py-2 px-6 focus:outline-none rounded text-lg hover:bg-keppel-400">
+                      <button className="inline-flex text-curious-blue-500 font-bold bg-bright-turquoise-500 border-0 py-2 px-6 focus:outline-none rounded text-lg hover:bg-curious-blue-500 hover:text-bright-turquoise-500 transition ease-in duration-250">
                         Ver más
                       </button>
                     </Link>
@@ -288,7 +292,7 @@ export default function climaLaboral() {
         </div>
       </div>
       <div className="flex flex-col sm:flex-row">
-      <div className="text-center flex sm:w-1/2 w-full ">
+        <div className="text-center flex sm:w-1/2 w-full ">
           <h3 className="flex h-44 py-24 md:py-8 md:h-72 text-xl sm:text-4xl text-scooter-500 font-bold mx-auto items-center">
             ¿QUIERES SABER MÁS DE CLIMA LABORAL?
           </h3>
@@ -296,8 +300,11 @@ export default function climaLaboral() {
         <div className="w-full sm:w-1/2 flex font-mont">
           <p className="w-4/5 mx-auto text-lg py-8 text-gray-500 md:h-72 h-44 flex flex-col text-justify place-content-center">
             Mejora el{" "}
-            <span className="font-bold text-gray-500 inline-flex text-xl">CLIMA LABORAL</span> de
-            tu empresa con los recursos y estrategias que tenemos para ti. <br />
+            <span className="font-bold text-gray-500 inline-flex text-xl">
+              CLIMA LABORAL
+            </span>{" "}
+            de tu empresa con los recursos y estrategias que tenemos para ti.{" "}
+            <br />
             ¡Impulsa a tus colaboradores todos los días con nuestro contenido!
           </p>
         </div>

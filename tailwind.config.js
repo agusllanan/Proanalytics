@@ -8,6 +8,19 @@ module.exports = {
         'mont': ['Montserrat', 'sans-serif'],
       },
       colors: {
+        'bright-turquoise': {
+          '50': '#f2fefe', 
+          '100': '#e6fdfc', 
+          '200': '#c0faf8', 
+          '300': '#9af7f4', 
+          '400': '#4ff0eb', 
+          '500': '#03eae3', 
+          '600': '#03d3cc', 
+          '700': '#02b0aa', 
+          '800': '#028c88', 
+          '900': '#01736f'
+      }
+      ,
         'twilight-blue': {
           '50': '#feffff', 
           '100': '#fdffff', 
