@@ -4,8 +4,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      margin: {
+        26: '106px',
+       },
       fontFamily: {
         'mont': ['Montserrat', 'sans-serif'],
+        'jost': ['Jost', 'sans-serif'],
       },
       colors: {
         'bright-turquoise': {

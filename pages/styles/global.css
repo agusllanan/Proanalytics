@@ -2,8 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    a {
-        @apply text-keppel-500 hover:text-keppel-400
-    }
-}

@@ -94,7 +94,7 @@ export const auditorias = () => {
           </h3>
         </div>
         <div className="bg-white w-full sm:w-1/2 flex justify-center items-center">
-          <ul className="flex-col py-6 list-disc w-4/5 space-y-5">
+          <ul className="flex-col list-disc w-4/5 space-y-5">
             <li className="text-scooter-500 text-xl ">
               Prevé errores u omisiones.
             </li>

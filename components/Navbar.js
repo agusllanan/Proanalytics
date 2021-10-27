@@ -7,7 +7,7 @@ import Dropdown from "./Dropdown";
 const Navbar = ({ toggle }) => {
   return (
     <Menu
-      className="flex flex-nowrap items-center justify-between bg-white relative shadow-sm h-20 mx-6"
+      className="flex flex-nowrap items-center justify-between bg-white relative shadow-sm h-20 px-6"
       as="div"
     >
       {({ open }) => (
@@ -36,18 +36,18 @@ const Navbar = ({ toggle }) => {
           <Dropdown />
           <div className="pr-8 lg:flex hidden lg:items-center">
             <Link href="/">
-              <a className="mr-5 text-sm hover:text-keppel-600 font-mont">
+              <a className="mr-5 text-base hover:text-keppel-600 font-mont">
                 INICIO
               </a>
             </Link>
             <Link href="/nosotros">
-              <a className="mr-3 text-sm hover:text-keppel-600 font-mont">
+              <a className="mr-3 text-base hover:text-keppel-600 font-mont">
                 NOSOTROS
               </a>
             </Link>
             <Menu.Button className="relative inline-flex justify-center items-center w-full rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-keppel-500 focus-visible:ring-opacity-75 lg:px-2 lg:py-2 mr-2 ">
               <Link href="#">
-                <a className="text-sm hover:text-keppel-600 divide-y-2 divide-keppel-600 font-mont">
+                <a className="text-base hover:text-keppel-600 divide-y-2 divide-keppel-600 font-mont">
                   SERVICIOS
                 </a>
               </Link>
@@ -66,7 +66,7 @@ const Navbar = ({ toggle }) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-right absolute right-12 top-20 mt-2 flex flex-col z-20 w-auto h-auto rounded-md shadow-xl bg-white ring-1 ring-keppel-600 ring-opacity-5 focus:outline-none justify-center">
+              <Menu.Items className="origin-top-right absolute right-12 top-16 mt-2 flex flex-col z-20 w-auto h-auto rounded-md shadow-xl bg-white ring-1 ring-keppel-600 ring-opacity-5 focus:outline-none justify-center">
                 <div className="py-1 px-1 flex flex-row divide-x-2 divide-keppel-500">
                   <div className="px-4">
                     <Menu.Item>
@@ -74,7 +74,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-curious-blue-200 text-gray-500"
+                              ? "bg-gray-100 text-gray-500"
                               : "text-gray-500"
                           } group font-bold flex rounded-md  w-full px-2 py-2 text-sm `}
                         >
@@ -87,7 +87,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                              ? "bg-curious-blue-200 text-gray-500"
+                              ? "bg-gray-100 text-gray-500"
                               : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -102,7 +102,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-curious-blue-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -117,7 +117,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-curious-blue-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -134,7 +134,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-curious-blue-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -149,7 +149,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-curious-blue-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -164,7 +164,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-curious-blue-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -179,7 +179,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-curious-blue-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -196,7 +196,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-keppel-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -209,7 +209,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-keppel-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -224,7 +224,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-keppel-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -239,7 +239,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-keppel-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -254,7 +254,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-keppel-200 text-gray-500"
+                            ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -269,7 +269,7 @@ const Navbar = ({ toggle }) => {
                         <button
                           className={`${
                             active
-                            ? "bg-keppel-200 text-gray-500"
+                            ? "bg-gray-100   text-gray-500"
                             : "text-gray-500"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
@@ -284,17 +284,17 @@ const Navbar = ({ toggle }) => {
               </Menu.Items>
             </Transition>
             <Link href="/aprendizaje">
-              <a className="mr-5 text-sm hover:text-keppel-600 font-mont">
+              <a className="mr-5 text-base hover:text-keppel-600 font-mont">
                 APRENDIZAJE
               </a>
             </Link>
             <Link href="/blog">
-              <a className="mr-5 text-sm hover:text-keppel-600 font-mont">
+              <a className="mr-5 text-base hover:text-keppel-600 font-mont">
                 BLOG
               </a>
             </Link>
             <Link href="/contactanos">
-              <button className="inline-flex text-sm items-center text-white bg-keppel-500 border-0 py-2 px-4 focus:outline-none hover:bg-keppel-600 rounded-md mt-4 md:mt-0 font-mont">
+              <button className="inline-flex text-base items-center text-white bg-keppel-500 border-0 py-2 px-4 focus:outline-none hover:bg-keppel-600 rounded-md mt-4 md:mt-0 font-mont">
                 CONTÁCTANOS
                 <svg
                   fill="none"

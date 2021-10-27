@@ -24,15 +24,15 @@ export default function Home() {
       <main className="">
         <Dropdown />
         <section className="text-gray-600 body-font">
-          <div className="w-full mx-auto flex px-14 py-10 md:flex-row flex-col items-center">
+          <div className="w-full mx-auto flex lg:px-28 py-10 md:flex-row flex-col items-center h-screen">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h2 className="title-font text-3xl py-4 md:py-0 md:text-5xl mb-4 font-mont font-normal text-gray-500">
+              <h2 className="title-font text-4xl py-4 md:py-0 lg:text-6xl mb-4 font-jost font-light text-gray-500">
                 ANALIZA Y<br />{" "}
-                <span className="font-semibold font-mont text-keppel-600">
+                <span className="font-medium font-jost text-keppel-500">
                   MONITOREA
                 </span>
               </h2>
-              <p className="mb-8 leading-relaxed w-full text-lg text-justify">
+              <p className="mb-8 leading-relaxed w-4/5 text-lg text-justify">
                 Lo que se mide, se puede mejorar. <br /> <br />
                 Conoce cómo las personas pueden ser más productivas y felices en
                 su trabajo con{" "}
@@ -46,23 +46,23 @@ export default function Home() {
                 </span>
               </p>
               <div className="flex justify-center">
-                <button className="inline-flex text-white mx-auto bg-keppel-600 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-400 rounded text-lg">
+                <button className="inline-flex font-bold text-keppel-500 mx-auto bg-white border-keppel-500 border-2 py-2 px-6 focus:outline-none hover:bg-keppel-500 hover:text-white rounded text-lg transition ease-in duration-250">
                   Comenzar
                 </button>
               </div>
             </div>
-            <div className="lg:ml-4 lg:w-1/2 md:w-1/2 w-5/6">
+            <div className="lg:ml-4 lg:w-2/3 md:w-1/2 w-5/6">
               <Image
                 src="/img/home/portada-general.jpeg"
                 width={1400}
                 height={1000}
-                className="animate__animated animate__fadeInRight relative h-0 object-cover rounded-xl object-center pb-2/3"
+                className="animate__animated animate__fadeInRight relative object-cover rounded-xl object-center pb-2/3"
                 alt="Aqui va el alt de la imagen"
               />
             </div>
           </div>
-
-          <div className="w-full mx-auto flex px-14 py-10 md:flex-row flex-col items-center bg-keppel-500">
+          {/* Arranca la seccion de quienes somos */}
+          <div className="w-full mx-auto flex px-14 lg:px-28 py-10 md:flex-row flex-col items-center bg-keppel-500">
           <div className="lg:w-1/2 md:w-1/2 w-5/6">
               <Image
                 src="/img/home/foto-nosotros.jpg"
@@ -72,11 +72,11 @@ export default function Home() {
                 alt="Aqui va el alt de la imagen"
               />
             </div>
-            <div className="lg:flex-grow md:pl-20 md:pr-2 md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center mx-auto text-center">
-              <h2 className="title-font text-3xl md:py-0 md:text-5xl mb-4 font-mont font-normal text-gray-50">
+            <div className="lg:flex-grow md:pl-28 md:pr-2 md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h2 className="title-font text-3xl md:py-0 md:text-5xl mb-4 font-jost font-normal text-gray-50">
               ¿QUIÉNES SOMOS?{" "}
               </h2>
-              <p className="mb-8 w-full leading-relaxed text-white text-justify pr-4">
+              <p className="mb-8 w-full text-lg leading-relaxed text-white text-justify pr-4">
                 Profesionales que han trabajado con y para personas y que
                 valoran servir, conforman{" "}
                 <span className="font-bold">PROANALYTICS:</span> una empresa
@@ -85,38 +85,37 @@ export default function Home() {
                 colaboradores.
               </p>
               <div className="flex justify-center">
-                <button className="inline-flex text-keppel-500 mx-auto bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-100 rounded text-lg">
+                <button className="inline-flex font-bold text-white mx-auto border-white border-2 py-2 px-6 focus:outline-none hover:bg-white hover:text-keppel-500 rounded text-lg transition ease-in duration-250">
                   Conócenos
                 </button>
               </div>
             </div>
           </div>
-
           <Servicios />
         </section>
         <section className="text-gray-600 body-font">
           <div className="w-full">
-            <div className="flex flex-wrap text-center">
+            <div className="flex flex-wrap text-center font-jost">
               <div className="py-10 bg-curious-blue-500 w-1/3">
-                <h2 className="title-font font-bold md:text-6xl text-3xl text-white">
+                <h3 className="title-font font-bold md:text-6xl text-3xl text-white">
                   +20
-                </h2>
+                </h3>
                 <p className="leading-relaxed font-regular text-base text-white">
                   AÑOS DE EXPERIENCIA
                 </p>
               </div>
               <div className="py-10 bg-shakespeare-500 w-1/3">
-                <h2 className="title-font font-bold md:text-6xl text-3xl text-white">
+                <h3 className="title-font font-bold md:text-6xl text-3xl text-white">
                   +1,000
-                </h2>
+                </h3>
                 <p className="leading-relaxed font-regular text-base text-white">
                   PERSONAS IMPACTADAS
                 </p>
               </div>
               <div className="py-10 bg-curious-blue-500 w-1/3">
-                <h2 className="title-font font-bold md:text-6xl text-3xl text-white">
+                <h3 className="title-font font-bold md:text-6xl text-3xl text-white">
                   +300
-                </h2>
+                </h3>
                 <p className="leading-relaxed font-regular text-base text-white">
                   PROYECTOS EXITOSOS
                 </p>
@@ -124,15 +123,15 @@ export default function Home() {
             </div>
           </div>
           {/* //Aca va la seccion de Nuestra experiencia a tu alcance */}
-          <div className="w-full mx-auto bg-curious-blue-1 00 flex px-14 py-16 md:flex-row flex-col items-center bg-twilight-blue-500">
+          <div className="w-full mx-auto flex px-14 py-16 md:flex-row flex-col items-center bg-twilight-blue-500 lg:px-28">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
-              <h2 className="font-normal py-4 md:py-0 text-4xl lg:text-5xl mb-4 text-gray-500">
+              <h2 className="font-light font-jost py-4 md:py-0 text-4xl lg:text-5xl mb-4 text-gray-500">
                 NUESTRA EXPERIENCIA <br />{" "}
-                <span className="font-bold text-curious-blue-500 mb-10">
+                <span className="font-medium text-curious-blue-500 mb-10">
                   A TU ALCANCE
                 </span>
               </h2> <br />
-              <p className="mb-8 leading-relaxed w-full text-justify">
+              <p className="mb-8 leading-relaxed w-4/5 text-lg text-justify">
                 <span className="font-bold text-curious-blue-500">Herramientas:</span>{" "}
                 conoce las mejores herramientas de gestión y cómo usarlas para
                 obtener mejores resultados en tu empresa. <br /> <br />
@@ -147,7 +146,7 @@ export default function Home() {
                 mide el impacto de la implementación de nuestra experiencia y
                 herramientas como lo han hecho nuestros clientes.
               </p>
-              <div className="flex justify-center"> <button className="inline-flex text-white mx-auto bg-curious-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-curious-blue-400 rounded text-lg"> Explora nuestro contenido </button> </div>
+              <div className="flex justify-center"> <button className="inline-flex text-curious-blue-500 mx-auto  border-2 border-curious-blue-500 py-2 px-6 focus:outline-none hover:text-white hover:bg-curious-blue-500 rounded text-lg transition ease-in duration-250"> Explora nuestro contenido </button> </div>
               <div className="flex justify-center"></div>
             </div>
             <div className=" lg:w-1/2 md:w-1/2 w-5/6">

@@ -14,16 +14,16 @@ export default function climaLaboral() {
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle font-mont">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5">
-            <div className="my-2 md:my-0 sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 md:w-2/3 lg:w-full h-auto">
+            <div className="my-2 md:my-0 w-4/5 md:w-2/3 sm:mx-auto-align p-12 bg-white shadow-xl rounded-2xl  h-auto">
               <div className="mb-4">
-                <h3 className="font-bold text-5xl py-4 text-bright-turquoise-500">
+                <h3 className="text-5xl py-4 font-jost font-medium text-bright-turquoise-500">
                   CLIMA
-                  <br />{" "}
-                  <span className="text-curious-blue-500 font-normal">
+                  {" "}
+                  <span className="text-curious-blue-500 font-jost font-light">
                     LABORAL
                   </span>
                 </h3>
-                <p className="text-gray-500 text-justify py-4">
+                <p className="text-gray-500 text-justify text-lg py-4">
                   Conoce las posibles causas de{" "}
                   <span className="font-bold text-curious-blue-500">
                     rotación en tu empresa
@@ -71,10 +71,10 @@ export default function climaLaboral() {
       </div>
       <section className="text-gray-600 body-font font-mont">
         <div className="container px-5 py-16 mx-auto">
-          <h2 className="font-regular text-4xl flex justify-center pb-10 text-curious-blue-500">
+          <h2 className="font-medium font-jost text-4xl flex justify-center pb-10 text-curious-blue-500">
             {" "}
             NUESTROS SERVICIOS EN {""}
-            <span className="font-bold ml-2">CLIMA LABORAL</span>
+            <span className="font-semibold ml-2">CLIMA LABORAL</span>
           </h2>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
@@ -101,7 +101,7 @@ export default function climaLaboral() {
                   <div className="flex items-center flex-wrap ">
                     <Link href="/climaLaboral/estudios-clima-laboral">
                       <a>
-                        <button className="inline-flex text-curious-blue-500 font-bold bg-bright-turquoise-500 border-0 py-2 px-6 focus:outline-none hover:bg-curious-blue-500 hover:text-bright-turquoise-500 rounded text-lg transition ease-in duration-250">
+                        <button className="lg:mt-26 inline-flex text-curious-blue-500 font-bold border-2 border-curious-blue-500 py-2 px-6 focus:outline-none hover:bg-curious-blue-500 hover:text-white rounded text-lg transition ease-in duration-250">
                           Ver más
                         </button>
                       </a>
@@ -147,7 +147,7 @@ export default function climaLaboral() {
                   <div className="flex items-center flex-wrap">
                     <Link href="/climaLaboral/auditorias-nom-035">
                       <a>
-                        <button className="inline-flex text-curious-blue-500 font-bold bg-bright-turquoise-500 border-0 py-2 px-6 focus:outline-none hover:bg-curious-blue-500 hover:text-bright-turquoise-500 rounded text-lg transition ease-in duration-250">
+                        <button className="inline-flex text-curious-blue-500 font-bold border-2 border-curious-blue-500 py-2 px-6 focus:outline-none hover:bg-curious-blue-500 hover:text-white rounded text-lg transition ease-in duration-250">
                           Ver más
                         </button>
                       </a>
@@ -186,7 +186,7 @@ export default function climaLaboral() {
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link href="/climaLaboral/consultorias-capacitaciones">
-                      <button className="inline-flex text-curious-blue-500 font-bold bg-bright-turquoise-500 border-0 py-2 px-6 focus:outline-none rounded text-lg hover:bg-curious-blue-500 hover:text-bright-turquoise-500 transition ease-in duration-250">
+                      <button className="mt-20 inline-flex text-curious-blue-500 font-bold border-2 border-curious-blue-500 py-2 px-6 focus:outline-none hover:bg-curious-blue-500 hover:text-white rounded text-lg transition ease-in duration-250">
                         Ver más
                       </button>
                     </Link>
@@ -205,24 +205,24 @@ export default function climaLaboral() {
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
-          <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-4/5 md:2/3 sm:w-full h-auto">
-              <div className="mb-4 divide-y divide-blue-500">
-                <h3 className="font-regular text-3xl py-4 text-scooter-400">
+          <div className=" flex sm:self-center justify-center w-full self-center md:w-1/2 z-10">
+            <div className="my-2 md:my-0 w-4/5 md:w-2/3 sm:mx-auto-align p-12 bg-white shadow-xl rounded-2xl  h-auto">
+              <div className="mb-4 divide-y divide-bright-turquoise-500 w-full">
+                <h3 className="font-light font-jost text-3xl py-4 text-gray-500">
                   ¿QUIERES CONOCER LAS CAUSAS DE
                   <br />{" "}
-                  <span className="text-keppel-700">
+                  <span className="text-bright-turquoise-500 font-medium">
                     ROTACIÓN DE PERSONAL EN TU EMPRESA?
                   </span>
                 </h3>
-                <p className="text-gray-500 py-4">
+                <p className="text-gray-500 py-4 text-xl">
                   Conoce cuáles son los{" "}
-                  <span className="font-bold text-keppel-500">
+                  <span className="font-bold text-curious-blue-500">
                     factores que generan insatisfacción en tus colaboradores y
                     estrategias para trabajar
                   </span>{" "}
                   en la{" "}
-                  <span className="font-bold text-keppel-500">
+                  <span className="font-bold text-curious-blue-500">
                     retención y engagement de personal.
                   </span>
                 </p>
@@ -232,7 +232,7 @@ export default function climaLaboral() {
                   <Link href="/climaLaboral/diagnostico">
                     <button
                       type="submit"
-                      className="w-full sm:w-2/3 flex justify-center bg-scooter-500  hover:bg-keppel-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
+                      className="w-full sm:w-2/3 flex justify-center border-2 border-curious-blue-500 text-curious-blue-500 hover:bg-curious-blue-500 hover:text-white p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
                     >
                       SOLICITA TU DIAGNÓSTICO GRATUITO
                     </button>
@@ -243,31 +243,31 @@ export default function climaLaboral() {
           </div>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col h-80">
-        <div className="bg-blue-400 text-center flex sm:w-1/2 w-full">
-          <h3 className="h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold place-self-center">
-            ¿POR QUÉ ES IMPORTANTE ANALIZAR{" "}
-            <span className="text-scooter-300 mx-1">EL CLIMA LABORAL?</span>
+      <div className="flex sm:flex-row flex-col h-80 ">
+        <div className="bg-twilight-blue-500 text-center flex sm:w-1/2 w-full px-14 font-jost">
+          <h3 className="h-44 sm:py-24 sm:h-72 mx-auto text-xl sm:text-5xl  text-curious-blue-500 font-light place-self-center">
+            ¿POR QUÉ ES IMPORTANTE ANALIZAR{""} <br />
+            <span className="text-bright-turquoise-500 font-medium">EL CLIMA LABORAL?</span>
           </h3>
         </div>
-        <div className="bg-white w-full sm:w-1/2 text-justify flex flex-col font-mont">
-          <ul className="w-4/5 mx-auto list-disc place-items-center">
-            <li className="text-scooter-500 md:text-base lg:text-xl ">
+        <div className="bg-white w-full sm:w-1/2 flex justify-center items-center font-mont">
+          <ul className="w-4/5 mx-auto list-disc space-y-3 px-14">
+            <li className="text-gray-500 md:text-base lg:text-xl ">
               Identifica las{" "}
               <span className="font-bold">ventajas competitivas</span> y las
               áreas de oportunidad
             </li>
-            <li className="text-scooter-500 md:text-base lg:text-xl">
+            <li className="text-gray-500 md:text-base lg:text-xl">
               Trabaja en necesidades reales y prioritarias.
             </li>
-            <li className="text-scooter-500 md:text-base lg:text-xl">
+            <li className="text-gray-500 md:text-base lg:text-xl">
               Impacta en KPIs:{" "}
               <span className="font-bold">
                 rotación, retención, engagement laboral, attrition, orgullo y
                 sentido de pertenencia.
               </span>
             </li>
-            <li className="text-scooter-500 md:text-base lg:text-xl">
+            <li className="text-gray-500 md:text-base lg:text-xl">
               Atiende temas normativos en México relacionados con el{" "}
               <span className="font-bold">
                 estrés laboral, riesgos psicosociales, violencia laboral,
@@ -278,14 +278,14 @@ export default function climaLaboral() {
         </div>
       </div>
       <div className="flex sm:flex-row flex-col">
-        <div className="bg-blue-500 text-center flex sm:w-1/2 w-full">
-          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold place-self-center justify-center mx-auto">
+        <div className="bg-curious-blue-500 text-center flex sm:w-1/2 w-full">
+          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-medium font-jost place-self-center justify-center mx-auto">
             {" "}
             +1000 CLIENTES CERTIFICADOS
           </h3>
         </div>
-        <div className="bg-scooter-500 w-full sm:w-1/2 text-center flex flex-col">
-          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-bold justify-center place-self-center">
+        <div className="bg-bright-turquoise-500 w-full sm:w-1/2 text-center flex flex-col">
+          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-medium font-jost justify-center place-self-center">
             {" "}
             +500 PROYECTOS IMPLEMENTADOS
           </h3>
