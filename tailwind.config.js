@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       margin: {
         26: '106px',
+        13: '50px',
+        18: '75px',
        },
       fontFamily: {
         'mont': ['Montserrat', 'sans-serif'],

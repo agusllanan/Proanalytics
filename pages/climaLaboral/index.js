@@ -71,13 +71,13 @@ export default function climaLaboral() {
       </div>
       <section className="text-gray-600 body-font font-mont">
         <div className="container px-5 py-16 mx-auto">
-          <h2 className="font-medium font-jost text-4xl flex justify-center pb-10 text-curious-blue-500">
+          <h2 className="font-medium font-jost text-5xl flex justify-center pb-10 text-curious-blue-500">
             {" "}
             NUESTROS SERVICIOS EN {""}
             <span className="font-semibold ml-2">CLIMA LABORAL</span>
           </h2>
           <div className="flex flex-wrap -m-4">
-            <div className="p-4 md:w-1/3">
+          <div className="p-4 md:w-1/3">
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
@@ -244,8 +244,8 @@ export default function climaLaboral() {
         </div>
       </div>
       <div className="flex sm:flex-row flex-col h-80 ">
-        <div className="bg-twilight-blue-500 text-center flex sm:w-1/2 w-full px-14 font-jost">
-          <h3 className="h-44 sm:py-24 sm:h-72 mx-auto text-xl sm:text-5xl  text-curious-blue-500 font-light place-self-center">
+        <div className="bg-twilight-blue-500 text-center flex sm:w-1/2 w-full lg:px-28 px-14 font-jost">
+          <h3 className="h-44 flex flex-col justify-center items-center sm:h-72 mx-auto text-xl sm:text-5xl text-curious-blue-500 font-light">
             ¿POR QUÉ ES IMPORTANTE ANALIZAR{""} <br />
             <span className="text-bright-turquoise-500 font-medium">EL CLIMA LABORAL?</span>
           </h3>
