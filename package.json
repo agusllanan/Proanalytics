@@ -27,6 +27,7 @@
     "react-firebase-hooks": "^3.0.4",
     "react-scroll": "^1.8.4",
     "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
     "swiper": "^7.0.6",
     "tailwind-scrollbar-hide": "^1.0.3"
   },

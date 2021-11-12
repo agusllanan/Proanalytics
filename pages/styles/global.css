@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer components {
+    .btnSix {
+        @apply w-full self-center bg-indigo-500 hover:bg-white text-gray-100 hover:text-indigo-500 border-2 hover:border-indigo-500 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-200;
+    }
+}

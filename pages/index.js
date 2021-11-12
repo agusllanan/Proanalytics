@@ -4,6 +4,8 @@ import Image from "next/image";
 import Servicios from "../components/Servicios";
 import Dropdown from "../components/Dropdown";
 import "animate.css";
+import "~slick-carousel/slick/slick.css"; 
+import "~slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
   useEffect(() => {

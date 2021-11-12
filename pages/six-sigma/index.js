@@ -1,6 +1,7 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
+// import Slides from "../../components/Slides";
 
 export default function sixSigma() {
   return (
@@ -47,7 +48,7 @@ export default function sixSigma() {
                   </button>
                   <button
                     type="submit"
-                    className="w-full self-center bg-indigo-500 hover:bg-white text-gray-100 hover:text-indigo-500 border-2 hover:border-indigo-500 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
+                    className="btnSix"
                   >
                     ENTREVISTA INICIAL GRATUITA
                   </button>
@@ -62,9 +63,12 @@ export default function sixSigma() {
         <h1 className="font-medium text-5xl font-jost flex justify-center pb-10 text-indigo-500">
           NUESTROS SERVICIOS EN SIX SIGMA
         </h1>
-        <div className="relative flex-col px-5 pt-16 mx-auto font-mont">
-          <div className="flex flex-nowrap -m-4 first-letter:overflow-y-hidden overflow-x-scroll scrollbar-hide">
-            <div className="p-4 md:w-1/3">
+        <div className="flex-row px-5 pt-16 mx-auto font-mont">
+
+          {/* ------- Componente de tarjetas ----------- */}
+          {/* <Slides /> */}
+          <div className="flex -m-4 overflow-y-hidden overflow-x-scroll scrollbar-hide">
+            <div className="p-4 max-w-[300px] min-w-[290px] max-h-[750px] flex-shrink-0">
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg ">
                 <div className="p-6">
                   <Image
@@ -97,7 +101,7 @@ export default function sixSigma() {
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
+            <div className="p-4 max-w-[300px] min-w-[290px] max-h-[750px] flex-shrink-0">
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
@@ -134,7 +138,7 @@ export default function sixSigma() {
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
+            <div className="p-4 max-w-[300px] min-w-[290px] max-h-[750px] flex-shrink-0">
               <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
@@ -164,7 +168,7 @@ export default function sixSigma() {
                     herramientas de resolución de problemas, e incrementar la
                     eficiencia en los procesos.
                   </p>
-                  <div className="flex items-center flex-wrap ">
+                  <div className="flex items-center flex-wrap">
                     <Link href="/six-sigma/nivel2-lean-6sigma-yellow-belt">
                       <a>
                         <button className="inline-flex text-indigo-500 font-bold border-2 border-indigo-500  py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg transition ease-in duration-250">
@@ -176,7 +180,7 @@ export default function sixSigma() {
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
+            <div className="p-4 max-w-[300px] min-w-[290px] max-h-[750px] flex-shrink-0">
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
@@ -201,7 +205,7 @@ export default function sixSigma() {
                   continua que requieran un complejo nivel de análisis y toma de
                   decisiones.
                 </p>
-                <div className="flex items-center flex-wrap ">
+                <div className="flex items-center flex-nowrap ">
                   <Link href="/six-sigma/nivel3-lean-6sigma-green-belt">
                     <a>
                       <button className="inline-flex text-indigo-500 font-bold border-2 border-indigo-500  py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg transition ease-in duration-250 mt-18">
@@ -213,7 +217,7 @@ export default function sixSigma() {
               </div>
             </div>
           </div>
-          <div className="p-4 md:w-1/3">
+          <div className="p-4 max-w-[300px] min-w-[290px] max-h-[750px] flex-shrink-0">
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
@@ -266,53 +270,53 @@ export default function sixSigma() {
         style={{ backgroundImage: `url(/img/six-sigma/Diagnóstico.jpg)` }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
-        <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle font-mont">
+        <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle px-20 font-jost">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
             <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-full">
-              <div className="mb-4 divide-y divide-blue-500">
-                <h3 className="font-regular text-3xl py-4 text-scooter-400">
+              <div className="mb-4 divide-y-2 divide-curious-blue-500">
+                <h3 className="font-light text-3xl pb-4 text-curious-blue-500">
                   ¿QUIERES SABER SI TU EMPRESA
                   <br />{" "}
-                  <span className="text-keppel-700">NECESITA SIX SIGMA?</span>
+                  <span className="text-indigo-500 font-medium">NECESITA SIX SIGMA?</span>
                 </h3>
-                <p className="text-gray-500 text-justify">
+                <p className="text-gray-500 text-justify text-lg pt-4 font-mont">
                   En una primera entrevista buscaremos entender tu problema y
                   sugerirte el mejor nivel de entrenamiento. Como ejemplo, aquí
                   mostramos solo algunos de los casos o síntomas más comunes que
                   tu organización puede manifestar.
                 </p>
               </div>
-              <ul className="w-full py-4 mx-auto list-disc">
-                <li className="text-scooter-500 text-lg">
+              <ul className="w-full py-4 mx-auto ml-5 list-disc font-mont">
+                <li className="text-indigo-500 text-md">
                   ¿Quejas frecuentes de clientes sin atender?
                 </li>
-                <li className="text-scooter-500 text-lg">
-                  <span className="font-bold text-scooter-600">
+                <li className="text-indigo-500 text-md">
+                  <span className="font-bold text-indigo-500">
                     ¿Problemas de calidad
                   </span>{" "}
                   sin análisis de causa raíz o solución?
                 </li>
-                <li className="text-scooter-500 text-lg">
+                <li className="text-indigo-500 text-md">
                   ¿Procesos inestables sin mediciones u objetivos claros?
                 </li>
-                <li className="text-scooter-500 text-lg">
+                <li className="text-indigo-500 text-md">
                   ¿Fuga de recursos y tiempo en la cadena productiva?
                 </li>
-                <li className="text-scooter-500 text-lg">
+                <li className="text-indigo-500 text-md">
                   ¿Está cumpliendo con sus objetivos de costos o inventarios?
                 </li>
-                <li className="text-scooter-500 text-lg">
+                <li className="text-indigo-500 text-md">
                   ¿Retrabajos y/o inspecciones en varias partes del proceso?
                 </li>
-                <li className="text-scooter-500 text-lg">
+                <li className="text-indigo-500 text-md">
                   ¿Problemas de capacidad y cuellos de botella?
                 </li>
               </ul>
               <div className="space-y-5">
-                <div className="flex flex-col justify-evenly lg:flex-row">
+                <div className="flex flex-col justify-evenly lg:flex-row pt-3">
                   <button
                     type="submit"
-                    className="w-full sm:w-1/2 flex justify-center bg-keppel-600  hover:bg-scooter-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
+                    className="btnSix w-2/3"
                   >
                     ENTREVISTA INICIAL GRATUITA
                   </button>
@@ -323,58 +327,58 @@ export default function sixSigma() {
         </div>
       </div>
       <div className="flex sm:flex-row flex-col h-full font-mont">
-        <div className="bg-blue-400 text-center flex sm:w-1/2 w-full">
-          <h3 className="h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-white font-bold text-center mx-auto self-center">
-            BENEFICIOS <span className="text-scooter-300 mx-1">ESPERADOS</span>
+        <div className="bg-indigo-500 text-center flex w-full md:w-1/2">
+          <h3 className="text-xl sm:text-4xl self-center mx-auto text-white font-medium font-jost">
+            BENEFICIOS <span className="text-white font-light">ESPERADOS</span>
           </h3>
         </div>
-        <div className="bg-white w-full sm:w-1/2 text-justify flex flex-col">
-          <p className="text-gray-500 text-xl py-4 justify-center w-4/5 self-center text-justify">
+        <div className="bg-gray-100 w-full sm:w-1/2 text-justify flex flex-col font-mont">
+          <p className="text-gray-500 text-lg py-4 justify-center w-4/5 self-center text-justify">
             Contamos con sesiones de Coaching con experimentados{" "}
-            <span className="font-bold text-keppel-500">
+            <span className="font-bold text-curious-blue-500">
               Master Black Belts;
             </span>{" "}
             mentores que guiarán a tu equipo por el proceso de certificación
             para lograr los resultados esperados.
           </p>
-          <ul className="w-4/5 mx-auto py-4 list-disc">
-            <li className="text-scooter-500 text-lg">
+          <ul className="w-4/5 py-4 ml-10 self-center list-disc font-mont">
+            <li className="text-indigo-500 text-md">
               Incremento en el nivel de servicio
             </li>
-            <li className="text-scooter-500 text-lg">
+            <li className="text-indigo-500 text-md">
               Incremento en la satisfacción del cliente
             </li>
-            <li className="text-scooter-500 text-lg">
+            <li className="text-indigo-500 text-md">
               Reducción de tiempo ciclo
             </li>
-            <li className="text-scooter-500 text-lg">Reducción de costos</li>
-            <li className="text-scooter-500 text-lg">
+            <li className="text-indigo-500 text-lg">Reducción de costos</li>
+            <li className="text-indigo-500 text-md">
               Incremento de productividad
             </li>
-            <li className="text-scooter-500 text-lg">
+            <li className="text-indigo-500 text-md">
               Incremento en la eficiencia
             </li>
-            <li className="text-scooter-500 text-lg">Reducción en Defectos</li>
-            <li className="text-scooter-500 text-lg">
+            <li className="text-indigo-500 text-lg">Reducción en Defectos</li>
+            <li className="text-indigo-500 text-md">
               Incremento en habilidad del proceso
             </li>
           </ul>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row font-mont">
-        <div className="w-full lg:w-1/2 flex h-32">
-          <h3 className="text-4xl text-gray-600 text-center mx-auto pt-4">
+      <div className="flex flex-col sm:flex-row font-mont h-40">
+        <div className="w-full lg:w-1/2 flex items-center">
+          <h3 className="text-4xl text-gray-600 text-center font-light font-jost mx-auto pt-4">
             ¿QUIERES SABER MÁS <br />
-            <span className="text-4xl text-scooter-600 text-center mx-auto font-bold pb-4">
+            <span className="text-4xl text-indigo-500 text-center font-jost mx-auto font-medium pb-4">
               DE SIX SIGMA?
             </span>
           </h3>
         </div>
-        <div className="w-full sm:w-1/2 flex divide-y divide-blue-500 h-32">
-          <p className="w-4/5 mx-auto text-regular py-8 text-justify">
+        <div className="w-full sm:w-1/2 flex divide-y divide-blue-500 items-center">
+          <p className="w-4/5 mx-auto text-gray-500 text-regular text-lg text-justify font-mont ">
             Conoce más sobre la importancia de la certificación, recursos y
             estrategias para la{" "}
-            <span className="font-bold text-keppel-500">
+            <span className="font-bold text-curious-blue-500">
               mejora continua de tu organización.{" "}
             </span>{" "}
             ¡Infórmate con nuestro contenido!
