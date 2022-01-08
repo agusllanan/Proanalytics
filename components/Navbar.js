@@ -104,7 +104,7 @@ const Navbar = ({ toggle }) => {
                             active
                             ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
-                          } group flex rounded-md items-center w-3/4 px-2 py-2 text-sm`}
+                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                         >
                           <Link href="/climaLaboral/auditorias-nom-035">
                             Asesoría en NOM-035-STPS-2018 y NMX-R-025-SCFI-2015
