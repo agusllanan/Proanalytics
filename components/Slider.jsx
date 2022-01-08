@@ -34,7 +34,7 @@ export default function SliderSix() {
                       QUICK SMART TRAININGS
                     </span>
                   </h3>
-                  <p className="leading-relaxed mb-3 text-justify">
+                  <p className="leading-relaxed mb-3 text-justify font-extralight">
                     Con la asesoría de nuestro Coach, podrás elegir entre uno o
                     varios temas de nuestro catálogo de servicios ajustándose a
                     un tiempo y presupuesto objetivo.

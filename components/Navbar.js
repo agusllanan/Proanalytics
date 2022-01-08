@@ -104,7 +104,7 @@ const Navbar = ({ toggle }) => {
                             active
                             ? "bg-gray-100 text-gray-500"
                             : "text-gray-500"
-                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                          } group flex rounded-md items-center w-3/4 px-2 py-2 text-sm`}
                         >
                           <Link href="/climaLaboral/auditorias-nom-035">
                             Asesoría en NOM-035-STPS-2018 y NMX-R-025-SCFI-2015
@@ -128,7 +128,7 @@ const Navbar = ({ toggle }) => {
                       )}
                     </Menu.Item>
                   </div>
-                  <div className="px-4">
+                  {/* <div className="px-4">
                     <Menu.Item>
                       {({ active }) => (
                         <button
@@ -189,7 +189,7 @@ const Navbar = ({ toggle }) => {
                         </button>
                       )}
                     </Menu.Item>
-                  </div>
+                  </div> */}
                   <div className="px-4 pb-2">
                     <Menu.Item>
                       {({ active }) => (
@@ -283,11 +283,11 @@ const Navbar = ({ toggle }) => {
                 </div>
               </Menu.Items>
             </Transition>
-            <Link href="/aprendizaje">
+            {/* <Link href="/aprendizaje">
               <a className="mr-5 text-base hover:text-keppel-600 font-mont">
                 APRENDIZAJE
               </a>
-            </Link>
+            </Link> */}
             <Link href="/blog">
               <a className="mr-5 text-base hover:text-keppel-600 font-mont">
                 BLOG

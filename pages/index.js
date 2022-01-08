@@ -161,7 +161,7 @@ export default function Home() {
           </div>
         </section>
         {/* Para hacer un hover scale o rotation hay que hacer esto hover:scale-105 transform transition-all duration-500 */}
-        <section>
+        {/* <section>
           <div className=" w-full py-10 font-mont">
             <h3 className="text-center md:text-left mx-auto py-3 px-10 text-2xl mb-4 ml-4 font-bold text-keppel-500">
               {" "}
@@ -198,8 +198,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
-        <section>
+        </section> */}
+        {/* <section>
           <div className="w-full py-10">
             <h3 className="text-center md:text-left py-3 text-2xl mb-4 ml-4 font-bold font-mont text-keppel-500">
               {" "}
@@ -211,7 +211,7 @@ export default function Home() {
             ></script>
             <div className="elfsight-app-9ed6c0ff-4917-4325-aae1-8937cac11a8b"></div>
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="flex w-full ">
             <Image

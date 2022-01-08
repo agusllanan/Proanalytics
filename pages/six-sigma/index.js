@@ -60,7 +60,7 @@ export default function sixSigma() {
       </div>
       {/* -------------------------------- Aqui comienza la seccion de muestra de las cards -------------------------------------- */}
       <div className="px-5 py-16 mx-auto">
-        <h1 className="font-medium text-5xl font-jost flex justify-center pb-10 text-indigo-500">
+        <h1 className="font-medium text-5xl font-jost flex justify-center text-indigo-500">
           NUESTROS SERVICIOS EN SIX SIGMA
         </h1>
         <div className="px-5 pt-16 mx-auto font-mont">
@@ -139,7 +139,7 @@ export default function sixSigma() {
             BENEFICIOS <span className="text-white font-light">ESPERADOS</span>
           </h3>
         </div>
-        <div className="bg-gray-100 w-full sm:w-1/2 text-justify flex flex-col font-mont">
+        <div className="bg-gray-100 w-full sm:w-1/2 text-justify flex flex-col font-mont py-10">
           <p className="text-gray-500 text-lg py-4 justify-center w-4/5 self-center text-justify">
             Contamos con sesiones de Coaching con experimentados{" "}
             <span className="font-bold text-curious-blue-500">
@@ -158,25 +158,25 @@ export default function sixSigma() {
             <li className="text-indigo-500 text-md">
               Reducción de tiempo ciclo
             </li>
-            <li className="text-indigo-500 text-lg">Reducción de costos</li>
+            <li className="text-indigo-500 text-md">Reducción de costos</li>
             <li className="text-indigo-500 text-md">
               Incremento de productividad
             </li>
             <li className="text-indigo-500 text-md">
               Incremento en la eficiencia
             </li>
-            <li className="text-indigo-500 text-lg">Reducción en Defectos</li>
+            <li className="text-indigo-500 text-md">Reducción en Defectos</li>
             <li className="text-indigo-500 text-md">
               Incremento en habilidad del proceso
             </li>
           </ul>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row font-mont h-40">
+      <div className="flex flex-col sm:flex-row font-mont h-[250px]">
         <div className="w-full lg:w-1/2 flex items-center">
-          <h3 className="text-4xl text-gray-600 text-center font-light font-jost mx-auto pt-4">
+          <h3 className="text-4xl text-gray-600 text-center font-light font-jost mx-auto py-24">
             ¿QUIERES SABER MÁS <br />
-            <span className="text-4xl text-indigo-500 text-center font-jost mx-auto font-medium pb-4">
+            <span className="text-4xl text-indigo-500 text-center font-jost mx-auto font-medium">
               DE SIX SIGMA?
             </span>
           </h3>
