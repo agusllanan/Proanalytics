@@ -12,7 +12,7 @@ export const basicSmartTraining = () => {
         }}
       >
         <div className="h-screen flex flex-col px-10 lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
-          <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl h-96 w-4/5 lg:w-1/4 sm:rounded-t-xl rounded-l-xl items-center self-center">
+          <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl h-96 w-4/5 lg:w-1/4 rounded-t-xl sm:rounded-tr-none rounded-l-xl items-center self-center">
             <h3 className="flex flex-col font-light font-jost justify-center text-2xl mx-auto py-8 text-[#007ed5] place-self-center">
               BASIC{""}
               <span className="font-bold font-jost">
@@ -34,7 +34,7 @@ export const basicSmartTraining = () => {
             </p>
             <label
               htmlFor="footer-field"
-              className="ml-12 mt-8 leading-7 text-base text-white"
+              className="ml-10 mt-8 leading-7 text-base text-white"
             >
               Email
             </label>
@@ -42,9 +42,9 @@ export const basicSmartTraining = () => {
               type="text"
               id="footer-field"
               name="footer-field"
-              className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 my-4 transition-colors duration-200 ease-in-out self-center"
+              className="w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 my-4 transition-colors duration-200 ease-in-out self-center"
             />
-            <button className="ml-4 mt-2 text-white bg-transparent py-3 px-6 focus:outline-none hover:bg-white rounded w-4/5 self-center border-2 border-white hover:text-[#007ed5]">
+            <button className="mt-2 text-white bg-transparent py-3 px-6 focus:outline-none hover:bg-white rounded w-4/5 self-center border-2 border-white hover:text-[#007ed5] transition ease-in duration-250">
               QUIERO MÁS INFORMACIÓN
             </button>
           </div>

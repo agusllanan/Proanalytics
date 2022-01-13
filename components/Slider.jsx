@@ -5,27 +5,53 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+function ArrowRight(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", color: "#333333"}}
+      onClick={onClick}
+    />
+  );
+}
+
+function ArrowLeft(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, 
+        display: "block",
+        }}
+      onClick={onClick}
+    />
+  );
+}
 
 export default function SliderSix() {
   var settings = {
       className: "center",
       centerMode: false,
       infinite: false,
-      centerPadding: "60px",
-      slidesToShow: 3,
-      speed: 500,
+      centerPadding: "40px",
+      slidesToShow: 2.5,
+      speed: 250,
       swipeToSlide: true,
+      lazyLoad: true,
+      prevArrow: <ArrowLeft />,
+      nextArrow: <ArrowRight />,
   };
   return (
     <Slider className="flex" {...settings}>
-            <div className="p-4 max-w-[500px] min-w-[290px] max-h-[770px] flex-shrink-0">
+            <div className="p-4 max-w-[550px] min-w-[290px] max-h-[770px] flex-shrink-0">
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg ">
                 <div className="p-6">
                   <Image
-                    src="/img/six-sigma/Certificaciones_Mesa de trabajo 1.png"
+                    src="/img/six-sigma/portadas/Portada-Six-Sigma-Quick-Smart.png"
                     width={1200}
                     height={1200}
-                    className="object-cover rounded-xl object-center "
+                    className="object-cover rounded-xl object-right"
                     alt="Aqui va el alt de la imagen"
                   />
                   <h3 className="title-font text-lg font-medium text-gray-900 my-3">
@@ -51,14 +77,14 @@ export default function SliderSix() {
                 </div>
               </div>
             </div>
-            <div className="p-4 max-w-[500px] min-w-[290px] max-h-[750px] flex-shrink-0">
+            <div className="p-4 max-w-[550px] min-w-[290px] max-h-[750px] flex-shrink-0">
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/six-sigma/Certificaciones-02.png"
+                    src="/img/six-sigma/portadas/Portada-Six-Sigma-White.png"
                     width={1200}
                     height={1200}
-                    className="object-cover rounded-xl object-center "
+                    className="object-cover rounded-xl object-right "
                     alt="Aqui va el alt de la imagen"
                   />
                   <h2 className="title-font text-lg font-medium text-gray-900 my-3">
@@ -88,14 +114,14 @@ export default function SliderSix() {
                 </div>
               </div>
             </div>
-            <div className="p-4 max-w-[500px] min-w-[290px] max-h-[750px] flex-shrink-0">
+            <div className="p-4 max-w-[550px] min-w-[290px] max-h-[750px] flex-shrink-0">
               <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/six-sigma/Certificaciones-03.png"
+                    src="/img/six-sigma/portadas/Portada-Six-Sigma-Yellow.png"
                     width={1200}
                     height={1200}
-                    className="object-cover rounded-xl object-center"
+                    className="object-cover rounded-xl object-right"
                     alt="Aqui va el alt de la imagen"
                   />
                   <h1 className="title-font text-lg font-medium text-gray-900 my-3">
@@ -121,7 +147,7 @@ export default function SliderSix() {
                   <div className="flex items-center flex-wrap">
                     <Link href="/six-sigma/nivel2-lean-6sigma-yellow-belt">
                       <a>
-                        <button className="inline-flex text-indigo-500 font-bold border-2 border-indigo-500  py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg transition ease-in duration-250">
+                        <button className="inline-flex text-indigo-500 font-bold border-2 border-indigo-500 mt-1 py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg transition ease-in duration-250">
                           Ver más
                         </button>
                       </a>
@@ -130,14 +156,14 @@ export default function SliderSix() {
                 </div>
               </div>
             </div>
-            <div className="p-4 max-w-[500px] min-w-[290px] max-h-[750px] flex-shrink-0">
+            <div className="p-4 max-w-[550px] min-w-[290px] max-h-[750px] flex-shrink-0">
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/img/six-sigma/Certificaciones-04.png"
+                  src="/img/six-sigma/portadas/Portada-Six-Sigma-Green.png"
                   width={1200}
                   height={1200}
-                  className="object-cover rounded-xl object-center"
+                  className="object-cover rounded-xl object-right"
                   alt="Aqui va el alt de la imagen"
                 />
                 <h2 className="title-font text-lg font-medium text-gray-900 my-3">
@@ -158,7 +184,7 @@ export default function SliderSix() {
                 <div className="flex items-center flex-nowrap ">
                   <Link href="/six-sigma/nivel3-lean-6sigma-green-belt">
                     <a>
-                      <button className="inline-flex text-indigo-500 font-bold border-2 border-indigo-500  py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg transition ease-in duration-250 mt-18">
+                      <button className="inline-flex text-indigo-500 font-bold border-2 border-indigo-500 py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg transition ease-in duration-250 mt-14">
                         Ver más
                       </button>
                     </a>
@@ -167,14 +193,14 @@ export default function SliderSix() {
               </div>
             </div>
           </div>
-          <div className="p-4 max-w-[500px] min-w-[290px] max-h-[750px] flex-shrink-0">
+          <div className="p-4 max-w-[550px] min-w-[290px] max-h-[750px] flex-shrink-0">
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/img/six-sigma/Certificaciones-05.png"
+                  src="/img/six-sigma/portadas/Portada-Six-Sigma-Black.png"
                   width={1200}
                   height={1200}
-                  className="object-cover rounded-xl object-center"
+                  className="object-cover rounded-xl object-right"
                   alt="Aqui va el alt de la imagen"
                 />
                 <h2 className="title-font text-lg font-medium text-gray-900 my-3">

@@ -8,7 +8,7 @@ export default function climaLaboral() {
       <div
         className="bg-no-repeat bg-cover relative border-b-4 border-bright-turquoise-500"
         style={{
-          backgroundImage: `url(/img/clima-laboral/portada-clima-laboral.jpeg)`,
+          backgroundImage: `url(/img/clima-laboral/portada-clima-laboral.jpg)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}

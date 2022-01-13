@@ -39,7 +39,7 @@ export const yellowBelt = () => {
             </p>
             <label
               htmlFor="footer-field"
-              className="ml-12 mt-8 leading-7 text-base text-gray-700"
+              className="ml-10 mt-8 leading-7 text-base text-gray-700"
             >
               Email
             </label>
@@ -47,9 +47,9 @@ export const yellowBelt = () => {
               type="text"
               id="footer-field"
               name="footer-field"
-              className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out self-center"
+              className="w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out self-center"
             />
-            <button className="ml-4 text-gray-700 hover:bg-gray-700 mt-6 bg-transparent border-2 border-gray-700 py-3 px-6 focus:outline-none hover:text-white rounded w-4/5 self-center">
+            <button className="text-gray-700 hover:bg-gray-700 mt-6 bg-transparent border-2 border-gray-700 py-3 px-6 focus:outline-none hover:text-white rounded w-4/5 self-center transition ease-in duration-250">
               QUIERO MÁS INFORMACIÓN
             </button>
           </div>

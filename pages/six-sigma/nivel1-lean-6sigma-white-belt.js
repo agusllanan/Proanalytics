@@ -34,7 +34,7 @@ export const whiteBelt = () => {
             </p>
             <label
               htmlFor="footer-field"
-              className="ml-12 mt-6 leading-7 text-base text-white"
+              className="ml-10 mt-6 leading-7 text-base text-white"
             >
               Email
             </label>
@@ -42,9 +42,9 @@ export const whiteBelt = () => {
               type="text"
               id="footer-field"
               name="footer-field"
-              className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 my-3 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out self-center"
+              className="w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 my-3 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out self-center"
             />
-            <button className="ml-4 mt-2 text-white bg-transparent border-2 border-white py-2 px-6 focus:outline-none hover:bg-white hover:text-gray-500 rounded w-4/5 self-center">
+            <button className="mt-2 text-white bg-transparent border-2 border-white py-2 px-6 focus:outline-none hover:bg-white hover:text-gray-500 rounded w-4/5 self-center transition ease-in duration-250">
               QUIERO MÁS INFORMACIÓN
             </button>
           </div>

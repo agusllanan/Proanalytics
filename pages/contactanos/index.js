@@ -37,7 +37,7 @@ export default function contactanos () {
             <button className="flex mx-auto text-white bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-400 rounded text-lg">Enviar</button>
         </div>
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-            <a className="text-green-500">contacto@proanalytics.com</a> <br /> <br />
+            <a className="text-green-500">contacto@proanalytics.com.mx</a> <br /> <br />
             
             <span className="inline-flex">
             <a className="text-green-500">
