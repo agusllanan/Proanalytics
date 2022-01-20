@@ -7,11 +7,11 @@ export const whiteBelt = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-gray-500"
         style={{
-          backgroundImage: `url(/img/six-sigma/portadas/Portada-Six-Sigma-White.png)`,
+          backgroundImage: `url(/img/six-sigma/portadas/Portada-Six-Sigma-White.jpg)`,
         }}
       >
         <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont mx-16">
-          <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl h-96 w-4/5 lg:w-1/4 sm:rounded-t-xl rounded-l-xl items-center self-center">
+          <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl h-96 w-4/5 lg:w-1/4 sm:rounded-tr-none rounded-l-xl items-center self-center">
             <h3 className="flex flex-col justify-center text-2xl mx-auto font-light py-8 font-jost text-gray-600 place-self-center">
               NIVEL 1 {" "}
               <span className="font-bold text-gray-600">

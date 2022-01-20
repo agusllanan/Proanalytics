@@ -51,15 +51,15 @@ export const basicSmartTraining = () => {
         </div>
       </div>
       {/* ---- Nueva seccion --- */}
-      <div className="flex sm:flex-row flex-col h-auto px-16">
+      <div className="flex sm:flex-row flex-col h-auto">
         <div className="bg-white text-center flex sm:w-1/2 w-full">
           <h3 className="mx-auto text-xl sm:text-4xl text-[#007ed5] font-bold font-jost self-center">
             ¿POR QUÉ TOMAR LA CERTIFICACIÓN?
           </h3>
         </div>
-        <div className="bg-white w-full sm:w-1/2 flex justify-center items-center">
-          <ul className="w-full flex-col py-12 px-8 list-disc pl-8 font-mont">
-            <li className="text-gray-500 text-lg space-y-3">
+        <div className="bg-gray-100 w-full sm:w-1/2 flex justify-center items-center">
+          <ul className="w-4/5 flex-col py-10 space-y-3 px-8 list-disc font-mont">
+            <li className="text-gray-500 text-lg ">
               Las exigencias de los clientes demandan un alto nivel de calidad
               en productos y servicios.
             </li>

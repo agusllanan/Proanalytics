@@ -19,19 +19,19 @@ export default function sixSigma() {
                   SIX SIGMA
                 </h3>
                 <p className="text-gray-500 text-lg text-justify pb-4">
-                  <span className="font-bold text-curious-blue-500">
+                  <span className="font-bold text-indigo-500">
                     Lean 6 Sigma
                   </span>{" "}
                   es un{" "}
-                  <span className="font-bold text-curious-blue-500">
+                  <span className="font-bold text-indigo-500">
                     programa de certificación
                   </span>{" "}
                   en 4 niveles que te ayudará a potencializar la{" "}
-                  <span className="font-bold text-curious-blue-500">
+                  <span className="font-bold text-indigo-500">
                     mejora continua de tu organización.
                   </span>{" "}
                   Los proyectos bajo la{" "}
-                  <span className="font-bold text-curious-blue-500">
+                  <span className="font-bold text-indigo-500">
                     metodología 6 Sigma
                   </span>{" "}
                   constan de pasos reconocidos internacionalmente con el
@@ -42,7 +42,7 @@ export default function sixSigma() {
                 <div className="flex flex-col justify-evenly lg:flex-row">
                   <button
                     type="submit"
-                    className=" w-full lg:mr-3 flex lg:py-5 self-center justify-center bg-transparent border-2 border-curious-blue-500 text-curious-blue-500 p-3 hover:bg-curious-blue-500 hover:text-white rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
+                    className=" w-full lg:mr-3 flex lg:py-5 self-center justify-center bg-transparent border-2 border-indigo-500 text-indigo-500 p-3 hover:bg-indigo-500 hover:text-white rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
                   >
                     ESCRÍBENOS
                   </button>

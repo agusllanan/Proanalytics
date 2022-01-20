@@ -34,44 +34,44 @@ const subscribe = async () => {
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
             <nav className="list-none flex flex-col mb-10 mx-2">
               <Link href="/">
-                <a className="py-2 text-gray-600 hover:text-keppel-700">
+                <a className="py-2 text-gray-600 font-mont hover:text-keppel-700">
                   Inicio
                 </a>
               </Link>
               <Link href="/nosotros">
-                <a className="py-2 text-gray-600 hover:text-keppel-700">
+                <a className="py-2 text-gray-600 font-mont hover:text-keppel-700">
                   Nosotros
                 </a>
               </Link>
               <Link href="/servicios">
-                <a className="py-2 text-gray-600 hover:text-keppel-700">
+                <a className="py-2 text-gray-600 font-mont hover:text-keppel-700">
                   Servicios
                 </a>
               </Link>
               <Link href="/aprendizaje">
-                <a className="py-2 text-gray-600 hover:text-keppel-700">
+                <a className="py-2 text-gray-600 font-mont hover:text-keppel-700">
                   Aprendizaje
                 </a>
               </Link>
               <Link href="/blog">
-                <a className="py-2 text-gray-600 hover:text-keppel-700">
+                <a className="py-2 text-gray-600 font-mont hover:text-keppel-700">
                   Blog
                 </a>
               </Link>
               <Link href="/contactanos">
-                <a className="py-2 text-gray-600 hover:text-keppel-700">Contáctanos</a>
+                <a className="py-2 text-gray-600 font-mont hover:text-keppel-700">Contáctanos</a>
               </Link>
             </nav>
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full px-4 items-center">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <h2 className="title-font font-mont font-medium text-gray-900 tracking-widest text-lg mb-3">
               Suscríbete a nuestro newsletter
             </h2>
             <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                 <label
                   htmlFor="footer-field"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-md font-mont text-gray-600"
                 >
                   Email
                 </label>
@@ -85,7 +85,7 @@ const subscribe = async () => {
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-              <button className={`lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-keppel-500 border-0 py-2 px-6 focus:outline-none hover:bg-keppel-600 rounded
+              <button className={`lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-keppel-500 border-0 py-2 font-mont px-6 focus:outline-none hover:bg-keppel-600 rounded
               {state = "Cargando" ? "button-gradient-loading" : "" 
               }`}
               type="button"
@@ -101,7 +101,7 @@ const subscribe = async () => {
             {state === "EXITOSO" && (
               <p className="w-1/2 mt-2 text-green-600">¡Agregado con éxito!</p>
             )}
-            <p className="text-gray-700 text-base mt-2 md:text-left text-center">
+            <p className="text-gray-700 text-md font-mont mt-2 md:text-left text-center">
               Entérate de nuestras últimas novedades.
             </p>
           </div>

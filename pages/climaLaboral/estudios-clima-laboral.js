@@ -8,45 +8,45 @@ export const encuestaClimaLaboral = () => {
   return (
     <Layout>
       <div
-        className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
+        className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#ef476f]"
         style={{
-          backgroundImage: `url(/img/clima-laboral/portada-encuesta.jpg)`,
+          backgroundImage: `url(/img/clima-laboral/portada-diagnostico.jpg)`,
         }}
       >
-        <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont"
+        <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont pl-10"
         id="aqui"
         >
-          <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/3 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center">
-            <h3 className="w-4/5 mx-auto text-2xl py-12 font-bold text-scooter-500">
+          <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/3 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center h-[450px]">
+            <h3 className="w-4/5 mx-auto text-2xl font-jost py-12 text-[#ef476f] font-light">
               ESTUDIOS DE
               <br />
-              <span className="text-curious-blue-500">CLIMA LABORAL</span>
+              <span className="text-[#ef476f] font-bold">CLIMA LABORAL</span>
             </h3>
-            <p className="w-4/5 mx-auto justify-center text-justify pb-20">
+            <p className="w-4/5 mx-auto justify-center font-mont text-justify pb-20">
               Encuesta y obtén resultados cuantitativos del{" "}
-              <span className="font-bold text-keppel-500">
+              <span className="font-bold text-[#ef476f]">
                 clima laboral de tu empresa.
               </span>{" "}
               Profundiza y conoce la experiencia de trabajar en tu empresa según
               su gente. <br />
               <br />
               Te asesoramos sobre la mejor{" "}
-              <span className="font-bold text-keppel-500">
+              <span className="font-bold text-[#ef476f]">
                 técnica para identificar el clima laboral
               </span>
               : entrevistas, focus group, observación, simulaciones de trabajo.
             </p>
           </div>
-          <div className="flex flex-col container bg-curious-blue-500 shadow-2xl lg:w-1/3 lg:rounded-r-xl w-4/5">
-            <p className="w-4/5 mx-auto md:ml-4 justify-center text-white text-justify text-lg pt-4 pb-4">
+          <div className="flex flex-col container bg-[#ef476f] shadow-2xl lg:w-1/3 lg:rounded-r-xl w-4/5 h-[450px] justify-center font-mont">
+            <p className="w-4/5 md:ml-4 self-center text-white text-justify pt-4 pb-4">
               ¿Quieres trabajar en{" "}
-              <span className="font-bold text-xl">
+              <span className="font-bold">
                 estrategias para mejorar el clima laboral en tu empresa?
               </span>
             </p>
             <label
               htmlFor="footer-field"
-              className="ml-4 mt-2 text-base text-white"
+              className="ml-[60px] mt-2 text-base text-white"
             >
               Nombre
             </label>
@@ -54,11 +54,11 @@ export const encuestaClimaLaboral = () => {
               type="text"
               id="footer-field"
               name="footer-field"
-              className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out"
+              className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out self-center"
             />
             <label
               htmlFor="footer-field"
-              className="ml-4 text-base mt-1 text-white"
+              className="ml-[60px] text-base mt-1 text-white"
             >
               Email
             </label>
@@ -66,11 +66,11 @@ export const encuestaClimaLaboral = () => {
               type="text"
               id="footer-field"
               name="footer-field"
-              className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out"
+              className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out self-center"
             />
             <label
               htmlFor="footer-field"
-              className="ml-4 mt-1 text-base text-white"
+              className="ml-[60px] mt-1 text-base text-white"
             >
               Teléfono
             </label>
@@ -78,47 +78,45 @@ export const encuestaClimaLaboral = () => {
               type="text"
               id="footer-field"
               name="footer-field"
-              className="ml-4 mb-1 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out"
+              className="ml-4 mb-1 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out self-center"
             />
             {/* <textarea className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out">Escríbenos tus inquietudes y horario de contacto</textarea> */}
-            <button className="ml-4 text-white font-bold bg-keppel-500 border-0 py-2 mb-4 mt-4 focus:outline-none hover:bg-keppel-600 rounded w-4/5">
+            <button className="ml-4 text-white font-bold bg-transparent border-2 border-white  py-2 mb-4 mt-4 focus:outline-none self-center hover:bg-white hover:text-[#ef476f] rounded w-4/5 transition ease-in duration-250">
               SOLICITA TU DIAGNÓSTICO GRATUITO
             </button>
           </div>
         </div>
       </div>
       {/* ---- Nueva seccion --- */}
-      <div className="flex sm:flex-row flex-col h-80 font-mont">
+      <div className="flex sm:flex-row flex-col h-auto">
         <div className="bg-white text-center flex sm:w-1/2 w-full">
-          <h3 className="mx-auto h-44 sm:py-24 sm:h-72 text-xl sm:text-4xl text-blue-500 place-self-center">
+          <h3 className="mx-auto text-xl sm:text-4xl font-bold self-center text-[#ef476f] font-jost">
             ¿POR QUÉ APLICAR NUESTROS <br />
-            <span className="text-scooter-600 mx-1 font-bold">
               ESTUDIOS DE CLIMA LABORAL?
-            </span>
           </h3>
         </div>
-        <div className="bg-white w-full sm:w-1/2 flex justify-center items-center">
-          <ul className="w-full flex-col py-6 space-y-4 list-disc">
-            <li className="text-scooter-500 text-xl ">
+        <div className="bg-gray-100 w-full sm:w-1/2 flex justify-center items-center font-mont">
+          <ul className="w-4/5 flex-col py-10 space-y-2 list-disc">
+            <li className="text-gray-500 text-xl ">
               Contamos con más de 10 años de experiencia en{" "}
               <span className="font-bold">
                 investigación de ambientes laborales, consultoría y
                 capacitación.
               </span>
             </li>
-            <li className="text-scooter-500 text-xl">
+            <li className="text-gray-500 text-xl">
               Conocemos{" "}
               <span className="font-bold">herramientas y metodologías</span>{" "}
               para obtener información real sobre el{" "}
               <span className="font-bold">ambiente laboral de tu empresa.</span>
             </li>
-            <li className="text-scooter-500 text-xl">
+            <li className="text-gray-500 text-xl">
               Hemos observado los{" "}
               <span className="font-bold">
                 resultados y beneficios para las personas y las empresas.
               </span>
             </li>
-            <li className="text-scooter-500 text-xl">
+            <li className="text-gray-500 text-xl">
               Creemos en el impacto de generar{" "}
               <span className="font-bold">ambientes de trabajo dignos</span>{" "}
               para incrementar{" "}
@@ -127,37 +125,44 @@ export const encuestaClimaLaboral = () => {
           </ul>
         </div>
       </div>
-      <div className="">
-        <div className="bg-blue-500 text-justify flex flex-col h-auto w-full font-mont">
-          <h3 className="py-24 sm:py-8 text-xl sm:text-4xl text-white font-bold place-self-center mx-auto">
+      <div className="bg-[#ef476f] py-14">
+        <div className="text-justify flex flex-col h-auto w-full font-mont">
+          <h3 className="pb-6 text-xl font-jost sm:text-4xl text-white font-bold self-center">
             {" "}
             NUESTRA METODOLOGÍA
           </h3>
-          <div className="div w-full flex flex-col place-content-center md:flex-row">
-            <div className="w-full h-80 md:w-1/3 bg-blue-500">
+          <div className="div w-full flex flex-col md:flex-row">
+            <div className="w-full h-80 md:w-1/3 flex flex-col">
+            <div className="self-center py-4">
               <Image
                 src="/img/clima-laboral/iconos-metodologia/entrevista.png"
-                width={200}
-                height={200}
-                className=" relative object-fill rounded-xl place-self-center m-2  flex"
+                layout='fixed'
+                width='200'
+                height='200'
+                className="rounded-xl self-center"
                 alt="Aqui va el alt de la imagen"
               />
-              <h3 className="text-white md:ml-4 mx-auto">ENTREVISTA DIAGNÓSTICO</h3>
-              <p className="w-4/5 text-white md:ml-4">
+            </div>
+              <h3 className="text-white self-center pb-3">ENTREVISTA DIAGNÓSTICO</h3>
+              <p className="w-4/5 text-white self-center">
                 Permítenos identificar la necesidades y expectativas de tu
                 empresa.
               </p>
+
             </div>
-            <div className="w-full h-80 md:w-1/3 bg-blue-500">
-              <Image
+            <div className="w-full h-80 md:w-1/3 flex flex-col">
+            <div className="self-center py-4">
+                <Image
                 src="/img/clima-laboral/iconos-metodologia/analisis.png"
+                layout='fixed'
                 width={200}
                 height={200}
                 className=" relative object-fill rounded-xl object-center m-2"
                 alt="Aqui va el alt de la imagen"
               />
-              <h3 className="font-bold text-white">ANÁLISIS DE CLIMA LABORAL</h3>
-              <p className="w-4/5 text-white">
+            </div>
+              <h3 className="font-bold text-white self-center pb-3">ANÁLISIS DE CLIMA LABORAL</h3>
+              <p className="w-4/5 text-white self-center">
                 Analizamos según tus necesidades:{" "}
                 <span className="font-bold">
                   satisfacción laboral, engagement empresarial, bienestar,
@@ -166,16 +171,19 @@ export const encuestaClimaLaboral = () => {
                 y más.
               </p>
             </div>
-            <div className="w-full h-80 md:w-1/3 bg-blue-500">
+            <div className="w-full h-80 md:w-1/3 flex flex-col">
+            <div className="self-center py-4">
               <Image
                 src="/img/clima-laboral/iconos-metodologia/resultados.png"
+                layout='fixed'
                 width={200}
                 height={200}
-                className=" relative object-fill rounded-xl object-center m-2"
+                className=""
                 alt="Aqui va el alt de la imagen"
               />
-              <h3 className="text-white">RESULTADOS Y PLAN DE ACCIÓN</h3>
-              <p className="w-4/5 text-white">
+            </div>
+              <h3 className="text-white self-center pb-3">RESULTADOS Y PLAN DE ACCIÓN</h3>
+              <p className="w-4/5 text-white self-center">
               Con los resultados te acompañamos en el diseño de acciones y seguimiento para la <span className="font-bold">mejora del clima laboral</span>
               </p>
             </div>
@@ -183,24 +191,24 @@ export const encuestaClimaLaboral = () => {
         </div>
       </div>
       <div
-        className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
+        className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#ef476f]"
         style={{
           backgroundImage: `url(/img/clima-laboral/diagnosticoInicial.jpg)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
-        <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
+        <div className="h-[700px] flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex justify-center w-full self-center lg:w-1/2 z-5">
             <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-2/3 sm:w-full h-auto">
-              <div className="mb-4 divide-y divide-blue-500">
-                <h3 className="font-regular text-3xl py-4 text-scooter-400">
+              <div className="mb-4 divide-y flex flex-col divide-[#ef476f] w-full">
+                <h3 className="font-light text-3xl self-center font-jost py-4 text-[#ef476f]">
                   ¿QUIERES SABER CÓMO ESTÁ
                   <br />{" "}
-                  <span className="text-keppel-700">
+                  <span className="text-[#ef476f] font-bold">
                     TU EMPRESA EN CLIMA LABORAL?
                   </span>
                 </h3>
-                <p className="text-gray-500">
+                <p className="text-gray-500 pt-4 self-center font-mont">
                   Conoce cuáles son los factores que generan insatisfacción en
                   tus colaboradores y estrategias para trabajar en la retención
                   y engagement de personal.
@@ -211,7 +219,7 @@ export const encuestaClimaLaboral = () => {
                   <Link href="/climaLaboral/diagnostico.js">
                     <button
                       type="submit"
-                      className="w-full sm:w-2/3 flex justify-center bg-scooter-500  hover:bg-keppel-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
+                      className="w-full sm:w-2/3 flex justify-center bg-transparent border-2 border-[#ef476f] hover:bg-[#ef476f] text-[#ef476f] hover:text-white p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg transition ease-in duration-250"
                     >
                       SOLICITA TU DIAGNÓSTICO GRATUITO
                     </button>
@@ -223,14 +231,14 @@ export const encuestaClimaLaboral = () => {
         </div>
       </div>
       <div className="flex flex-col sm:flex-row h-56">
-        <div className="w-full sm:w-1/2 flex">
-          <h3 className="text-4xl text-gray-600 text-center mx-auto pt-4 items">
-          ¿Quieres saber más sobre <span className="font-bold  text-4xl text-scooter-600 text-center mx-auto pb-4">Estudios de Clima Laboral?
+        <div className="w-full sm:w-1/2 flex bg-[#ef476f]">
+          <h3 className="text-4xl text-white  text-center font-jost mx-auto self-center">
+          ¿Quieres saber más sobre <br/> <span className="font-bold text-4xl text-white text-center mx-auto pb-4">Estudios de Clima Laboral?
             </span>
           </h3>
         </div>
         <div className="w-full sm:w-1/2 flex">
-          <p className="items-center w-4/5 mx-auto text-regular py-8 text-lg">
+          <p className="items-center self-center w-4/5 mx-auto text-regular font-mont py-8 text-lg">
           Mejora el <span className="font-bold">clima laboral</span> de tu empresa con los recursos y estrategias que tenemos para ti. ¡Impulsa a tus colaboradores todos los días con nuestro contenido!</p>
         </div>
       </div>

@@ -81,7 +81,7 @@ export default function SliderSix() {
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/six-sigma/portadas/Portada-Six-Sigma-White.png"
+                    src="/img/six-sigma/portadas/Portada-Six-Sigma-White.jpg"
                     width={1200}
                     height={1200}
                     className="object-cover rounded-xl object-right "
@@ -118,7 +118,7 @@ export default function SliderSix() {
               <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/six-sigma/portadas/Portada-Six-Sigma-Yellow.png"
+                    src="/img/six-sigma/portadas/Portada-Six-Sigma-Yellow.jpg"
                     width={1200}
                     height={1200}
                     className="object-cover rounded-xl object-right"
@@ -160,7 +160,7 @@ export default function SliderSix() {
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/img/six-sigma/portadas/Portada-Six-Sigma-Green.png"
+                  src="/img/six-sigma/portadas/Portada-Six-Sigma-Green.jpg"
                   width={1200}
                   height={1200}
                   className="object-cover rounded-xl object-right"

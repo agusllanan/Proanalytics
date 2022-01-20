@@ -81,7 +81,7 @@ export default function climaLaboral() {
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/clima-laboral/servicio-diagnostico.jpeg"
+                    src="/img/clima-laboral/portada-diagnostico.jpg"
                     width={1200}
                     height={1200}
                     className="object-cover rounded-xl object-right"
@@ -114,10 +114,10 @@ export default function climaLaboral() {
               <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/clima-laboral/servicio-nom35.jpeg"
+                    src="/img/clima-laboral/portada-nom035.jpg"
                     width={1200}
                     height={1200}
-                    className="object-cover rounded-xl object-center "
+                    className="object-cover rounded-xl object-right"
                     alt="Aqui va el alt de la imagen"
                   />
                   <h2 className="title-font text-lg font-bold pt-4 text-gray-900 mb-3">
@@ -160,10 +160,10 @@ export default function climaLaboral() {
               <div className="h-full border-2 shadow-lg border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <Image
-                    src="/img/clima-laboral/servicio-consultoría.jpeg"
+                    src="/img/clima-laboral/portada-consultoria.jpg"
                     width={1200}
                     height={1200}
-                    className="object-cover rounded-xl object-left"
+                    className="object-cover rounded-xl object-center"
                     alt="Aqui va el alt de la imagen"
                   />
                   <h2 className="title-font text-lg font-bold pt-4 text-gray-900 mb-3">

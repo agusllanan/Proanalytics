@@ -7,7 +7,7 @@ export const greenBelt = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#006837]"
         style={{
-          backgroundImage: `url(/img/six-sigma/portadas/Portada-Six-Sigma-Green.png)`,
+          backgroundImage: `url(/img/six-sigma/portadas/Portada-Six-Sigma-Green.jpg)`,
         }}
       >
         <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center px-8 font-mont">
