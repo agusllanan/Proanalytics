@@ -12,7 +12,7 @@ export const auditorias = () => {
         }}
       >
         <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
-          <div className="flex flex-col lg:ml-10 container content-center bg-white shadow-2xl w-4/5 lg:w-1/3 rounded-t-xl md:rounded-tr-none font-mont md:rounded-l-xl self-center h-[450px]">
+          <div className="flex flex-col lg:ml-10 container content-center bg-white shadow-2xl w-4/5 lg:w-1/4 rounded-t-xl md:rounded-tr-none font-mont md:rounded-l-xl self-center h-[450px]">
             <span className="w-4/5 mx-auto text-2xl py-12 font-bold font-jost text-[#7209b7]">
             TRABAJA EN EL DESARROLLO INTEGRAL{" "}
             <span className="font-light">
@@ -37,7 +37,7 @@ export const auditorias = () => {
               con nuestro diagnóstico y asesoría.
             </p>
           </div>
-          <div className="flex flex-col container content-center bg-[#7209b7] shadow-2xl lg:w-1/3 lg:rounded-r-xl w-4/5 h-[450px]">
+          <div className="flex flex-col container content-center bg-[#7209b7] shadow-2xl lg:w-1/4 lg:rounded-r-xl w-4/5 h-[450px]">
             <p className="self-center w-4/5 md:ml-4 text-white text-justify pt-4 pb-4">
             Analiza el estatus de tu empresa en los procesos de estas Normas: <br /> {" "}
               <span className="font-bold">NOM-035-STPS-2018 y NMX-R-025-SCFI-2015</span>

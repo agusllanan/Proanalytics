@@ -16,7 +16,7 @@ export const encuestaClimaLaboral = () => {
         <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont pl-10"
         id="aqui"
         >
-          <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/3 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center h-[450px]">
+          <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/4 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center h-[450px]">
             <h3 className="w-4/5 mx-auto text-2xl font-jost py-12 text-[#ef476f] font-light">
               ESTUDIOS DE
               <br />
@@ -37,7 +37,7 @@ export const encuestaClimaLaboral = () => {
               : entrevistas, focus group, observación, simulaciones de trabajo.
             </p>
           </div>
-          <div className="flex flex-col container bg-[#ef476f] shadow-2xl lg:w-1/3 lg:rounded-r-xl w-4/5 h-[450px] justify-center font-mont">
+          <div className="flex flex-col container bg-[#ef476f] shadow-2xl lg:w-1/4 lg:rounded-r-xl w-4/5 h-[450px] justify-center font-mont">
             <p className="w-4/5 md:ml-4 self-center text-white text-justify pt-4 pb-4">
               ¿Quieres trabajar en{" "}
               <span className="font-bold">

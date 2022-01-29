@@ -17,7 +17,7 @@ export const consultorias = () => {
           }}
         >
           <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
-            <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/3 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center">
+            <div className="flex flex-col lg:ml-4 container content-center bg-white shadow-2xl w-4/5 lg:w-1/4 rounded-t-xl md:rounded-tr-none md:rounded-l-xl self-center h-[400px]">
               <h3 className="w-4/5 mx-auto text-2xl py-12 font-jost font-light text-[#4361ee]">
                 CONSULTORÍA Y
                 <br />
@@ -36,7 +36,7 @@ export const consultorias = () => {
                 productividad, felicidad en el trabajo y otros.
               </p>
             </div>
-            <div className="flex flex-col container content-center bg-[#4361ee] shadow-2xl lg:w-1/3 lg:rounded-r-xl w-4/5">
+            <div className="flex flex-col container content-center bg-[#4361ee] shadow-2xl lg:w-1/4 lg:rounded-r-xl w-4/5 h-[400px]">
               <p className="flex self-center w-4/5 md:ml-4 text-white text-justify pt-4 pb-4">
                 Conoce más de estos temas y suscríbete a nuestro newsletter en
                 donde te compartiremos temas de tu interés, sugerencias,
