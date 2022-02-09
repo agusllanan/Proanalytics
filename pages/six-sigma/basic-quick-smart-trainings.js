@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
+import Image from "next/image";
 
 export const basicSmartTraining = () => {
 
@@ -50,7 +51,22 @@ export const basicSmartTraining = () => {
           </div>
         </div>
       </div>
-      {/* ---- Nueva seccion --- */}
+      <section 
+        className="bg-no-repeat bg-cover bg-center relative h-[500px] flex"
+        style={{
+          backgroundImage: `url(/img/six-sigma/banner/banner-quick.jpg)`,
+        }}>
+        <div className="py-10 px-16 justinfy-end w-1/3">
+          <Image
+            layout="fixed"
+            width="600"
+            height="400"
+            src='/img/six-sigma/banner/certificado-quick.png' 
+            className="rounded-lg self-center items-center"
+            alt=""
+            />
+        </div>
+      </section>
       <div className="flex sm:flex-row flex-col h-auto">
         <div className="bg-white text-center flex sm:w-1/2 w-full">
           <h3 className="mx-auto text-xl sm:text-4xl text-[#007ed5] font-bold font-jost self-center">

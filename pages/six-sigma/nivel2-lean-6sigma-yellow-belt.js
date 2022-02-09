@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
+import Image from "next/image";
 
 export const yellowBelt = () => {
   return (
@@ -55,6 +56,22 @@ export const yellowBelt = () => {
           </div>
         </div>
       </div>
+      <section 
+        className="bg-no-repeat bg-cover bg-center relative h-[500px] flex"
+        style={{
+          backgroundImage: `url(/img/six-sigma/banner/banner-yellow.jpg)`,
+        }}>
+        <div className="py-10 px-16 justinfy-end w-1/3">
+          <Image
+            layout="fixed"
+            width="600"
+            height="400"
+            src='/img/six-sigma/banner/certificado-yellow.png' 
+            className="rounded-lg self-center items-center"
+            alt=""
+            />
+        </div>
+      </section>
       {/* ---- Nueva seccion --- */}
       <div className="flex sm:flex-row flex-col h-auto">
         <div className="bg-white text-center flex sm:w-1/2 w-full">
