@@ -215,7 +215,7 @@ export default function Home() {
         <section>
           <div className="flex w-full ">
             <Image
-              src="/img/home/footer.jpeg"
+              src="/img/home/Footer.jpeg"
               width={1920}
               height={700}
               className="object-cover object-center"
