@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import { useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Servicios from "../components/Servicios";
 import Dropdown from "../components/Dropdown";
 import "animate.css";
@@ -85,9 +86,13 @@ export default function Home() {
                 colaboradores.
               </p>
               <div className="flex justify-center">
-                <button className="inline-flex font-bold text-white mx-auto border-white border-2 py-2 px-6 focus:outline-none hover:bg-white hover:text-keppel-500 rounded text-lg transition ease-in duration-250">
-                  Conócenos
-                </button>
+                <Link href="/nosotros">
+                  <a>
+                    <button className="inline-flex font-bold text-white mx-auto border-white border-2 py-2 px-6 focus:outline-none hover:bg-white hover:text-keppel-500 rounded text-lg transition ease-in duration-250">
+                    Conócenos
+                    </button>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
