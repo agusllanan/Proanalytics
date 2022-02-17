@@ -5,8 +5,11 @@ import Link from "next/link";
 import Servicios from "../components/Servicios";
 import Dropdown from "../components/Dropdown";
 import "animate.css";
+import ScrollableAnchor from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor'
 
 export default function Home() {
+  configureAnchors({offset: 28, scrollDuration: 1000})
   useEffect(() => {
     const obtenerDatos = async () => {
       try {
@@ -47,9 +50,11 @@ export default function Home() {
                 </span>
               </p>
               <div className="flex justify-center">
+              <a href="#servicios">
                 <button className="inline-flex font-bold text-keppel-500 mx-auto bg-white border-keppel-500 border-2 py-2 px-6 focus:outline-none hover:bg-keppel-500 hover:text-white rounded text-lg transition ease-in duration-250">
                   Comenzar
                 </button>
+              </a>
               </div>
             </div>
             <div className="lg:ml-4 lg:w-2/3 md:w-1/2 w-5/6">
@@ -96,7 +101,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <ScrollableAnchor id={'servicios'}>
+          <section>
           <Servicios />
+          </section>
+          </ScrollableAnchor>
         </section>
         <section className="text-gray-600 body-font">
           <div className="w-full">
