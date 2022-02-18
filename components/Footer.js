@@ -61,6 +61,9 @@ const subscribe = async () => {
               <Link href="/contactanos">
                 <a className="py-2 text-gray-600 font-mont hover:text-keppel-700">Contáctanos</a>
               </Link>
+              <Link href="/contactanos">
+                <a className="py-2 text-gray-600 font-mont hover:text-keppel-700">Políticas de privacidad</a>
+              </Link>
             </nav>
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full px-4 items-center">

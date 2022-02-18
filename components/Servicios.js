@@ -29,7 +29,7 @@ import Link from "next/link";
                 <div className="flex items-center flex-wrap ">
                   <Link href="/six-sigma">
                     <a>
-                      <button className="inline-flex font-bold text-keppel-500 bg-white border-keppel-500 border-2 py-2 px-6 focus:outline-none hover:bg-keppel-500 hover:text-white rounded text-lg transition ease-in duration-250">
+                      <button className="inline-flex font-bold text-indigo-500 bg-white border-indigo-500 border-2 py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg transition ease-in duration-250">
                         Ver más
                       </button>
                     </a>
@@ -57,7 +57,7 @@ import Link from "next/link";
                 <div className="flex items-center flex-wrap">
                   <Link href="/climaLaboral">
                     <a>
-                      <button className="inline-flex font-bold text-keppel-500 bg-white border-keppel-500 border-2 py-2 px-6 focus:outline-none hover:bg-keppel-500 hover:text-white rounded text-lg transition ease-in duration-250">
+                      <button className="inline-flex font-bold text-curious-blue-500 bg-white border-curious-blue-500 border-2 py-2 px-6 focus:outline-none hover:bg-curious-blue-500 hover:text-white rounded text-lg transition ease-in duration-250">
                         Ver más
                       </button>
                     </a>
@@ -83,11 +83,10 @@ import Link from "next/link";
                 Smartsheets es una plataforma ideal para empresas que buscan una solución real a la creación, gestión y automatización de procesos.
                 </p>
                 <div className="flex items-center flex-wrap ">
-                  <Link href="/diseno-automatizacion-procesos">
-                  <button className="inline-flex font-bold text-keppel-500 bg-white border-keppel-500 border-2 py-2 px-6 focus:outline-none hover:bg-keppel-500 hover:text-white rounded text-lg transition ease-in duration-250">
-                    Ver más
+                  <button className="inline-flex font-bold text-gray-500 bg-white border-gray-500 border-2 py-2 px-6 focus:outline-none rounded text-lg transition ease-in duration-250
+                  cursor-default">
+                    Próximamente
                   </button>
-                </Link>
                 </div>
               </div>
             </div>

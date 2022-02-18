@@ -1,8 +1,11 @@
 import Layout from "../../components/Layout";
 import Image from "next/image";
 import Link from "next/link";
+import ScrollableAnchor from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor'
 
 export default function nosotros() {
+  configureAnchors({offset: 28, scrollDuration: 1000})
   return (
     <Layout
       title="Nosotros | Proanalytics"
@@ -14,12 +17,14 @@ export default function nosotros() {
             Hacer las cosas bien,<br /> es posible cuando se quiere
           </h2>
           <p className="mb-8 leading-relaxed w-2/3 font-mont text-justify">
-            Así surge PROANALYTICS, un proyecto en el que convencidos de que toda empresa que quiera profesionalizarse tomando decisiones en base a información o eficientizando con procesos que le permitan medir y trabajar en sus resultados.
+            Así surge PROANALYTICS, un proyecto en el que convencidos de que toda empresa que quiera profesionalizarse tomando decisiones con base en información o eficientizando con procesos que le permitan <span className="font-bold">medir y trabajar en sus resultados.</span>
           </p>
           <div className="flex justify-center">
+          <a href="#vision">
             <button className="inline-flex text-white bg-[#29ABE2] border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
-              Ver mas
+              Ver más
             </button>
+          </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -37,8 +42,7 @@ export default function nosotros() {
           ¿Quiénes somos?
         </h2>
         <p className="w-1/2 text-lg text-justify font-mont">
-          Sabemos también por experiencia, que las personas pueden trabajar en ambientes favorables, con trato digno, con condiciones seguras y óptimas cuando conocen sus derechos y junto con la empresa, construyen una cultura de trabajo que les permita potencializar sus talentos en beneficio personal y organizacional. 
-          PROANALYTICS trabaja con y para personas y empresas que quieran seguir haciendo las cosas mejor y que deseen seguir conociendo los cómos para llevarlo a la práctica.
+          Sabemos también por experiencia, que las personas pueden trabajar en <span className="font-bold">ambientes favorables, con trato digno, con condiciones seguras y óptimas</span> cuando conocen sus derechos y junto con la empresa, construyen una <span className="font-bold">cultura de trabajo</span> que les permita potencializar sus talentos en beneficio personal y organizacional. PROANALYTICS trabaja con y para personas y empresas que quieran seguir haciendo las cosas mejor y que deseen seguir conociendo los cómos para llevarlo a la práctica.
         </p>
     </div>
     <section className="flex flex-row ">
@@ -59,9 +63,11 @@ export default function nosotros() {
         </p>
         <div className="w-4/5">
         <Link href="/contacto">
+        <ScrollableAnchor id={'vision'}>
         <button className="rounded-lg px-5 bg-white hover:bg-gray-200 text-[#29ABE2] py-3">
           Ponte en contacto conmigo
         </button>
+        </ScrollableAnchor>
         </Link>
         </div>
       </div>

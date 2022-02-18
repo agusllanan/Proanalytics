@@ -36,7 +36,7 @@ export default function Home() {
                   MONITOREA
                 </span>
               </h2>
-              <p className="mb-8 leading-relaxed w-4/5 text-lg text-justify">
+              <p className="mb-8 leading-relaxed w-4/5 font-mont text-lg text-left">
                 Lo que se mide, se puede mejorar. <br /> <br />
                 Conoce cómo las personas pueden ser más productivas y felices en
                 su trabajo con{" "}
@@ -51,7 +51,7 @@ export default function Home() {
               </p>
               <div className="flex justify-center">
               <a href="#servicios">
-                <button className="inline-flex font-bold text-keppel-500 mx-auto bg-white border-keppel-500 border-2 py-2 px-6 focus:outline-none hover:bg-keppel-500 hover:text-white rounded text-lg transition ease-in duration-250">
+                <button className="inline-flex font-bold font-mont text-keppel-500 mx-auto bg-white border-keppel-500 border-2 py-2 px-6 focus:outline-none hover:bg-keppel-500 hover:text-white rounded text-lg transition ease-in duration-250">
                   Comenzar
                 </button>
               </a>
@@ -82,7 +82,7 @@ export default function Home() {
               <h2 className="title-font text-3xl md:py-0 md:text-5xl mb-4 font-jost font-normal text-gray-50">
               ¿QUIÉNES SOMOS?{" "}
               </h2>
-              <p className="mb-8 w-full text-lg leading-relaxed text-white text-justify pr-4">
+              <p className="mb-8 w-full text-lg font-mont leading-relaxed text-white text-justify pr-4">
                 Profesionales que han trabajado con y para personas y que
                 valoran servir, conforman{" "}
                 <span className="font-bold">PROANALYTICS:</span> una empresa
@@ -145,7 +145,7 @@ export default function Home() {
                   A TU ALCANCE
                 </span>
               </h2> <br />
-              <p className="mb-8 leading-relaxed w-4/5 text-lg text-justify">
+              <p className="mb-8 leading-relaxed w-4/5 text-lg font-mont text-left">
                 <span className="font-bold text-curious-blue-500">Herramientas:</span>{" "}
                 conoce las mejores herramientas de gestión y cómo usarlas para
                 obtener mejores resultados en tu empresa. <br /> <br />
@@ -160,7 +160,11 @@ export default function Home() {
                 mide el impacto de la implementación de nuestra experiencia y
                 herramientas como lo han hecho nuestros clientes.
               </p>
-              <div className="flex justify-center"> <button className="inline-flex text-curious-blue-500 mx-auto  border-2 border-curious-blue-500 py-2 px-6 focus:outline-none hover:text-white hover:bg-curious-blue-500 rounded text-lg transition ease-in duration-250"> Explora nuestro contenido </button> </div>
+              <div className="flex justify-center">
+              <Link href="/blog"> 
+              <button className="inline-flex text-curious-blue-500 mx-auto  border-2 border-curious-blue-500 py-2 px-6 focus:outline-none hover:text-white hover:bg-curious-blue-500 rounded text-lg transition ease-in duration-250 font-mont"> Explora nuestro contenido </button>
+              </Link>
+              </div>
               <div className="flex justify-center"></div>
             </div>
             <div className=" lg:w-1/2 md:w-1/2 w-5/6">
