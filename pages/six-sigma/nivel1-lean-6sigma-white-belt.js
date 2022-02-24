@@ -119,12 +119,6 @@ export const whiteBelt = () => {
           </ul>
         </div>
       </div>
-      <div
-        className="bg-no-repeat bg-cover bg-center relative border-b-4 border-gray-500"
-        style={{
-          backgroundImage: `url(/img/home/footer-six.png)`,
-        }}
-      >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
 
         <div className="flex sm:flex-row flex-col h-auto">
@@ -179,6 +173,12 @@ export const whiteBelt = () => {
             </ul>
           </div>
         </div>
+        <div
+        className="bg-no-repeat bg-cover bg-center relative border-b-4 border-gray-500"
+        style={{
+          backgroundImage: `url(/img/home/footer-six.png)`,
+        }}
+        > 
         <div className="h-[700px] flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
             <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-2/3 sm:w-full h-auto">

@@ -120,7 +120,7 @@ export const basicSmartTraining = () => {
         </div>
       </div>
       <div
-        className="bg-no-repeat bg-cover bg-center relative h-[700px] border-b-4 border-scooter-400"
+        className="bg-no-repeat bg-cover bg-center relative border-b-4 h-[700px] border-scooter-400"
         style={{
           backgroundImage: `url(/img/home/footer-six.png)`,
         }}
