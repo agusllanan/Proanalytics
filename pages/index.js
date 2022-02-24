@@ -28,7 +28,52 @@ export default function Home() {
       <main className="">
         <Dropdown />
         <section className="text-gray-600 body-font">
-          <div className="w-full mx-auto flex lg:px-28 py-10 md:flex-row flex-col items-center h-screen">
+      <div
+        className="min-h-screen bg-no-repeat bg-cover bg-top relative"
+        style={{ backgroundImage: `url(/img/home/portada-home.jpg)` }}
+      >
+        {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
+        <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
+          <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5 md:px-14">
+            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-5/6 font-mont">
+              <div className="mb-4">
+                <h2 className="title-font text-4xl py-4 md:py-0 lg:text-4xl mb-4 font-jost font-light text-gray-500">
+                ANALIZA Y<br />{" "}
+                <span className="font-medium font-jost text-keppel-500">
+                  MONITOREA
+                </span>
+                </h2>
+                <p className="text-gray-500 text-lg text-justify pb-4">
+                  Lo que se mide, se puede mejorar. <br /> <br />
+                Conoce cómo las personas pueden ser más productivas y felices en
+                su trabajo con{" "}
+                <span className="font-bold text-keppel-500">
+                  procesos más efectivos y eficientes
+                </span>{" "}
+                a través del{" "}
+                <span className="font-bold text-keppel-500">
+                  análisis y monitoreo de información, uso de herramientas e
+                  implementación de metodologías.{" "}
+                </span>
+                </p>
+              </div>
+              <div className="space-y-5">
+                <div className="flex flex-col lg:flex-row">
+                  <a href="#servicios">
+                  <button
+                    type="submit"
+                    className=" w-full lg:mr-3 flex lg:py-4 self-center justify-center bg-transparent border-2 border-keppel-500 text-keppel-500 p-3 hover:bg-keppel-500 hover:text-white rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
+                  >
+                    COMENZAR
+                  </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          {/* <div className="w-full mx-auto flex lg:px-28 py-10 md:flex-row flex-col items-center h-screen">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h2 className="title-font text-4xl py-4 md:py-0 lg:text-6xl mb-4 font-jost font-light text-gray-500">
                 ANALIZA Y<br />{" "}
@@ -66,12 +111,12 @@ export default function Home() {
                 alt="Aqui va el alt de la imagen"
               />
             </div>
-          </div>
+          </div> */}
           {/* Arranca la seccion de quienes somos */}
           <div className="w-full mx-auto flex px-14 lg:px-28 py-10 md:flex-row flex-col items-center bg-keppel-500">
           <div className="lg:w-1/2 md:w-1/2 w-5/6">
               <Image
-                src="/img/home/foto-nosotros.jpg"
+                src="/img/home/foto-rosy.png"
                 width={1400}
                 height={1000}
                 className="relative h-0 object-cover rounded-xl object-center pb-2/3"
@@ -230,17 +275,6 @@ export default function Home() {
             <div className="elfsight-app-9ed6c0ff-4917-4325-aae1-8937cac11a8b"></div>
           </div>
         </section> */}
-        <section>
-          <div className="flex w-full ">
-            <Image
-              src="/img/home/Footer.jpeg"
-              width={1920}
-              height={700}
-              className="object-cover object-center"
-              alt="Aqui va el alt de la imagen"
-            />
-          </div>
-        </section>
       </main>
     </Layout>
   );

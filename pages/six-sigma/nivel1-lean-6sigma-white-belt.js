@@ -122,7 +122,7 @@ export const whiteBelt = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-gray-500"
         style={{
-          backgroundImage: `url(/img/clima-laboral/diagnosticoInicial.jpg)`,
+          backgroundImage: `url(/img/home/footer-six.png)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
