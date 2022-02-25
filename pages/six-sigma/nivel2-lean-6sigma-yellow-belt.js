@@ -57,19 +57,23 @@ export const yellowBelt = () => {
         </div>
       </div>
       <section 
-        className="bg-no-repeat bg-cover bg-center relative h-[500px] flex"
+        className="bg-no-repeat bg-cover bg-center relative h-[500px] flex space-x-80 flex-row"
         style={{
           backgroundImage: `url(/img/six-sigma/banner/banner-yellow.jpg)`,
         }}>
-        <div className="py-10 px-16 justinfy-end w-1/3">
+        <div className="py-10 px-16 w-1/3">
           <Image
             layout="fixed"
             width="600"
             height="400"
             src='/img/six-sigma/banner/certificado-yellow.png' 
-            className="rounded-lg self-center items-center"
+            className="rounded-lg"
             alt=""
             />
+        </div>
+        <div className="py-44 w-1/3 text-white space-y-5">
+          <h3 className="font-jost text-xl">CERTIFICATE CON NOSOTROS</h3>
+          <p className="font-mont text-lg">Al terminar este nivel recibirás un certificado con validez curricular para avalar los conocimientos aprendidos. Adquiere informes el día de hoy</p>
         </div>
       </section>
       {/* ---- Nueva seccion --- */}
@@ -81,7 +85,7 @@ export const yellowBelt = () => {
           </h3>
         </div>
         <div className="bg-gray-100 w-full sm:w-1/2 flex justify-center font-mont py-6 items-center">
-          <ul className="w-4/5 mx-auto list-disc pb-6 place-self-center my-4 space-y-2">
+          <ul className="w-4/5 flex-col py-10 space-y-3 px-8 list-disc font-mont">
             <li className="text-gray-500 text-lg">
               Introducción al mundo{" "}
               <span className="font-bold text-[#f6b433]">Yellow Belt</span>
@@ -157,7 +161,7 @@ export const yellowBelt = () => {
             </h3>
           </div>
           <div className="bg-white w-full sm:w-1/2 flex justify-center items-center font-mont py-6">
-            <ul className="w-4/5 flex-col py-6 list-disc space-y-2">
+            <ul className="w-4/5 flex-col py-10 space-y-3 px-8 list-disc font-mont">
               <li className="text-gray-500 text-lg">
                 Las exigencias de los clientes demandan un alto nivel de calidad
                 en productos y servicios.

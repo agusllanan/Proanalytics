@@ -52,7 +52,7 @@ export const greenBelt = () => {
         </div>
       </div>
       <section 
-        className="bg-no-repeat bg-cover bg-center relative h-[500px] flex"
+        className="bg-no-repeat bg-cover bg-center relative h-[500px] flex flex-row space-x-80"
         style={{
           backgroundImage: `url(/img/six-sigma/banner/banner-green.jpg)`,
         }}>
@@ -66,6 +66,10 @@ export const greenBelt = () => {
             alt=""
             />
         </div>
+        <div className="py-44 w-1/3 text-white space-y-5">
+          <h3 className="font-jost text-xl">CERTIFICATE CON NOSOTROS</h3>
+          <p className="font-mont text-lg">Al terminar este nivel recibirás un certificado con validez curricular para avalar los conocimientos aprendidos. Adquiere informes el día de hoy</p>
+        </div>
       </section>
       {/* ---- Nueva seccion --- */}
       <div className="flex sm:flex-row flex-col h-auto">
@@ -76,7 +80,7 @@ export const greenBelt = () => {
           </h3>
         </div>
         <div className="bg-gray-100 w-full sm:w-1/2 flex justify-center items-center">
-          <ul className="w-4/5 mx-auto list-disc place-self-center my-8 font-mont">
+          <ul className="w-4/5 flex-col py-10 space-y-3 px-8 list-disc font-mont">
             <li className="text-[#006837] text-lg">
               <span className="font-bold text-[#006837]">Introducción al mundo Green Belt</span>
             </li>
@@ -208,7 +212,7 @@ export const greenBelt = () => {
             </h3>
           </div>
           <div className="bg-white w-full sm:w-1/2 flex justify-center items-center">
-            <ul className="w-4/5 flex-col py-8 list-disc font-mont">
+            <ul className="w-4/5 flex-col py-10 space-y-3 px-8 list-disc font-mont">
               <li className="text-gray-500 text-lg">
                 Las exigencias de los clientes demandan un alto nivel de calidad
                 en productos y servicios.
