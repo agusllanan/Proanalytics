@@ -11,15 +11,15 @@ export const auditorias = () => {
           backgroundImage: `url(/img/clima-laboral/portada-nom035.jpg)`,
         }}
       >
-        <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
-          <div className="flex flex-col lg:ml-10 container content-center bg-white shadow-2xl w-4/5 lg:w-1/4 rounded-t-xl md:rounded-tr-none font-mont md:rounded-l-xl self-center h-[450px]">
-            <span className="w-4/5 mx-auto text-2xl py-12 font-bold font-jost text-[#7209b7]">
+        <div className="h-auto md:h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
+          <div className="flex flex-col lg:ml-10 container content-center bg-white shadow-2xl w-4/5 lg:w-1/4 rounded-t-xl md:rounded-tr-none font-mont md:rounded-l-xl self-center h-auto lg:h-[500px] mt-4 md:mt-0">
+            <span className="w-4/5 mx-auto text-2xl py-6 md:py-12 font-bold font-jost text-[#7209b7]">
             TRABAJA EN EL DESARROLLO INTEGRAL{" "}
             <span className="font-light">
             DE LAS Y LOS TRABAJADORES
             </span>
             </span>
-            <p className="w-4/5 mx-auto justify-center font-mont text-justify pb-16">
+            <p className="w-4/5 mx-auto justify-center font-mont text-justify pb-8 md:pb-16">
               Identifica los requisitos de la
               <span className="font-bold  text-[#7209b7]">
                 {" "}
@@ -37,7 +37,7 @@ export const auditorias = () => {
               con nuestro diagnóstico y asesoría.
             </p>
           </div>
-          <div className="flex flex-col container content-center bg-[#7209b7] shadow-2xl lg:w-1/4 lg:rounded-r-xl w-4/5 h-[450px]">
+          <div className="flex flex-col container content-center bg-[#7209b7] shadow-2xl lg:w-1/4 lg:rounded-r-xl w-4/5 h-[500px] mb-4 md:mb-0 rounded-b-xl md:rounded-br-none">
             <p className="self-center w-4/5 md:ml-4 text-white text-justify pt-4 pb-4">
             Analiza el estatus de tu empresa en los procesos de estas Normas: <br /> {" "}
               <span className="font-bold">NOM-035-STPS-2018 y NMX-R-025-SCFI-2015</span>
@@ -86,16 +86,16 @@ export const auditorias = () => {
         </div>
       </div>
       {/* ---- Nueva seccion --- */}
-      <div className="flex sm:flex-row flex-col h-80">
+      <div className="flex sm:flex-row flex-col md:h-80 h-auto">
         <div className="bg-white text-center flex sm:w-1/2 w-full">
-          <h3 className="mx-auto w-4/5 h-44 sm:py-24 sm:h-72 text-xl font-jost sm:text-4xl text-[#7209b7] font-light place-self-center">
+          <h3 className="mx-auto w-4/5 h-44 md:py-24 md:h-72 text-xl font-jost sm:text-4xl text-[#7209b7] font-light place-self-center ">
             ¿POR QUÉ ASESORARTE EN LOS PROCESOS DE LA{" "}
             <span className="font-bold text-[#7209b7]">
               NÓM035 <span className="text-[#7209b7]">O</span> NÓM025?
             </span>
           </h3>
         </div>
-        <div className="bg-gray-100 w-full sm:w-1/2 flex justify-center items-center font-mont">
+        <div className="bg-gray-100 w-full sm:w-1/2 flex justify-center items-center font-mont py-10">
           <ul className="flex-col list-disc w-4/5 space-y-5">
             <li className="text-gray-500 text-xl ">
               Prevé errores u omisiones.
@@ -114,14 +114,13 @@ export const auditorias = () => {
           </ul>
         </div>
       </div>
-      <div className="">
         <div className="bg-[#7209b7] text-justify flex flex-col py-14 h-auto w-full font-mont">
-          <h3 className="text-xl pb-4 sm:text-4xl text-white font-bold font-jost  place-self-center mx-auto">
+          <h3 className="text-xl pb-4 sm:text-4xl text-white font-bold font-jost place-self-center mx-auto">
             {" "}
             NUESTRA METODOLOGÍA
           </h3>
           <div className="div w-full flex flex-col place-content-center md:flex-row">
-            <div className="w-full h-80 md:w-1/3 flex flex-col">
+            <div className="w-full h-auto md:h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4">
               <Image
                 src="/img/clima-laboral/NOM035/iconos-metodologia/diagnostico.png"
@@ -138,7 +137,7 @@ export const auditorias = () => {
                 identifica tus necesidades
               </p>
             </div>
-            <div className="w-full h-80 md:w-1/3 flex flex-col">
+            <div className="w-full h-auto md:h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4 flex flex-col">
               <Image
                 src="/img/clima-laboral/NOM035/iconos-metodologia/asesoria.png"
@@ -156,7 +155,7 @@ export const auditorias = () => {
                 {" "}que se requiera para cumplir con los requerimientos.
               </p>
             </div>
-            <div className="w-full h-80 md:w-1/3 flex flex-col">
+            <div className="w-full h-auto md:h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4">
               <Image
                 src="/img/clima-laboral/NOM035/iconos-metodologia/verificaciones.png"
@@ -175,7 +174,6 @@ export const auditorias = () => {
             </div>
           </div>
         </div>
-      </div>
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#7209b7]"
         style={{
@@ -185,7 +183,7 @@ export const auditorias = () => {
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="h-[700px] flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-2/3 sm:w-full h-auto font-mont">
+            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl md:w-2/3 w-4/5 h-auto font-mont">
               <div className="mb-4 divide-y divide-[#7209b7]">
                 <h3 className="font-regular text-3xl py-4 text-[#7209b7] font-jost">
                 ¿QUIERES CONOCER MÁS DE ESTAS NORMAS Y SU PROPÓSITO?
@@ -218,7 +216,7 @@ export const auditorias = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row h-48">
+      <div className="flex flex-col sm:flex-row h-auto md:h-48">
         <div className="w-full h-full sm:w-1/2 flex">
           <h3 className="text-4xl text-gray-600 font-jost text-center mx-auto pt-4 flex-col place-self-center w-4/5 aling-center">
             ¿Quieres saber más sobre la{" "}

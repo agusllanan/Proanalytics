@@ -5,11 +5,11 @@ import Link from "next/link";
   return (
     <section className="text-gray-600 body-font">
       <div className="container py-16 mx-auto font-mont">
-        <h2 className="font-semibold font-jost text-5xl flex justify-center pb-10 text-keppel-500">
+        <h2 className="font-semibold font-jost text-4xl md:text-5xl flex justify-center pb-10 text-keppel-500">
           {" "}
           NUESTROS SERVICIOS{" "}
         </h2>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap md:-m-4">
           <div className="p-4 md:w-1/3">
             <div className="h-full shadow-lg border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="p-6">

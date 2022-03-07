@@ -11,19 +11,18 @@ export default function climaLaboral() {
           backgroundImage: `url(/img/clima-laboral/portada-clima-laboral.jpg)`,
         }}
       >
-        {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle font-mont">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5">
-            <div className="my-2 md:my-0 w-4/5 md:w-2/3 sm:mx-auto-align p-12 bg-white shadow-xl rounded-2xl  h-auto">
+            <div className="my-2 md:my-0 w-4/5 md:w-4/5 sm:mx-auto-align p-8 bg-white shadow-xl rounded-2xl h-auto">
               <div className="mb-4">
-                <h3 className="text-5xl py-4 font-jost font-medium text-bright-turquoise-500">
+                <h3 className="text-3xl md:text-5xl py-4 font-jost font-medium text-bright-turquoise-500">
                   CLIMA
                   {" "}
                   <span className="text-curious-blue-500 font-jost font-light">
                     LABORAL
                   </span>
                 </h3>
-                <p className="text-gray-500 text-justify text-lg py-4">
+                <p className="text-gray-500 text-justify text-base md:text-lg py-4">
                   Conoce las posibles causas de{" "}
                   <span className="font-bold text-curious-blue-500">
                     rotación en tu empresa
@@ -71,10 +70,10 @@ export default function climaLaboral() {
       </div>
       <section className="text-gray-600 body-font font-mont">
         <div className="container px-5 py-16 mx-auto">
-          <h2 className="font-medium font-jost text-5xl flex justify-center pb-10 text-curious-blue-500">
+          <h2 className="font-medium font-jost text-3xl md:text-5xl flex flex-col md:flex-row justify-center pb-10 text-curious-blue-500">
             {" "}
             NUESTROS SERVICIOS EN {""}
-            <span className="font-semibold ml-2">CLIMA LABORAL</span>
+            <span className="font-semibold ml-0 md:ml-2">CLIMA LABORAL</span>
           </h2>
           <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
@@ -206,7 +205,7 @@ export default function climaLaboral() {
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center md:w-1/2 z-10">
-            <div className="my-2 md:my-0 w-4/5 md:w-2/3 sm:mx-auto-align p-12 bg-white shadow-xl rounded-2xl  h-auto">
+            <div className="my-2 md:my-0 w-4/5 md:w-full md:ml-4 sm:mx-auto-align p-12 bg-white shadow-xl rounded-2xl h-auto">
               <div className="mb-4 divide-y divide-bright-turquoise-500 w-full">
                 <h3 className="font-light font-jost text-3xl py-4 text-gray-500">
                   ¿QUIERES CONOCER LAS CAUSAS DE
@@ -243,15 +242,15 @@ export default function climaLaboral() {
           </div>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col h-80 ">
+      <div className="flex sm:flex-row flex-col h-auto md:h-80 ">
         <div className="bg-twilight-blue-500 text-center flex sm:w-1/2 w-full lg:px-28 px-14 font-jost">
-          <h3 className="h-44 flex flex-col justify-center items-center sm:h-72 mx-auto text-xl sm:text-5xl text-curious-blue-500 font-light">
+          <h3 className="h-44 flex flex-col justify-center items-center sm:h-72 mx-auto text-3xl md:text-5xl text-curious-blue-500 font-light">
             ¿POR QUÉ ES IMPORTANTE ANALIZAR{""} <br />
             <span className="text-bright-turquoise-500 font-medium">EL CLIMA LABORAL?</span>
           </h3>
         </div>
-        <div className="bg-white w-full sm:w-1/2 flex justify-center items-center font-mont">
-          <ul className="w-4/5 mx-auto list-disc space-y-3 px-14">
+        <div className="bg-white w-full md:w-1/2 flex justify-center items-center font-mont py-4 md:py-0">
+          <ul className="w-full md:w-4/5 mx-auto list-disc space-y-3 px-14">
             <li className="text-gray-500 md:text-base lg:text-xl ">
               Identifica las{" "}
               <span className="font-bold">ventajas competitivas</span> y las
@@ -279,26 +278,27 @@ export default function climaLaboral() {
       </div>
       <div className="flex sm:flex-row flex-col">
         <div className="bg-curious-blue-500 text-center flex sm:w-1/2 w-full">
-          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-medium font-jost place-self-center justify-center mx-auto">
+          <h3 className="py-12 md:py-24 text-xl sm:text-4xl text-white font-medium font-jost place-self-center justify-center mx-auto">
             {" "}
             +1000 CLIENTES CERTIFICADOS
           </h3>
         </div>
         <div className="bg-bright-turquoise-500 w-full sm:w-1/2 text-center flex flex-col">
-          <h3 className="sm:py-24 text-xl sm:text-4xl text-white font-medium font-jost justify-center place-self-center">
+          <h3 className="py-12 md:py-24 text-xl sm:text-4xl text-white font-medium font-jost justify-center place-self-center">
             {" "}
             +500 PROYECTOS IMPLEMENTADOS
           </h3>
         </div>
       </div>
       <div className="flex flex-col sm:flex-row">
-        <div className="text-center flex sm:w-1/2 w-full ">
-          <h3 className="flex h-44 py-24 md:py-8 md:h-72 text-xl sm:text-4xl text-scooter-500 font-bold mx-auto items-center">
+        <div className="text-center h-44 md:h-72 flex sm:w-1/2 w-full ">
+          <h3 className="flex py-24 md:py-8 text-xl sm:text-4xl text-scooter-500 font-bold mx-auto items-center">
             ¿QUIERES SABER MÁS DE CLIMA LABORAL?
           </h3>
         </div>
-        <div className="w-full sm:w-1/2 flex font-mont">
-          <p className="w-4/5 mx-auto text-lg py-8 text-gray-500 md:h-72 h-44 flex flex-col text-justify place-content-center">
+        <div className="w-full sm:w-1/2 md:h-72 h-[250px] flex font-mont py-4">
+        <div className="flex">
+          <p className="w-4/5 mx-auto text-lg py-8 text-gray-500 items-center">
             Mejora el{" "}
             <span className="font-bold text-gray-500 inline-flex text-xl">
               CLIMA LABORAL
@@ -307,6 +307,7 @@ export default function climaLaboral() {
             <br />
             ¡Impulsa a tus colaboradores todos los días con nuestro contenido!
           </p>
+        </div>
         </div>
       </div>
     </Layout>

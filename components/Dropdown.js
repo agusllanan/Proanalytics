@@ -19,22 +19,11 @@ const Dropdown = ({ isOpen, toggle }) => {
       <Link href="/nosotros">
         <a className="text-xl text-white hover:bg-keppel-400">Nosotros</a>
       </Link>
-      <Menu.Button className="">
-        <Link href="/servicios">
-          <a className="text-xl text-white hover:bg-keppel-400">Servicios</a>
-        </Link>
-      </Menu.Button>
-      <Menu.Items className="text-white text-xl my-2 bg-keppel-400">
-        Clima Laboral
-      </Menu.Items>
-      <Menu.Items className="text-white text-xl my-2 bg-keppel-400">
-        Diseño y automatización de procesos
-      </Menu.Items>
-      <Menu.Items className="text-white text-xl my-2 bg-keppel-400">
-        Six Sigma
-      </Menu.Items>
-      <Link href="/diferenciadores">
-        <a className="text-xl text-white hover:bg-keppel-400">Aprendizaje</a>
+      <Link href="/climaLaboral">
+        <a className="text-xl text-white hover:bg-keppel-400">Clima Laboral</a>
+      </Link>
+      <Link href="/six-sigma">
+        <a className="text-xl text-white hover:bg-keppel-400">Six Sigma</a>
       </Link>
       <Link href="/blog">
         <a className="text-xl text-white hover:bg-keppel-400">Blog</a>

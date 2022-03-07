@@ -10,18 +10,6 @@ import { configureAnchors } from 'react-scrollable-anchor'
 
 export default function Home() {
   configureAnchors({offset: 28, scrollDuration: 1000})
-  useEffect(() => {
-    const obtenerDatos = async () => {
-      try {
-        const db = firebase.firestore();
-        const data = await db.collection("users").get();
-        console.log(data.docs);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    obtenerDatos();
-  }, []);
 
   return (
     <Layout title="Proanalytics" description="Agregue una descripcion">
@@ -35,15 +23,15 @@ export default function Home() {
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5 md:px-14">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-5/6 font-mont">
+            <div className="h-[500px] md:h-full sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-5/6 font-mont">
               <div className="mb-4">
-                <h2 className="title-font text-4xl py-4 md:py-0 lg:text-4xl mb-4 font-jost font-light text-gray-500">
+                <h2 className="title-font text-3xl py-0 lg:text-4xl mb-4 font-jost font-light text-gray-500">
                 ANALIZA Y<br />{" "}
                 <span className="font-medium font-jost text-keppel-500">
                   MONITOREA
                 </span>
                 </h2>
-                <p className="text-gray-500 text-lg text-justify pb-4">
+                <p className="text-gray-500 text-base md:text-lg text-left pb-4">
                   Lo que se mide, se puede mejorar. <br /> <br />
                 Conoce cómo las personas pueden ser más productivas y felices en
                 su trabajo con{" "}

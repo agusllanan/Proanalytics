@@ -112,12 +112,12 @@ const subscribe = async () => {
       </div>
       {/* --- Aca comienza la parte inferior del footer --- */}
       <div className="bg-keppel-600 h-20">
-        <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+        <div className="container px-5 md:py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"></a>
-          <p className="flex text-sm text-white sm:ml-6 sm:justify-center sm:mt-0 mt-4">
-            © 2021 Proanalytics
+          <p className="flex text-sm font-mont text-white ml-0 pt-3 md:pt-0 md:ml-6 sm:justify-center md:mt-0">
+            © 2022 Proanalytics
           </p>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start mr-24">
+          <span className="inline-flex md:ml-auto mt-4 justify-around sm:justify-start md:mr-24">
             <a
               className="text-white"
               href="https://www.facebook.com/ProanalyticsConsultoria"
@@ -134,7 +134,7 @@ const subscribe = async () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-red-300">
+            <a className="ml-3 text-white">
               <svg
                 fill="none"
                 stroke="currentColor"

@@ -6,12 +6,19 @@ import Link from "next/link";
 export default function blog({ posts }) {
   return (
     <Layout title="Blog | Proanalytics" description="Agregue una descripcion">
-      
+      <div>
+        <div
+            className="bg-no-repeat bg-cover bg-center relative h-[300px] flex items-center"
+            style={{
+              backgroundImage: `url(/img/home/portada-general.jpeg)`,
+            }}
+        />
+      </div>
       <h1 className="font-mont text-center pt-8 font-bold text-4xl text-keppel-600">
         Nuestro Blog
       </h1>
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-row mb-12 font-mont space-x-4">
+      <div className="container px-5 py-10 md:py-24 mx-auto">
+        <div className="flex flex-col md:flex-row mb-12 space-y-4 md:space-y-0 font-mont space-x-0 md:space-x-4">
           {posts.map((item) => (
             <BlogListItem key={item.slug} {...item} />
           ))}
