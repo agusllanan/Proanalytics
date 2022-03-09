@@ -161,9 +161,9 @@ export const consultorias = () => {
         </div>
       </div>
       <div
-        className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#4361ee] h-[450px]"
+        className="bg-no-repeat bg-cover bg-top relative border-b-4 border-[#4361ee] h-[450px]"
         style={{
-          backgroundImage: `url(/img/clima-laboral/diagnosticoInicial.jpg)`,
+          backgroundImage: `url(/img/clima-laboral/footer-clima.jpg)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}

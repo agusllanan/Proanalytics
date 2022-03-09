@@ -209,7 +209,7 @@ export const yellowBelt = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#f6b433]"
         style={{
-          backgroundImage: `url(/img/home/footer-six.png)`,
+          backgroundImage: `url(/img/home/footer-six.jpg)`,
         }}
       >
         <div className="h-[700px] flex sm:flex-row lg:justify-start sm:justify-center align-middle">

@@ -8,7 +8,7 @@ export const blackBelt = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#333333]"
         style={{
-          backgroundImage: `url(/img/six-sigma/portadas/Portada-Six-Sigma-Black.png)`,
+          backgroundImage: `url(/img/six-sigma/portadas/Portada-Six-Sigma-Black.jpg)`,
         }}
       >
         <div className="h-screen flex flex-col lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
@@ -197,7 +197,7 @@ export const blackBelt = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#333333]"
         style={{
-          backgroundImage: `url(/img/home/footer-six.png)`,
+          backgroundImage: `url(/img/home/footer-six.jpg)`,
         }}
       >
         <div className="h-[700px] flex sm:flex-row lg:justify-start sm:justify-center align-middle">

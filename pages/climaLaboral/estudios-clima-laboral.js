@@ -38,7 +38,7 @@ export const encuestaClimaLaboral = () => {
             </p>
           </div>
           <div className="flex flex-col container bg-[#ef476f] shadow-2xl lg:w-1/4 lg:rounded-r-xl w-4/5 h-[450px] justify-center font-mont mb-4 md:mb-0 rounded-b-xl md:rounded-bl-none">
-            <p className="w-4/5 md:ml-4 self-center text-white text-justify pt-4 pb-4">
+            <p className="w-4/5 md:ml-4 self-center text-white pt-4 pb-4">
               ¿Quieres trabajar en{" "}
               <span className="font-bold">
                 estrategias para mejorar el clima laboral en tu empresa?
@@ -192,7 +192,7 @@ export const encuestaClimaLaboral = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#ef476f]"
         style={{
-          backgroundImage: `url(/img/clima-laboral/diagnosticoInicial.jpg)`,
+          backgroundImage: `url(/img/clima-laboral/footer-clima.jpg)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}

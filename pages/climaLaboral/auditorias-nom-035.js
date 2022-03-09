@@ -177,7 +177,7 @@ export const auditorias = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#7209b7]"
         style={{
-          backgroundImage: `url(/img/clima-laboral/diagnosticoInicial.jpg)`,
+          backgroundImage: `url(/img/clima-laboral/footer-clima.jpg)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}

@@ -162,8 +162,8 @@ export default function climaLaboral() {
                     src="/img/clima-laboral/portada-consultoria.jpg"
                     width={1200}
                     height={1200}
-                    className="object-cover rounded-xl object-center"
-                    alt="Aqui va el alt de la imagen"
+                    className="object-cover rounded-xl object-right"
+                    alt="Aqu va el alt de la imagen"
                   />
                   <h2 className="title-font text-lg font-bold pt-4 text-gray-900 mb-3">
                     Consultoría y capacitación
@@ -196,10 +196,39 @@ export default function climaLaboral() {
           </div>
         </div>
       </section>
+      <section className="w-full bg-gray-100 flex flex-col md:flex-row space-x-0 md:space-x-16 space-y-6 md:space-y-0 h-[400px] justify-around items-center px-10">
+        <div className="w-1/3 space-y-8">
+            <h3 className="text-2xl font-jost">
+              ALIANZAS ESTRATÉGICAS
+            </h3>
+            <p className="font-mont">
+              En Proanalytics trabajamos de la mano con distintas organizaciones de talla nacional e internacional para brindar un servicio integral, profesional y 100% centrado en las personas.
+            </p>
+          </div>
+          <div className="flex flex-col justify-center space-y-4">
+            <Image
+              src="/img/clima-laboral/logos/logo-GPTW.jpeg"
+              width={200}
+              height={200}
+              className="object-cover object-center"
+              alt="Aqui va el alt de la imagen"
+            />
+          </div>
+          <div className="flex justify-center flex-col space-y-4">
+             <Image
+              src="/img/clima-laboral/logos/Logo-Addition-Curvas.png"
+              width={200}
+              height={200}
+              responsive
+              className="object-cover"
+              alt="Aqui va el alt de la imagen"
+            />
+          </div>
+        </section>
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
         style={{
-          backgroundImage: `url(/img/clima-laboral/diagnosticoInicial.jpg)`,
+          backgroundImage: `url(/img/clima-laboral/footer-clima.jpg)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
@@ -228,7 +257,7 @@ export default function climaLaboral() {
               </div>
               <div className="space-y-5">
                 <div className="flex flex-col justify-evenly lg:flex-row  ">
-                  <Link href="/climaLaboral/diagnostico">
+                  <Link href="/contactanos">
                     <button
                       type="submit"
                       className="w-full sm:w-2/3 flex justify-center border-2 border-curious-blue-500 text-curious-blue-500 hover:bg-curious-blue-500 hover:text-white p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
@@ -242,14 +271,14 @@ export default function climaLaboral() {
           </div>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col h-auto md:h-80 ">
+      <div className="flex sm:flex-row flex-col h-auto  md:h-[400px]">
         <div className="bg-twilight-blue-500 text-center flex sm:w-1/2 w-full lg:px-28 px-14 font-jost">
-          <h3 className="h-44 flex flex-col justify-center items-center sm:h-72 mx-auto text-3xl md:text-5xl text-curious-blue-500 font-light">
+          <h3 className=" flex flex-col justify-center items-center h-auto md:h-full mx-auto text-3xl md:text-4xl text-curious-blue-500 font-light">
             ¿POR QUÉ ES IMPORTANTE ANALIZAR{""} <br />
             <span className="text-bright-turquoise-500 font-medium">EL CLIMA LABORAL?</span>
           </h3>
         </div>
-        <div className="bg-white w-full md:w-1/2 flex justify-center items-center font-mont py-4 md:py-0">
+        <div className="bg-white w-full md:w-1/2 flex justify-center items-center  font-mont py-4 md:py-0">
           <ul className="w-full md:w-4/5 mx-auto list-disc space-y-3 px-14">
             <li className="text-gray-500 md:text-base lg:text-xl ">
               Identifica las{" "}

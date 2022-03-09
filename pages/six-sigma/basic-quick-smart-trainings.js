@@ -9,7 +9,7 @@ export const basicSmartTraining = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
         style={{
-          backgroundImage: `url(/img/six-sigma/portadas/Portada-Six-Sigma-Quick-Smart.png)`,
+          backgroundImage: `url(/img/six-sigma/portadas/Portada-Six-Sigma-Quick-Smart.jpg)`,
         }}
       >
         <div className="h-screen flex flex-col px-10 lg:flex-row lg:justify-start sm:justify-center place-items-center font-mont">
@@ -126,7 +126,7 @@ export const basicSmartTraining = () => {
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 h-[700px] border-scooter-400"
         style={{
-          backgroundImage: `url(/img/home/footer-six.png)`,
+          backgroundImage: `url(/img/home/footer-six.jpg)`,
         }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
