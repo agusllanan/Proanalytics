@@ -1,10 +1,9 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
+import { ChatAlt2Icon, UserGroupIcon, FastForwardIcon } from '@heroicons/react/solid'
 
 export const encuestaClimaLaboral = () => {
-
-
   return (
     <Layout>
       <div
@@ -125,7 +124,7 @@ export const encuestaClimaLaboral = () => {
         </div>
       </div>
       <div className="bg-[#ef476f] py-14">
-        <div className="text-justify flex flex-col h-auto w-full font-mont">
+        <div className="flex flex-col h-auto w-full font-mont">
           <h3 className="pb-6 text-xl font-jost sm:text-4xl text-white font-bold self-center">
             {" "}
             NUESTRA METODOLOGÍA
@@ -133,17 +132,10 @@ export const encuestaClimaLaboral = () => {
           <div className="div w-full flex flex-col md:flex-row">
             <div className="w-full h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4">
-              <Image
-                src="/img/clima-laboral/iconos-metodologia/entrevista.png"
-                layout='fixed'
-                width='200'
-                height='200'
-                className="rounded-xl self-center"
-                alt="Aqui va el alt de la imagen"
-              />
+              <ChatAlt2Icon className="h-36 w-36 text-gray-50"/>
             </div>
-              <h3 className="text-white self-center pb-3">ENTREVISTA DIAGNÓSTICO</h3>
-              <p className="w-4/5 text-white self-center">
+              <h3 className="text-white font-bold font-jost text-xl self-center pb-3">ENTREVISTA DIAGNÓSTICO</h3>
+              <p className="w-2/3 text-white text-center self-center items-center">
                 Permítenos identificar la necesidades y expectativas de tu
                 empresa.
               </p>
@@ -151,17 +143,10 @@ export const encuestaClimaLaboral = () => {
             </div>
             <div className="w-full h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4">
-                <Image
-                src="/img/clima-laboral/iconos-metodologia/analisis.png"
-                layout='fixed'
-                width={200}
-                height={200}
-                className=" relative object-fill rounded-xl object-center m-2"
-                alt="Aqui va el alt de la imagen"
-              />
+                <UserGroupIcon className="h-36 w-36 text-gray-50"/>
             </div>
-              <h3 className="font-bold text-white self-center pb-3">ANÁLISIS DE CLIMA LABORAL</h3>
-              <p className="w-4/5 text-white self-center">
+              <h3 className="text-white font-bold font-jost text-xl self-center pb-3">ANÁLISIS DE CLIMA LABORAL</h3>
+              <p className="w-2/3 text-white self-center text-center items-center">
                 Analizamos según tus necesidades:{" "}
                 <span className="font-bold">
                   satisfacción laboral, engagement empresarial, bienestar,
@@ -172,17 +157,10 @@ export const encuestaClimaLaboral = () => {
             </div>
             <div className="w-full h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4">
-              <Image
-                src="/img/clima-laboral/iconos-metodologia/resultados.png"
-                layout='fixed'
-                width={200}
-                height={200}
-                className=""
-                alt="Aqui va el alt de la imagen"
-              />
+                <FastForwardIcon className="h-36 w-36 text-gray-50"/>
             </div>
-              <h3 className="text-white self-center pb-3">RESULTADOS Y PLAN DE ACCIÓN</h3>
-              <p className="w-4/5 text-white self-center">
+              <h3 className="text-white font-bold font-jost text-xl self-center pb-3">RESULTADOS Y PLAN DE ACCIÓN</h3>
+              <p className="w-2/3 text-white self-center items-center text-cente">
               Con los resultados te acompañamos en el diseño de acciones y seguimiento para la <span className="font-bold">mejora del clima laboral</span>
               </p>
             </div>

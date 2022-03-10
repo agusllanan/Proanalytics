@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Layout from "../../components/Layout";
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
+import axios from "axios";
 
 export default function contactanos () {
     
@@ -9,7 +10,8 @@ export default function contactanos () {
     const [email, setEmail] = useState('');
     const [submitted, setSubmitted] = useState(false);
 
-    const handleSubmit = (e) => { 
+    const handleSubmit = async (e) => {
+
         e.preventDefault();
         console.log('Sending');
         
@@ -19,25 +21,33 @@ export default function contactanos () {
             message
         };
 
-        fetch('/api/contact', {
+        return await fetch('/api/contact', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(data)
-            }).then((res) => {
+            })
+            .then((res) => {
                 console.log('Response received')
                 if (res.status === 200) {
                     console.log('Response succeeded!')
                     setSubmitted(true)
                     setName('')
+                    setMessage('')
                     setEmail('')
                     setBody('')
+                new Swal({
+                    title:"Solicitud Eliminada",
+                    text:"La solicitud ha sido eliminada de forma correcta.",
+                    icon: "success"
+                  })
                 } else if (res.status === 404) {
                     console.log('Response not found!');
                 }
             })
+            .catch((err) => console.log(err))
         };
     
     return (
@@ -102,12 +112,12 @@ export default function contactanos () {
             
             <span className="inline-flex">
             <a className="text-green-500">
-                <svg fill="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
             </a>
             <a className="ml-4 text-green-500">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>

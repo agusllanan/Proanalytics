@@ -7,7 +7,7 @@ import Dropdown from "./Dropdown";
 const Navbar = ({ toggle }) => {
   return (
     <Menu
-      className="flex flex-nowrap items-center justify-between bg-white relative shadow-sm h-20 px-6"
+      className="flex relative flex-nowrap items-center justify-between bg-white shadow-sm h-20 px-6 z-100"
       as="div"
     >
       {({ open }) => (
@@ -299,10 +299,10 @@ const Navbar = ({ toggle }) => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  className="w-4 h-4 ml-1"
                   viewBox="0 0 24 24"
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>

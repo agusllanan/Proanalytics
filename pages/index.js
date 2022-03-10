@@ -61,46 +61,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-          {/* <div className="w-full mx-auto flex lg:px-28 py-10 md:flex-row flex-col items-center h-screen">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h2 className="title-font text-4xl py-4 md:py-0 lg:text-6xl mb-4 font-jost font-light text-gray-500">
-                ANALIZA Y<br />{" "}
-                <span className="font-medium font-jost text-keppel-500">
-                  MONITOREA
-                </span>
-              </h2>
-              <p className="mb-8 leading-relaxed w-4/5 font-mont text-lg text-left">
-                Lo que se mide, se puede mejorar. <br /> <br />
-                Conoce cómo las personas pueden ser más productivas y felices en
-                su trabajo con{" "}
-                <span className="font-bold text-keppel-500">
-                  procesos más efectivos y eficientes
-                </span>{" "}
-                a través del{" "}
-                <span className="font-bold text-keppel-500">
-                  análisis y monitoreo de información, uso de herramientas e
-                  implementación de metodologías.{" "}
-                </span>
-              </p>
-              <div className="flex justify-center">
-              <a href="#servicios">
-                <button className="inline-flex font-bold font-mont text-keppel-500 mx-auto bg-white border-keppel-500 border-2 py-2 px-6 focus:outline-none hover:bg-keppel-500 hover:text-white rounded text-lg transition ease-in duration-250">
-                  Comenzar
-                </button>
-              </a>
-              </div>
-            </div>
-            <div className="lg:ml-4 lg:w-2/3 md:w-1/2 w-5/6">
-              <Image
-                src="/img/home/portada-general.jpeg"
-                width={1400}
-                height={1000}
-                className="animate__animated animate__fadeInRight relative object-cover rounded-xl object-center pb-2/3"
-                alt="Aqui va el alt de la imagen"
-              />
-            </div>
-          </div> */}
-          {/* Arranca la seccion de quienes somos */}
           <div className="w-full mx-auto flex px-14 lg:px-28 py-10 md:flex-row flex-col items-center bg-keppel-500">
           <div className="lg:w-1/2 md:w-1/2 w-5/6">
               <Image
@@ -139,6 +99,34 @@ export default function Home() {
           <Servicios />
           </section>
           </ScrollableAnchor>
+        </section>
+       <section className="w-full bg-gray-100 flex flex-col md:flex-row space-x-0 md:space-x-16 space-y-6 md:space-y-0 h-auto md:h-[400px] justify-around items-center px-10">
+        <div className="w-4/5 md:w-1/3 space-y-8">
+            <h3 className="pt-8 md:pt-0 text-2xl font-jost">
+              ALIANZAS ESTRATÉGICAS
+            </h3>
+            <p className="font-mont pb-6 md:pb-0">
+              En Proanalytics trabajamos de la mano con distintas organizaciones de talla nacional e internacional para brindar un servicio integral, profesional y 100% centrado en las personas.
+            </p>
+          </div>
+          <div className="flex flex-col justify-center space-y-4">
+            <Image
+              src="/img/clima-laboral/logos/logo-GPTW.jpeg"
+              width={200}
+              height={200}
+              className="object-cover object-center"
+              alt="Aqui va el alt de la imagen"
+            />
+          </div>
+          <div className="flex justify-center flex-col space-y-4">
+             <Image
+              src="/img/clima-laboral/logos/Logo-Addition-Curvas.png"
+              width={200}
+              height={200}
+              className="object-cover"
+              alt="Aqui va el alt de la imagen"
+            />
+          </div>
         </section>
         <section className="text-gray-600 body-font">
           <div className="w-full">

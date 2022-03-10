@@ -196,42 +196,12 @@ export default function climaLaboral() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-gray-100 flex flex-col md:flex-row space-x-0 md:space-x-16 space-y-6 md:space-y-0 h-[400px] justify-around items-center px-10">
-        <div className="w-1/3 space-y-8">
-            <h3 className="text-2xl font-jost">
-              ALIANZAS ESTRATÉGICAS
-            </h3>
-            <p className="font-mont">
-              En Proanalytics trabajamos de la mano con distintas organizaciones de talla nacional e internacional para brindar un servicio integral, profesional y 100% centrado en las personas.
-            </p>
-          </div>
-          <div className="flex flex-col justify-center space-y-4">
-            <Image
-              src="/img/clima-laboral/logos/logo-GPTW.jpeg"
-              width={200}
-              height={200}
-              className="object-cover object-center"
-              alt="Aqui va el alt de la imagen"
-            />
-          </div>
-          <div className="flex justify-center flex-col space-y-4">
-             <Image
-              src="/img/clima-laboral/logos/Logo-Addition-Curvas.png"
-              width={200}
-              height={200}
-              responsive
-              className="object-cover"
-              alt="Aqui va el alt de la imagen"
-            />
-          </div>
-        </section>
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-scooter-400"
         style={{
           backgroundImage: `url(/img/clima-laboral/footer-clima.jpg)`,
         }}
       >
-        {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center md:w-1/2 z-10">
             <div className="my-2 md:my-0 w-4/5 md:w-full md:ml-4 sm:mx-auto-align p-12 bg-white shadow-xl rounded-2xl h-auto">

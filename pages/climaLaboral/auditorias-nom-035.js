@@ -1,7 +1,7 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
-
+import { SearchCircleIcon, PuzzleIcon, ClipboardCheckIcon } from '@heroicons/react/solid'
 export const auditorias = () => {
   return (
     <Layout>
@@ -115,23 +115,16 @@ export const auditorias = () => {
         </div>
       </div>
         <div className="bg-[#7209b7] text-justify flex flex-col py-14 h-auto w-full font-mont">
-          <h3 className="text-xl pb-4 sm:text-4xl text-white font-bold font-jost place-self-center mx-auto">
+          <h3 className="text-2xl pb-4 sm:text-4xl text-white font-bold font-jost place-self-center mx-auto">
             {" "}
             NUESTRA METODOLOGÍA
           </h3>
           <div className="div w-full flex flex-col place-content-center md:flex-row">
             <div className="w-full h-auto md:h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4">
-              <Image
-                src="/img/clima-laboral/NOM035/iconos-metodologia/diagnostico.png"
-                layout='fixed'
-                width={200}
-                height={200}
-                className=" relative object-fill rounded-xl place-self-center m-2  flex"
-                alt="Aqui va el alt de la imagen"
-              />
+              <SearchCircleIcon className="h-36 w-36 text-gray-50"/>
             </div>
-              <h3 className="text-white pb-3 self-center">DIAGNÓSTICO</h3>
+              <h3 className="text-white pb-3 text-jost font-bold text-xl self-center">DIAGNÓSTICO</h3>
               <p className="w-4/5 text-white md:ml-4 self-center">
                 Realiza tu lista de verificación, recibe tu diagnóstico e
                 identifica tus necesidades
@@ -139,16 +132,9 @@ export const auditorias = () => {
             </div>
             <div className="w-full h-auto md:h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4 flex flex-col">
-              <Image
-                src="/img/clima-laboral/NOM035/iconos-metodologia/asesoria.png"
-                layout='fixed'
-                width={200}
-                height={200}
-                className=" relative object-fill rounded-xl object-center m-2"
-                alt="Aqui va el alt de la imagen"
-              />
+              <PuzzleIcon className="h-36 w-36 text-gray-50"/>
             </div>
-              <h3 className="font-bold text-white self-center pb-3">ASESORÍA Y CAPACITACIÓN</h3>
+              <h3 className="text-white pb-3 text-jost font-bold text-xl self-center">ASESORÍA Y CAPACITACIÓN</h3>
               <p className="w-4/5 text-white self-center">
                 Recibe el acompañamiento en cada etapa de tu proceso y {""}
                 <span className="font-bold">capacita al personal</span>
@@ -157,16 +143,9 @@ export const auditorias = () => {
             </div>
             <div className="w-full h-auto md:h-80 md:w-1/3 flex flex-col">
             <div className="self-center py-4">
-              <Image
-                src="/img/clima-laboral/NOM035/iconos-metodologia/verificaciones.png"
-                layout='fixed'
-                width={200}
-                height={200}
-                className=" relative object-fill rounded-xl object-center m-2"
-                alt="Aqui va el alt de la imagen"
-              />
+              <ClipboardCheckIcon className="h-36 w-36 text-gray-50"/>
             </div>
-              <h3 className="text-white self-center pb-3">VERIFICACIONES O CERTIFICACIONES</h3>
+              <h3 className="text-white pb-3 text-jost font-bold text-xl self-center">VERIFICACIONES O CERTIFICACIONES</h3>
               <p className="w-4/5 text-white self-center">
                 Según sea el caso, te acompañamos en tus procesos de
                 Verificadores Oficiales o Certificaciones.
