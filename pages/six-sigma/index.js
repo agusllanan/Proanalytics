@@ -11,7 +11,7 @@ export default function sixSigma() {
         style={{ backgroundImage: `url(/img/six-sigma/portada-six-sigma.jpg)` }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
-        <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
+        <div className="h-[700px] md:min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5 md:px-14">
             <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-5/6 font-mont">
               <div className="mb-4">
@@ -60,7 +60,7 @@ export default function sixSigma() {
       </div>
       {/* -------------------------------- Aqui comienza la seccion de muestra de las cards -------------------------------------- */}
       <div className="px-5 py-16 mx-auto">
-        <h1 className="font-medium text-5xl font-jost flex justify-center text-indigo-500">
+        <h1 className="font-medium text-2xl md:text-5xl font-jost flex justify-center text-indigo-500">
           NUESTROS SERVICIOS EN SIX SIGMA
         </h1>
         <div className="px-5 pt-16 mx-auto font-mont">

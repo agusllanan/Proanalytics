@@ -128,68 +128,6 @@ const Navbar = ({ toggle }) => {
                       )}
                     </Menu.Item>
                   </div>
-                  {/* <div className="px-4">
-                    <Menu.Item>
-                      {({ active }) => (
-                        <button
-                          className={`${
-                            active
-                            ? "bg-gray-100 text-gray-500"
-                            : "text-gray-500"
-                          } group font-bold flex rounded-md items-center w-full px-2 py-2 text-sm`}
-                        >
-                          <Link href="/diseno-automatizacion-procesos">
-                            Diseño y automatización de Procesos
-                          </Link>
-                        </button>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <button
-                          className={`${
-                            active
-                            ? "bg-gray-100 text-gray-500"
-                            : "text-gray-500"
-                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
-                        >
-                          <Link href="/diseno-automatizacion-procesos/nivel1-desing-deploy">
-                            Nivel 1 - Desing & Deploy
-                          </Link>
-                        </button>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <button
-                          className={`${
-                            active
-                            ? "bg-gray-100 text-gray-500"
-                            : "text-gray-500"
-                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
-                        >
-                          <Link href="/diseno-automatizacion-procesos/nivel2-create-do">
-                            Nivel 2 - Create & Do
-                          </Link>
-                        </button>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <button
-                          className={`${
-                            active
-                            ? "bg-gray-100 text-gray-500"
-                            : "text-gray-500"
-                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
-                        >
-                          <Link href="/diseno-automatizacion-procesos/nivel3-project-management">
-                            Nivel 3 - Project Management
-                          </Link>
-                        </button>
-                      )}
-                    </Menu.Item>
-                  </div> */}
                   <div className="px-4 pb-2">
                     <Menu.Item>
                       {({ active }) => (

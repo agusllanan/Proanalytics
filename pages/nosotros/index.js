@@ -16,7 +16,7 @@ export default function nosotros() {
           <h2 className="title-font text-3xl md:text-6xl mb-4 font-bold font-jost text-[#29ABE2]">
             Hacer las cosas bien,<br /> es posible cuando se quiere
           </h2>
-          <p className="mb-8 leading-relaxed w-2/3 font-mont text-justify">
+          <p className="mb-8 leading-relaxed w-2/3 font-mont text-left">
             Así surge PROANALYTICS, un proyecto en el que convencidos de que toda empresa que quiera profesionalizarse tomando decisiones con base en información o eficientizando con procesos que le permitan <span className="font-bold">medir y trabajar en sus resultados.</span>
           </p>
           <div className="flex justify-center">
@@ -37,11 +37,11 @@ export default function nosotros() {
           />
         </div>
       </div>
-      <div className="h-auto md:h-[500px] bg-gray-100 flex flex-col justify-center space-y-7 items-center py-6">
+      <div className="h-auto md:h-[400px] bg-gray-100 flex flex-col justify-center space-y-7 items-center py-6">
         <h2 className="text-3xl font-mont w-4/5 md:w-1/2 text-[#29ABE2]">
           ¿Quiénes somos?
         </h2>
-        <p className="w-4/5 md:w-1/2 text-lg text-justify font-mont">
+        <p className="w-4/5 md:w-1/2 text-lg text-left font-mont">
           Sabemos también por experiencia, que las personas pueden trabajar en <span className="font-bold">ambientes favorables, con trato digno, con condiciones seguras y óptimas</span> cuando conocen sus derechos y junto con la empresa, construyen una <span className="font-bold">cultura de trabajo</span> que les permita potencializar sus talentos en beneficio personal y organizacional. PROANALYTICS trabaja con y para personas y empresas que quieran seguir haciendo las cosas mejor y que deseen seguir conociendo los cómos para llevarlo a la práctica.
         </p>
     </div>
