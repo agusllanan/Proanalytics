@@ -20,7 +20,6 @@ export default function Home() {
         className="min-h-screen bg-no-repeat bg-cover bg-top relative"
         style={{ backgroundImage: `url(/img/home/portada-home.jpg)` }}
       >
-        {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-5 md:px-14">
             <div className="h-[500px] md:h-full sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-5/6 font-mont">
@@ -110,6 +109,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col justify-center space-y-4">
+          <a href="https://greatplacetowork.com.mx"  target="_blank">
             <Image
               src="/img/clima-laboral/logos/logo-GPTW.jpeg"
               width={200}
@@ -117,7 +117,9 @@ export default function Home() {
               className="object-cover object-center"
               alt="Aqui va el alt de la imagen"
             />
+          </a>
           </div>
+          <a href="https://additionrh.com"  target="_blank">
           <div className="flex justify-center flex-col space-y-4">
              <Image
               src="/img/clima-laboral/logos/Logo-Addition-Curvas.png"
@@ -127,6 +129,7 @@ export default function Home() {
               alt="Aqui va el alt de la imagen"
             />
           </div>
+          </a>
         </section>
         <section className="text-gray-600 body-font">
           <div className="w-full">

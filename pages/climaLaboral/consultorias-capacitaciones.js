@@ -1,7 +1,54 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
+import { useState } from "react";
 
 export const consultorias = () => {
+    
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [telefono, setTelefono] = useState('');
+    const [submitted, setSubmitted] = useState(false);
+
+    const handleSubmit = async (e) => {
+
+        e.preventDefault();
+        console.log('Sending');
+        
+        let data = {
+            name,
+            email,
+        };
+
+        return await fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+            })
+            .then((res) => {
+                console.log('Response received')
+                if (res.status === 200) {
+                    console.log('Response succeeded!')
+                    setSubmitted(true)
+                    setName('')
+                    setMessage('')
+                    setTelefono('')
+                    setEmail('')
+                    setBody('')
+                new Swal({
+                    title:"Solicitud Eliminada",
+                    text:"La solicitud ha sido eliminada de forma correcta.",
+                    icon: "success"
+                  })
+                } else if (res.status === 404) {
+                    console.log('Response not found!');
+                }
+            })
+            .catch((err) => console.log(err))
+        };
+
   return (
     <Layout>
       <div
@@ -53,6 +100,7 @@ export const consultorias = () => {
                 id="footer-field"
                 name="footer-field"
                 className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out flex self-center"
+                onChange={(e)=>{setName(e.target.value)}}
               />
               <label
                 htmlFor="footer-field"
@@ -65,8 +113,11 @@ export const consultorias = () => {
                 id="footer-field"
                 name="footer-field"
                 className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out flex self-center text-center"
+                onChange={(e)=>{setEmail(e.target.value)}}
               />
-              <button className="ml-4 text-white font-bold bg-transparent border-2 border-white py-2 mb-4 mt-4 focus:outline-none hover:bg-white rounded w-4/5 flex place-content-center self-center hover:text-[#4361ee] transition ease-in duration-250">
+              <button className="ml-4 text-white font-bold bg-transparent border-2 border-white py-2 mb-4 mt-4 focus:outline-none hover:bg-white rounded w-4/5 flex place-content-center self-center hover:text-[#4361ee] transition ease-in duration-250"
+              onClick={(e)=>{handleSubmit(e)}}
+              >
                 SUSCRÍBETE
               </button>
             </div>

@@ -5,7 +5,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
 
 export default function nosotros() {
-  configureAnchors({offset: 28, scrollDuration: 1000})
+  configureAnchors({offset: -10, scrollDuration: 1000})
   return (
     <Layout
       title="Nosotros | Proanalytics"
@@ -62,12 +62,10 @@ export default function nosotros() {
         Soy Rosy Martínez, Fundadora y Directora de PROANALYTICS, S.A. de C.V y me gustaría seguir compartiendo contigo a través de las experiencias de nuestro equipo buenas prácticas, experiencias y conocimientos que nos permitan seguir contribuyendo un México y sociedad de empresas profesionalizadas y trabajos dignos.
         </p>
         <div className="w-full md:w-4/5 flex md:inline">
-        <Link href="/contacto">
-        <ScrollableAnchor id={'vision'}>
-        <button className="rounded-lg px-5 mx-auto md-mx-0 bg-white hover:bg-gray-200 text-[#29ABE2] py-3">
+        <Link href="/contactanos">
+          <button className="rounded-lg px-5 mx-auto md-mx-0 bg-white hover:bg-gray-200 text-[#29ABE2] py-3">
           Ponte en contacto conmigo
-        </button>
-        </ScrollableAnchor>
+          </button>
         </Link>
         </div>
       </div>
@@ -75,9 +73,11 @@ export default function nosotros() {
       <section className="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 h-auto md:h-[300px] items-center justify-center m-10">
       <div className="flex flex-col bg-gray-50 shadow-xl w-full md:w-1/2 h-auto md:h-[200px] rounded-xl">
         <div className="flex flex-col justify-center space-y-7 items-center font-comm py-5">
+        <ScrollableAnchor id={'vision'}>
           <h3 className="w-2/3 font-jost text-3xl text-[#29ABE2]">
             Nuestra Misión
           </h3>
+          </ScrollableAnchor>
           <p className="w-2/3 font-mont">
             Contribuimos a profesionalizar actividades y mejorar procesos en las empresas, para que las personas potencialicen sus talentos y superen sus propios objetivos.
           </p>

@@ -1,8 +1,52 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 
 export const greenBelt = () => {
+  const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [submitted, setSubmitted] = useState(false);
+
+    const handleSubmit = async (e) => {
+
+        e.preventDefault();
+        console.log('Sending');
+        
+        let data = {
+            name,
+            email,
+        };
+
+        return await fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+            })
+            .then((res) => {
+                console.log('Response received')
+                if (res.status === 200) {
+                    console.log('Response succeeded!')
+                    setSubmitted(true)
+                    setName('')
+                    setMessage('')
+                    setTelefono('')
+                    setEmail('')
+                    setBody('')
+                new Swal({
+                    title:"Solicitud Eliminada",
+                    text:"La solicitud ha sido eliminada de forma correcta.",
+                    icon: "success"
+                  })
+                } else if (res.status === 404) {
+                    console.log('Response not found!');
+                }
+            })
+            .catch((err) => console.log(err))
+        };
   return (
     <Layout>
       <div
@@ -44,8 +88,11 @@ export const greenBelt = () => {
               id="footer-field"
               name="footer-field"
               className="w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out self-center"
+              onChange={(e)=>{setName(e.target.value)}}
             />
-            <button className="mt-3 text-white bg-transparent border-2 border-white py-2 px-6 focus:outline-none hover:bg-white rounded w-4/5 hover:text-[#006837] self-center transition duration-250 ease-in">
+            <button className="mt-3 text-white bg-transparent border-2 border-white py-2 px-6 focus:outline-none hover:bg-white rounded w-4/5 hover:text-[#006837] self-center transition duration-250 ease-in"
+            onClick={(e)=>{handleSubmit(e)}}
+            >
               QUIERO MÁS INFORMACIÓN
             </button>
           </div>

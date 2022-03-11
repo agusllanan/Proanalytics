@@ -13,7 +13,7 @@ export default function politicasDePrivacidad(){
             <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-5/6 font-mont">
               <div className="mb-4">
                 <h2 className="title-font text-4xl py-4 md:py-0 lg:text-4xl mb-4 font-jost font-light text-gray-500">
-                Politicas de Privacidad<br />
+                Políticas de Privacidad<br />
                 </h2>
               </div>
             </div>

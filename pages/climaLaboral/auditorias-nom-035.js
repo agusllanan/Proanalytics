@@ -1,8 +1,55 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
-import Image from "next/image";
 import { SearchCircleIcon, PuzzleIcon, ClipboardCheckIcon } from '@heroicons/react/solid'
+import { useState } from "react";
 export const auditorias = () => {
+
+    const [name, setName] = useState('');
+    const [message, setMessage] = useState('');
+    const [email, setEmail] = useState('');
+    const [telefono, setTelefono] = useState('');
+    const [submitted, setSubmitted] = useState(false);
+
+    const handleSubmit = async (e) => {
+
+        e.preventDefault();
+        console.log('Sending');
+        
+        let data = {
+            name,
+            email,
+            telefono,
+        };
+
+        return await fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+            })
+            .then((res) => {
+                console.log('Response received')
+                if (res.status === 200) {
+                    console.log('Response succeeded!')
+                    setSubmitted(true)
+                    setName('')
+                    setMessage('')
+                    setTelefono('')
+                    setEmail('')
+                    setBody('')
+                new Swal({
+                    title:"Solicitud Eliminada",
+                    text:"La solicitud ha sido eliminada de forma correcta.",
+                    icon: "success"
+                  })
+                } else if (res.status === 404) {
+                    console.log('Response not found!');
+                }
+            })
+            .catch((err) => console.log(err))
+        };
   return (
     <Layout>
       <div
@@ -53,6 +100,7 @@ export const auditorias = () => {
               id="footer-field"
               name="footer-field"
               className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out flex self-center"
+              onChange={(e)=>{setName(e.target.value)}}
             />
             <label
               htmlFor="footer-field"
@@ -65,6 +113,7 @@ export const auditorias = () => {
               id="footer-field"
               name="footer-field"
               className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out flex self-center"
+              onChange={(e)=>{setTelefono(e.target.value)}}
             />
             <label
               htmlFor="footer-field"
@@ -77,9 +126,12 @@ export const auditorias = () => {
               id="footer-field"
               name="footer-field"
               className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out flex self-center "
+              onChange={(e)=>{setEmail(e.target.value)}}
             />
             {/* <textarea className="ml-4 w-4/5 bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-keppel-200 focus:border-keppel-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 mt-2 transition-colors duration-200 ease-in-out">Escríbenos tus inquietudes y horario de contacto</textarea> */}
-            <button className="ml-4 text-white font-bold bg-transparent border-2 border-white hover:bg-white py-2 mb-4 mt-4 focus:outline-none hover:text-[#7209b7] rounded w-4/5 flex place-content-center self-center transition ease-in duration-250">
+            <button className="ml-4 text-white font-bold bg-transparent border-2 border-white hover:bg-white py-2 mb-4 mt-4 focus:outline-none hover:text-[#7209b7] rounded w-4/5 flex place-content-center self-center transition ease-in duration-250"
+            onClick={(e)=>{handleSubmit(e)}}
+            >
               SOLICITA TU ASESORÍA GRATUITA
             </button>
           </div>

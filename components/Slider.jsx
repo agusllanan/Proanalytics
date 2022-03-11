@@ -39,8 +39,6 @@ export default function SliderSix() {
       speed: 250,
       swipeToSlide: true,
       lazyLoad: true,
-      prevArrow: <ArrowLeft />,
-      nextArrow: <ArrowRight />,
       responsive: [
         {
           breakpoint: 1024,
@@ -63,7 +61,9 @@ export default function SliderSix() {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
           }
         }
       ],

@@ -1,6 +1,5 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
-import Image from "next/image";
 import SliderSix from "../../components/Slider";
 
 export default function sixSigma() {
@@ -40,12 +39,14 @@ export default function sixSigma() {
               </div>
               <div className="space-y-5">
                 <div className="flex flex-col justify-evenly lg:flex-row">
+                <Link href="contactanos">
                   <button
                     type="submit"
                     className=" w-full lg:mr-3 flex lg:py-5 self-center justify-center bg-transparent border-2 border-indigo-500 text-indigo-500 p-3 hover:bg-indigo-500 hover:text-white rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
                   >
                     ESCRÍBENOS
                   </button>
+                </Link>
                   <button
                     type="submit"
                     className="btnSix"
@@ -60,9 +61,9 @@ export default function sixSigma() {
       </div>
       {/* -------------------------------- Aqui comienza la seccion de muestra de las cards -------------------------------------- */}
       <div className="px-5 py-16 mx-auto">
-        <h1 className="font-medium text-2xl md:text-5xl font-jost flex justify-center text-indigo-500">
+        <h2 className="font-medium text-2xl md:text-5xl font-jost flex justify-center text-indigo-500">
           NUESTROS SERVICIOS EN SIX SIGMA
-        </h1>
+        </h2>
         <div className="px-5 pt-16 mx-auto font-mont">
           {/* ------- Componente de tarjetas ----------- */}
           <SliderSix />
@@ -77,9 +78,9 @@ export default function sixSigma() {
         style={{ backgroundImage: `url(/img/six-sigma/Diagnóstico.jpg)` }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
-        <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle px-20 font-jost">
+        <div className="h-[1000px] md:min-h-screen flex sm:flex-row lg:justify-start align-middle px-6 md:px-20 font-jost">
           <div className=" flex sm:self-center justify-center w-full self-center lg:w-1/2 z-10">
-            <div className="sm:mx-auto-align lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-full">
+            <div className="sm:mx-auto-align ml-0 lg:ml-8 p-12 bg-white shadow-xl rounded-2xl w-full">
               <div className="mb-4 divide-y-2 divide-curious-blue-500">
                 <h3 className="font-light text-3xl pb-4 text-curious-blue-500">
                   ¿QUIERES SABER SI TU EMPRESA
@@ -123,7 +124,7 @@ export default function sixSigma() {
                 <div className="flex flex-col justify-evenly lg:flex-row pt-3">
                   <button
                     type="submit"
-                    className="btnSix w-2/3"
+                    className="btnSix w-full lg:w-2/3"
                   >
                     ENTREVISTA INICIAL GRATUITA
                   </button>
@@ -133,13 +134,13 @@ export default function sixSigma() {
           </div>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col h-full font-mont">
-        <div className="bg-indigo-500 text-center flex w-full md:w-1/2">
-          <h3 className="text-xl sm:text-4xl self-center mx-auto text-white font-medium font-jost">
+      <div className="flex md:flex-row flex-col h-full font-mont">
+        <div className="bg-indigo-500 text-center flex w-full lg:w-1/2">
+          <h3 className="text-2xl py-5 md:py-8 lg:py-0 sm:text-4xl self-center mx-auto text-white font-medium font-jost">
             BENEFICIOS <span className="text-white font-light">ESPERADOS</span>
           </h3>
         </div>
-        <div className="bg-gray-100 w-full sm:w-1/2 text-justify flex flex-col font-mont py-10">
+        <div className="bg-gray-100 w-full lg:w-1/2 text-justify flex flex-col font-mont py-10">
           <p className="text-gray-500 text-lg py-4 justify-center w-4/5 self-center text-justify">
             Contamos con sesiones de Coaching con experimentados{" "}
             <span className="font-bold text-curious-blue-500">
@@ -172,7 +173,7 @@ export default function sixSigma() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row font-mont h-[250px]">
+      <div className="flex flex-col sm:flex-row font-mont h-auto md:h-[250px]">
         <div className="w-full lg:w-1/2 flex items-center">
           <h3 className="text-4xl text-gray-600 text-center font-light font-jost mx-auto py-24">
             ¿QUIERES SABER MÁS <br />
@@ -182,7 +183,7 @@ export default function sixSigma() {
           </h3>
         </div>
         <div className="w-full sm:w-1/2 flex divide-y divide-blue-500 items-center">
-          <p className="w-4/5 mx-auto text-gray-500 text-regular text-lg text-justify font-mont ">
+          <p className="w-4/5 mx-auto text-gray-500 text-regular py-5 lg:py-0 text-lg text-justify font-mont ">
             Conoce más sobre la importancia de la certificación, recursos y
             estrategias para la{" "}
             <span className="font-bold text-curious-blue-500">
