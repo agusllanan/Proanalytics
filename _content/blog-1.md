@@ -3,10 +3,10 @@ title: CLIMA LABORAL, qué es y por qué medirlo
 date: 2022-03-16t11:00:00.220z
 ---
 
-#CLIMA LABORAL, qué es y por qué medirlo
-####Las personas que trabajan en un buen ambiente laboral son más productivas y rotarán menos de las empresas
+# CLIMA LABORAL, qué es y por qué medirlo
+#### Las personas que trabajan en un buen ambiente laboral son más productivas y rotarán menos de las empresas
 
-##¿Qué es el clima laboral?
+## ¿Qué es el clima laboral?
 
 Hablar de clima laboral es hablar de percepciones. Este **elemento intangible** que poco se puede describir pero que todos sabemos de qué trata **porque lo sentimos**, lo vivimos.
 
@@ -16,7 +16,7 @@ Cada persona conforme a sus **necesidades, expectativas**, sus previas **experie
 
 ![Equipo trabajando unido](https://images.app.goo.gl/jNdTnV3Nk5BNGpmq7)
  
-##¿Por qué es importante hablar del clima laboral?
+## ¿Por qué es importante hablar del clima laboral?
 
 El clima laboral tiene una **influencia directa en el comportamiento de las personas**, impacta en cómo la persona recibe instrucciones, cómo las ejecuta, en su **rendimiento**, en su **relación** con las personas y con esto en su **productividad** y eficiencia para la empresa. 
 
@@ -35,7 +35,7 @@ Cuando el clima laboral se evalúa, se logra entender el por qué de las conduct
 
 
 
-##¿Qué es un ambiente tóxico de trabajo? y  ¿Qué es un mal clima laboral?
+## ¿Qué es un ambiente tóxico de trabajo? y  ¿Qué es un mal clima laboral?
 
 **Malos tratos, mobbing, hostigamiento, acoso, discriminación, violencia laboral** son algunas características de un ambiente tóxico para trabajar y es más común de lo que se cree. Esto es **prevenible**, puede **atenderse** y debe darse **seguimiento** en cualquier empresa. 
 
@@ -54,7 +54,7 @@ El **impacto y consecuencias de un mal ambiente laboral** provocan costos muy al
 ![Equipo en la industria](https://drive.google.com/file/d/1v8-NdwY-NB6dNyNTQaBXMrmQe1YILFvW/view?usp=sharing)
 
 
-##Medir y evaluar el clima laboral
+## Medir y evaluar el clima laboral
 
 Como hemos visto, trabajar en el clima laboral genera ventajas para la empresa y no hacerlo provoca **consecuencias** que pueden ser muy costosas.
 
