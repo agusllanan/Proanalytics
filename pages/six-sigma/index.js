@@ -7,7 +7,7 @@ export default function sixSigma() {
     <Layout>
       <div
         className="min-h-screen bg-no-repeat bg-cover bg-top relative border-b-4 border-indigo-500"
-        style={{ backgroundImage: `url(/img/six-sigma/portada-six-sigma.jpg)` }}
+        style={{ backgroundImage: `url(/img/six-sigma/portadas/portada-six-sigma.jpg)` }}
       >
         {/* <div className="absolute bg-gradient-to-b from-keppel-300 to-keppel-700 opacity-75 inset-0 z-0"></div> */}
         <div className="h-[700px] md:min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
