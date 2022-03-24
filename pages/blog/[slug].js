@@ -11,12 +11,12 @@ export default function BlogPage({ title, date, content }) {
     <Layout title="Blog | Proanalytics" description="Agregue una descripcion">
       <main>
         <div className="border-b-2 border-gray-200 mb-4 mx-auto text-center">
-          <h2 className="text-3xl font-bold text-keppel-500 py-4">{title}</h2>
+          <h2 className="text-3xl font-bold text-indigo-500 py-4 font-jost">{title}</h2>
           <div className="text-gray-600 text-md">
             {/* {format(parseISO(date), 'MMMM do, uuu')} */}
           </div>
         </div>
-        <div className="w-full px-4 py-4 mx-auto bg-gray-50 rounded-xl m-8 shadow prose">
+        <div className="w-4/5 px-4 py-4 mx-auto bg-gray-50 rounded-xl m-8 shadow prose-sm">
         <MDXRemote {...content} components={components} />
         </div>
       </main>

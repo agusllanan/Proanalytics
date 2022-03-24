@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout";
 import { getAllPosts } from "../../lib/data.js";
+import { MDXRemote } from 'next-mdx-remote'
 import Link from "next/link";
 
 
@@ -14,11 +15,11 @@ export default function blog({ posts }) {
             }}
         />
       </div>
-      <h1 className="font-mont text-center pt-8 font-bold text-4xl text-keppel-600">
+      <h1 className="font-mont text-center pt-8 font-bold text-4xl text-indigo-500">
         Nuestro Blog
       </h1>
       <div className="container px-5 py-10 md:py-24 mx-auto">
-        <div className="flex flex-col md:flex-row mb-12 space-y-4 md:space-y-0 font-mont space-x-0 md:space-x-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12 font-mont">
           {posts.map((item) => (
             <BlogListItem key={item.slug} {...item} />
           ))}
@@ -41,20 +42,18 @@ export async function getStaticProps() {
   };
 }
 
-function BlogListItem({ slug, title, date, content }) {
+function BlogListItem({ slug, title, content }) {
   return (
     <div className="border border-gray-100 hover:border-gray-200 rounded-md shadow p-4 hover:shadow-xl transition duration-300 ease-in">
       <div>
         <Link href={`/blog/${slug}`}>
-          <a className="font-bold text-keppel-500 text-2xl hover:text-curious-blue-400 transition duration-300 ease-in">
+          <a className="font-bold text-indigo-500 text-2xl hover:text-indigo-400 transition duration-250 ease-in font-jost">
             {" "}
             {title}{" "}
           </a>
         </Link>
       </div>
-      <div className="text-keppel-400 text-sm">
-      </div>
-      <div className="text-black py-4">{content.substr(0, 200)}</div>
+      <div className="text-gray-500 py-4">{content.substr(0, 100)}...</div>
     </div>
   );
 }
