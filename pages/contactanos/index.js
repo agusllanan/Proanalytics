@@ -55,11 +55,11 @@ export default function contactanos () {
         title="Contactanos | Proanalytics"
         description="Agregue una descripcion"
         >
-            <section className="text-gray-600 body-font relative">
+            <section className="text-gray-600 body-font relative font-mont">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col text-center w-full mb-12">
-                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-green-500">Contáctanos</h1>
-                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Estamos a su disposición para resolver cualquier tipo de duda</p>
+                        <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold title-font mb-4 text-green-500 font-jost">Contáctanos</h1>
+                        <p className="lg:w-2/3 mx-auto leading-relaxed text-regular ">Estamos a su disposición para resolver cualquier tipo de duda</p>
                     </div>
                 <div className="lg:w-1/2 md:w-2/3 mx-auto">
                 <div className="flex flex-wrap -m-2">
@@ -69,7 +69,7 @@ export default function contactanos () {
                             <input type="text" 
                                     id="name" 
                                     name="name" 
-                                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                     onChange={(e)=>{setName(e.target.value)}}
                                     />
                         </div>
@@ -81,7 +81,7 @@ export default function contactanos () {
                 type="email" 
                 id="email" 
                 name="email" 
-                className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 onChange={(e)=>{setEmail(e.target.value)}}
                 />
             </div>
@@ -92,7 +92,7 @@ export default function contactanos () {
             <textarea 
                 id="message" 
                 name="message" 
-                className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 onChange={(e)=>{setMessage(e.target.value)}}
                 >
                 </textarea>

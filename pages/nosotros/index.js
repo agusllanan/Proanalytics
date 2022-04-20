@@ -63,7 +63,7 @@ export default function nosotros() {
         </p>
         <div className="w-full md:w-4/5 flex md:inline">
         <Link href="/contactanos">
-          <button className="rounded-lg px-5 mx-auto md-mx-0 bg-white hover:bg-gray-200 text-[#29ABE2] py-3">
+          <button className="rounded-lg font-mont px-5 mx-auto md-mx-0 bg-white hover:bg-gray-200 text-[#29ABE2] py-3">
           Ponte en contacto conmigo
           </button>
         </Link>

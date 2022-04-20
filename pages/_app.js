@@ -1,5 +1,9 @@
 import "./styles/global.css"
 import Head from 'next/head';
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-C17VELZVCD"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 
 function MyApp({ Component, pageProps }) {
@@ -14,7 +18,6 @@ function MyApp({ Component, pageProps }) {
       content="Pagina RRHH"/>
     </Head>
     <Component {...pageProps} />
-    
     </>
   )
 }
