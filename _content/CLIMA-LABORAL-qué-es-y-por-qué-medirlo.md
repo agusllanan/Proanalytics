@@ -3,7 +3,7 @@ title: CLIMA LABORAL, qué es y por qué medirlo
 date: 2022-03-16t11:00:00.220z
 ---
 
-# CLIMA LABORAL, qué es y por qué medirlo
+![Clima Laboral](/img/blog/clima-laboral.jpeg "Clima Laboral")
 
 Las personas que trabajan en un buen ambiente laboral son más productivas y rotarán menos de las empresas
 
@@ -11,6 +11,7 @@ CONTENIDOS
 - ¿Qué es el clima laboral?
 - ¿Por qué es importante hablar de clima laboral?
 - Medir y evaluar el clima laboral
+
 
 ## ¿Qué es el clima laboral?
 
@@ -35,7 +36,7 @@ Trabajar en su cultura, *attrition y engagement*.
 Cuando el clima laboral se evalúa, se logra entender el por qué de las conductas de las personas y también modificar sus comportamientos. Medir el clima es como tomar una fotografía en la que se alcanzará a percibir la *esencia de la empresa, su personalidad y la atmósfera*. 
 
 
-
+![Ambientes Toxicos](/img/blog/ambientes-toxicos.jpeg "Ambientes Toxicos")
 ## ¿Qué es un ambiente tóxico de trabajo? y  ¿Qué es un mal clima laboral?
 
 

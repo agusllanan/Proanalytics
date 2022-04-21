@@ -2,7 +2,7 @@
 title: Tres errores en la evaluación del clima laboral
 date: 2022-04-19t11:00:00.220z
 ---
-# Tres errores en la evaluación del clima laboral
+![3 errores en evaluación de clima laboral](/img/blog/tres-errores-ev.jpeg "3 errores en evaluación de clima laboral")
 
 **No medir, sólo medir o no comunicar**: te invito a conocer por qué estos errores son los más frecuentes que he visto en la mayoría de las empresas y que de reflexionarse antes, *podrían evitar pérdidas de esfuerzo, tiempo e inversión*.
 
@@ -39,7 +39,7 @@ También es importante considerar que la información “caduca”, antes inclus
 
 **La metodología de evaluación**: Para evitar sesgos en los resultados de la evaluación planea qué herramientas serán utilizadas para medir, la logística para que el proceso no dure más de dos semanas y sea lo más eficiente posible,  la fecha de aplicación más oportuna, planea cómo lograr la participación de la mayoría de las personas, diseña el mensaje que la empresa enviará antes y durante el proceso de evaluación. Estas acciones te pueden **evitar obtener resultados no confiables o válidos**.  
 
-
+![3 errores comunes](/img/blog/errores-comunes.jpeg "3 errores comunes")
 
 ## ERRORES Y CONSEJOS AL MEDIR EL CLIMA LABORAL
 
