@@ -2,7 +2,7 @@
 title: Tres errores en la evaluación del clima laboral
 img: /img/blog/tres-errores-ev.jpeg
 date: 2022-04-19t11:00:00.220z
-description: Esta es una descripcion de prueba por Agus.
+description: Te invito a conocer por qué estos errores son los más frecuentes que he visto en la mayoría de las empresas y que de reflexionarse antes, podrían evitar pérdidas de esfuerzo, tiempo e inversión.
 ---
 ![3 errores en evaluación de clima laboral](/img/blog/tres-errores-ev.jpeg "3 errores en evaluación de clima laboral")
 
@@ -11,9 +11,9 @@ description: Esta es una descripcion de prueba por Agus.
 
 
 CONTENIDOS
-¿Por qué medir el clima laboral?
-La importancia de diseñar el proceso de evaluación como un proyecto.
-Errores y Consejos al medir el Clima Laboral
+- ¿Por qué medir el clima laboral?
+- La importancia de diseñar el proceso de evaluación como un proyecto.
+- Errores y Consejos al medir el Clima Laboral
 
 ## ¿Por qué medir el clima laboral?
 

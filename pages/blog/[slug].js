@@ -6,7 +6,6 @@ import { MDXRemote } from 'next-mdx-remote'
 
 export default function BlogPage({ title, date, content, description}) {
   const components = (content);
-
   return (
     <Layout title={title} description={description}>
       <main className=" bg-gray-100">

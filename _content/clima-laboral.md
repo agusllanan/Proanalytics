@@ -2,6 +2,7 @@
 title: CLIMA LABORAL, qué es y por qué medirlo 
 img: /img/blog/clima-laboral.jpeg
 date: 2022-03-16t11:00:00.220z
+description: El clima laboral tiene una influencia directa en el comportamiento de las personas, impacta en su productividad y eficiencia para la empresa.
 ---
 
 ![Clima Laboral](/img/blog/clima-laboral.jpeg "Clima Laboral")

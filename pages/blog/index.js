@@ -10,7 +10,7 @@ export default function blog({ posts }) {
         <div
             className="bg-no-repeat bg-cover bg-center relative h-[300px] flex items-center"
             style={{
-              backgroundImage: `url(/img/home/portada-general.jpeg)`,
+              backgroundImage: `url(/img/home/portada-home.jpg)`,
             }}
         />
       </div>

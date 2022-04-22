@@ -17,7 +17,7 @@ export default function Home() {
         <Dropdown />
         <section className="text-gray-600 body-font">
       <div
-        className="min-h-screen bg-no-repeat bg-cover bg-top relative"
+        className="min-h-screen bg-no-repeat bg-cover bg-center relative"
         style={{ backgroundImage: `url(/img/home/portada-home.jpg)` }}
       >
         <div className="min-h-screen flex sm:flex-row lg:justify-start sm:justify-center align-middle">
