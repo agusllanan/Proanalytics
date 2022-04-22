@@ -4,11 +4,11 @@ import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 
 
-export default function BlogPage({ title, date, content }) {
+export default function BlogPage({ title, date, content, description}) {
   const components = (content);
 
   return (
-    <Layout title="Blog | Proanalytics" description="Agregue una descripcion">
+    <Layout title={title} description={description}>
       <main className=" bg-gray-100">
         <div className="border-b-2 border-gray-200 mb-4 mx-auto text-center">
           <h2 className="text-3xl font-regular text-black uppercase bg-white py-4 font-jost">{title}</h2>
