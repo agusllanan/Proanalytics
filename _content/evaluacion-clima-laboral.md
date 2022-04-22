@@ -1,5 +1,6 @@
 ---
 title: Tres errores en la evaluación del clima laboral
+img: /img/blog/tres-errores-ev.jpeg
 date: 2022-04-19t11:00:00.220z
 ---
 ![3 errores en evaluación de clima laboral](/img/blog/tres-errores-ev.jpeg "3 errores en evaluación de clima laboral")
@@ -44,20 +45,20 @@ También es importante considerar que la información “caduca”, antes inclus
 ## ERRORES Y CONSEJOS AL MEDIR EL CLIMA LABORAL
 
 
-Error No. 1: No medir. Aún existen empleadores que no consideran ésta como una práctica necesaria.
+1. Error No. 1: No medir. Aún existen empleadores que no consideran ésta como una práctica necesaria.
 
-Consejo. Si eres un líder (de Capital Humano por ejemplo) que reconoce la importancia de medir, quizás este argumento puede ayudarte a negociar:  la confianza organizacional tiene un precio alto y si no se mide, no hay forma de mejorar. 
-
-
-Error No. 2: Sólo medir. Si comparara los estudios de clima laboral serían como tomar una fotografía en un momento específico, sin embargo también esa foto forma parte de un video en el que la historia continúa y está viva. No basta con encuestar, con quedarse con los resultados y no actuar.  
-
-Consejo: Usa la información e identifica en qué tema estratégico debes trabajar que tendrá impacto en otros. Si trabajas en el liderazgo por ejemplo, también podrías estar generando resultados en el trabajo en equipo. 
-Actúa y hazlo rápido, la información también caduca y los problemas podrían no solo no resolverse, si no volverse críticos. 
+    * Consejo. Si eres un líder (de Capital Humano por ejemplo) que reconoce la importancia de medir, quizás este argumento puede ayudarte a negociar:  la confianza organizacional tiene un precio alto y si no se mide, no hay forma de mejorar. 
 
 
-Error No. 3: No comunicar. Cuando una empresa hace un ejercicio de confianza de este tipo con su personal, está expuesta a perder incluso “credibilidad” si no comunica resultados y acciones. Pudiste haber hecho un muy buen esfuerzo para obtener información valiosa, incluso en diseñar acciones al respecto, pero si las personas no relacionan que hiciste algo porque no lo comunicaste: de nada sirvió.
+2. Error No. 2: Sólo medir. Si comparara los estudios de clima laboral serían como tomar una fotografía en un momento específico, sin embargo también esa foto forma parte de un video en el que la historia continúa y está viva. No basta con encuestar, con quedarse con los resultados y no actuar.  
 
-Consejo: Baja la información de los resultados en “cascada”, incluyendo a tomadores de decisión y personas en departamentos que pueden diseñar estratégias, líderes de equipos y por supuesto al resto del personal. Hazlo de manera asertiva, personalizada y de manera oportuna. 
+    * Consejo: Usa la información e identifica en qué tema estratégico debes trabajar que tendrá impacto en otros. Si trabajas en el liderazgo por ejemplo, también podrías estar generando resultados en el trabajo en equipo. <br /> Actúa y hazlo rápido, la información también caduca y los problemas podrían no solo no resolverse, si no volverse críticos.
+ 
+
+
+3. Error No. 3: No comunicar. Cuando una empresa hace un ejercicio de confianza de este tipo con su personal, está expuesta a perder incluso “credibilidad” si no comunica resultados y acciones. Pudiste haber hecho un muy buen esfuerzo para obtener información valiosa, incluso en diseñar acciones al respecto, pero si las personas no relacionan que hiciste algo porque no lo comunicaste: de nada sirvió.
+
+    * Consejo: Baja la información de los resultados en “cascada”, incluyendo a tomadores de decisión y personas en departamentos que pueden diseñar estratégias, líderes de equipos y por supuesto al resto del personal. Hazlo de manera asertiva, personalizada y de manera oportuna. 
 
 Te sugiero además llevar  un registro de acciones y relacionarlo  con el tema que deseas mejorar o impactar. Puedes utilizar el Plan de Acción o el Programa Preventivo que la NOM-035-MX en Factores de Riesgo Psicosocial  pide como evidencia dentro de sus requisitos. 
 Una vez que las realices, reúne evidencias (fotografías, testimonios, haz infografías, mide en sondeos rápidos la respuesta de las personas), todo este material te permitirá realizar campañas de comunicación internas que puedes reforzar incluso con un logotipo o slogans que asocien la Encuesta de Clima Laboral con las acciones como resultado. 

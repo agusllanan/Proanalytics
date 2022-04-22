@@ -1,6 +1,5 @@
 import Layout from "../../components/Layout";
 import { getAllPosts } from "../../lib/data.js";
-import { MDXRemote } from 'next-mdx-remote'
 import Link from "next/link";
 
 
@@ -42,18 +41,20 @@ export async function getStaticProps() {
   };
 }
 
-function BlogListItem({ slug, title, content }) {
+function BlogListItem({ slug, title, img }) {
   return (
     <div className="border border-gray-100 hover:border-gray-200 rounded-md shadow p-4 hover:shadow-xl transition duration-300 ease-in">
       <div>
+        <div>
+          <img src={img} alt="" className="w-full h-200 pb-4"/>
+        </div>
         <Link href={`/blog/${slug}`}>
-          <a className="font-bold text-indigo-500 text-2xl hover:text-indigo-400 transition duration-250 ease-in font-jost">
+          <a className="font-bold text-black uppercase text-xl hover:text-indigo-400 transition duration-250 ease-in font-jost">
             {" "}
             {title}{" "}
           </a>
         </Link>
       </div>
-      <div className="text-gray-500 py-4">{content.substr(0, 100)}...</div>
     </div>
   );
 }

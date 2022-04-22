@@ -1,5 +1,6 @@
 ---
 title: CLIMA LABORAL, qué es y por qué medirlo 
+img: /img/blog/clima-laboral.jpeg
 date: 2022-03-16t11:00:00.220z
 ---
 
@@ -48,11 +49,11 @@ Un ambiente tóxico por las relaciones entre personas, incluyendo las relaciones
 
 ### El **impacto y consecuencias de un mal ambiente laboral** provocan costos muy altos para las personas y para la empresa: 
 
-**Rotación voluntaria**: que puede ser evitable. 
-**Improductividad**: el foco de atención no se vuelve el resultado. 
-**Es un factor de riesgo psicosocial**: que tiene afectaciones en distintos ámbitos incluyendo la salud.
-**Desgaste en las relaciones entre personas**: que sin duda impacta al trabajo en equipo y la colaboración. 
-**Pérdida de tiempo**: el centro de atención es el problema del mal ambiente, no la verdadera razón por la que se trabaja: las metas o los resultados de la empresa. 
+* **Rotación voluntaria**: que puede ser evitable. 
+* **Improductividad**: el foco de atención no se vuelve el resultado. 
+* **Es un factor de riesgo psicosocial**: que tiene afectaciones en distintos ámbitos incluyendo la salud.
+* **Desgaste en las relaciones entre personas**: que sin duda impacta al trabajo en equipo y la colaboración. 
+* **Pérdida de tiempo**: el centro de atención es el problema del mal ambiente, no la verdadera razón por la que se trabaja: las metas o los resultados de la empresa. 
 
 
 ## Medir y evaluar el clima laboral
