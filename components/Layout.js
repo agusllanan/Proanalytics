@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 import Dropdown from "./Dropdown";
 import { useState, useEffect} from "react";
-
+import logo from "../public/img/logo.png"
 
 export default function Layout({ children, title, description }) {
     
@@ -32,7 +32,7 @@ export default function Layout({ children, title, description }) {
     <div>
         <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta name="description" content={description} image={logo}/>
         <link rel="icon" href="/favicon.ico" />
         </Head>
         <nav>
