@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-import { useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +7,7 @@ import Dropdown from "../components/Dropdown";
 import "animate.css";
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
+import Script from "next/script";
 
 export default function Home() {
   configureAnchors({offset: 28, scrollDuration: 1000})
@@ -16,6 +16,17 @@ export default function Home() {
     <>
     <Head>
       <meta name="google-site-verification" content="wr9KkK_txp_v1ueYvPxBIh1a79BCMgCpatp7M6s2bAM" />
+      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-C17VELZVCD`} />
+      <Script strategy="lazyOnload">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C17VELZVCD', {
+            page_path: window.location.pathname,
+            });
+          `}
+        </Script>
     </Head>
     <Layout title="Proanalytics" description="Agregue una descripcion">
       <main className="">

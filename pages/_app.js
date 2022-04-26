@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }) {
             });
           `}
         </Script>
-      
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta property="og:image" src="../public/img/logo.png" />
       <title> Proanalytics </title>
