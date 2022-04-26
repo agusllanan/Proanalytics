@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import { useEffect } from "react";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Servicios from "../components/Servicios";
@@ -12,6 +13,10 @@ export default function Home() {
   configureAnchors({offset: 28, scrollDuration: 1000})
 
   return (
+    <>
+    <Head>
+      <meta name="google-site-verification" content="wr9KkK_txp_v1ueYvPxBIh1a79BCMgCpatp7M6s2bAM" />
+    </Head>
     <Layout title="Proanalytics" description="Agregue una descripcion">
       <main className="">
         <Dropdown />
@@ -202,59 +207,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* Para hacer un hover scale o rotation hay que hacer esto hover:scale-105 transform transition-all duration-500 */}
-        {/* <section>
-          <div className=" w-full py-10 font-mont">
-            <h3 className="text-center md:text-left mx-auto py-3 px-10 text-2xl mb-4 ml-4 font-bold text-keppel-500">
-              {" "}
-              PODCAST{" "}
-            </h3>
-            <div className="flex flex-nowrap flex-row justify-between px-10">
-              <div className="max-w-md ml-4 rounded-xl cursor-pointer shadow-lg hover:shadow-2xl">
-                <div className="p-4">
-                  <img
-                    className="rounded-xl"
-                    src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
-                    alt="Dog"
-                  />
-                </div>
-                <div className="flex justify-between p-6">
-                  <div className="flex flex-col text-justify">
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Titulo Podcast
-                    </h3>
-                    <p className="text-base text-gray-700 font-normal">
-                      Este es el subtitulo
-                    </p>
-                    <h3 className="text-lg text-gray-900 font-bold">
-                      Episodio 1
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="container flex justify-end">
-              <p className="text-lg text-gray-700 mr-6 font-bold py-6">
-                {" "}
-                Ver todos{" "}
-              </p>
-            </div>
-          </div>
-        </section> */}
-        {/* <section>
-          <div className="w-full py-10">
-            <h3 className="text-center md:text-left py-3 text-2xl mb-4 ml-4 font-bold font-mont text-keppel-500">
-              {" "}
-              WEBCAST{" "}
-            </h3>
-            <script
-              src="https://apps.elfsight.com/p/platform.js"
-              defer
-            ></script>
-            <div className="elfsight-app-9ed6c0ff-4917-4325-aae1-8937cac11a8b"></div>
-          </div>
-        </section> */}
       </main>
     </Layout>
-  );
+    </>
+  )
 }
