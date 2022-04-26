@@ -1,7 +1,6 @@
 import "./styles/global.css"
 import Head from 'next/head';
 import Script from 'next/script';
-import logo from "../public/img/logo.png"
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -21,7 +20,7 @@ function MyApp({ Component, pageProps }) {
         </Script>
       
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:image" content={logo} />
+      <meta property="og:image" src="../public/img/logo.png" />
       <title> Proanalytics </title>
       <meta 
       key="description"
