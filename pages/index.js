@@ -15,18 +15,6 @@ export default function Home() {
   return (
     <>
     <Head>
-      <meta name="google-site-verification" content="wr9KkK_txp_v1ueYvPxBIh1a79BCMgCpatp7M6s2bAM" />
-      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-C17VELZVCD`} />
-      <Script strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-C17VELZVCD', {
-            page_path: window.location.pathname,
-            });
-          `}
-        </Script>
     </Head>
     <Layout title="Proanalytics" description="Agregue una descripcion">
       <main className="">
