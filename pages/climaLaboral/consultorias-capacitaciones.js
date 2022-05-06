@@ -50,7 +50,11 @@ export const consultorias = () => {
         };
 
   return (
-    <Layout>
+    <Layout
+    title="Consultoría y Capacitación | Proanalytics"
+    description="Conoce y capacítate en temas que impactan al clima organizacional de tu empresa.
+    Te ayudamos a impactar positivamente en tus índices de rotación y retención de tu empresa, ¡contáctanos!"
+    >
       <div
         className="bg-no-repeat bg-cover bg-center relative"
         style={{

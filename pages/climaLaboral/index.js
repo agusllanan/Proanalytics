@@ -4,7 +4,10 @@ import Image from "next/image";
 
 export default function climaLaboral() {
   return (
-    <Layout>
+    <Layout
+    title="Clima Laboral | Proanalytics"
+    description="Construye una empresa más eficiente analizando el clima laboral y las posibles causas de rotación y trabajando en estrategias para mantener un ambiente de trabajo saludable. ¡Contáctanos!"
+    >
       <div
         className="bg-no-repeat bg-cover relative border-b-4 border-bright-turquoise-500"
         style={{

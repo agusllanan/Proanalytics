@@ -8,8 +8,8 @@ export default function nosotros() {
   configureAnchors({offset: -10, scrollDuration: 1000})
   return (
     <Layout
-      title="Nosotros | Proanalytics"
-      description="Agregue una descripcion"
+      title="Analizamos datos para tomar mejores decisiones | Proanalytics"
+      description="Contribuimos a profesionalizar actividades y mejorar procesos en tu empresa, para que las personas potencialicen sus talentos y superen sus propios objetivos."
     >
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">

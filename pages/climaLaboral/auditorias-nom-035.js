@@ -51,7 +51,10 @@ export const auditorias = () => {
             .catch((err) => console.log(err))
         };
   return (
-    <Layout>
+    <Layout
+    title="Asesoría en NOM-035 y NMX-025 | Proanalytics"
+    description="¿Qué tan lista está tu empresa para certificarse en la NMX-R-025 Factores de Riesgo Psicosocial y NOM-035 Igualdad Laboral y no Discriminación? ¡Recibe asesoría y certifícate!"
+    >
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#7209b7]"
         style={{

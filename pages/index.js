@@ -16,7 +16,7 @@ export default function Home() {
     <>
     <Head>
     </Head>
-    <Layout title="Proanalytics" description="Agregue una descripcion">
+    <Layout title="Consultoría en análisis de datos y procesos de mejora  | Proanalytics" description="Analizamos la información de tu empresa para lograr procesos más efectivos y eficientes creando un ambiente de trabajo con personas más productivas y felices. ¡Conoce más!">
       <main className="">
         <Dropdown />
         <section className="text-gray-600 body-font">

@@ -54,7 +54,10 @@ export const encuestaClimaLaboral = () => {
         };
 
   return (
-    <Layout>
+    <Layout
+    title="Estudio de Clima Laboral | Proanalytics"
+    description="Contamos con más de 10 años de experiencia en investigación de ambientes laborales, consultoría y capacitación. Encuesta y obtén resultados cuantitativos del clima laboral de tu empresa. ¡Conoce más!"
+    >
       <div
         className="bg-no-repeat bg-cover bg-center relative border-b-4 border-[#ef476f]"
         style={{
