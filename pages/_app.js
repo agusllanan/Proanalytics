@@ -3,7 +3,6 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as ga from '../lib/ga'
 import Head from 'next/head'
-import siteLogo from '/public/img/logo.png'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
@@ -27,7 +26,6 @@ function MyApp({ Component, pageProps }) {
     <>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:image" src={siteLogo} />
       <title> Proanalytics </title>
       <meta 
       key="description"

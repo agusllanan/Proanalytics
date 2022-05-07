@@ -2,6 +2,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Dropdown from "./Dropdown";
+import siteLogo from '/public/img/logo.png'
+
 import { useState, useEffect} from "react";
 
 export default function Layout({ children, title, description }) {
@@ -33,6 +35,7 @@ export default function Layout({ children, title, description }) {
         <title>{title}</title>
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" src={siteLogo} />
         </Head>
         <nav>
         <Navbar isOpen={isOpen} toggle={toggle}/>
