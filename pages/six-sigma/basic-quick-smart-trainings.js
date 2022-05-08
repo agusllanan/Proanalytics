@@ -12,7 +12,6 @@ export const basicSmartTraining = () => {
     const handleSubmit = async (e) => {
 
         e.preventDefault();
-        console.log('Sending');
         
         let data = {
             name,
@@ -28,9 +27,7 @@ export const basicSmartTraining = () => {
             body: JSON.stringify(data)
             })
             .then((res) => {
-                console.log('Response received')
                 if (res.status === 200) {
-                    console.log('Response succeeded!')
                     setSubmitted(true)
                     setName('')
                     setMessage('')

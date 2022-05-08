@@ -18,7 +18,6 @@ export default function Layout({ children, title, description }) {
         const hideMenu = () => {
             if(window.innerWidth > 1024 && isOpen) {
                 setIsOpen(false);
-                console.log("The nav menu is resized")
             }
         }
 

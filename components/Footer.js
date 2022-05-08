@@ -10,7 +10,6 @@ const [errorMesagge, setErrorMesagge] = useState(null)
 const subscribe = async () => {
   setState("Cargando");
   setErrorMesagge(null);
-  console.log("Esta entrando al onClick")
   try {
     const response = await axios.post("/api/newsletter", { email });
     setState("EXITOSO");

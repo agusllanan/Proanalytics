@@ -13,7 +13,6 @@ export const auditorias = () => {
     const handleSubmit = async (e) => {
 
         e.preventDefault();
-        console.log('Sending');
         
         let data = {
             name,
@@ -30,9 +29,7 @@ export const auditorias = () => {
             body: JSON.stringify(data)
             })
             .then((res) => {
-                console.log('Response received')
                 if (res.status === 200) {
-                    console.log('Response succeeded!')
                     setSubmitted(true)
                     setName('')
                     setMessage('')
@@ -45,7 +42,6 @@ export const auditorias = () => {
                     icon: "success"
                   })
                 } else if (res.status === 404) {
-                    console.log('Response not found!');
                 }
             })
             .catch((err) => console.log(err))
