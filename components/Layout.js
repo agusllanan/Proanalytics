@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Dropdown from "./Dropdown";
-import siteLogo from '/public/img/logo.png'
+import siteLogo from '../public/img/logo.png'
 
 import { useState, useEffect} from "react";
 
