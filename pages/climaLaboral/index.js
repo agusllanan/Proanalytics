@@ -59,12 +59,16 @@ export default function climaLaboral() {
                       ESCRÍBENOS
                     </button>
                   </Link>
-                  <button
-                    type="submit"
-                    className="w-full flex justify-center bg-bright-turquoise-500  hover:bg-curious-blue-500 hover:text-bright-turquoise-500 text-curious-blue-500 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
+                  <a href="https://wa.me/524444459010?text=¡Me+gustaría+tener+más+información!" className="w-full flex justify-center bg-bright-turquoise-500  hover:bg-curious-blue-500 hover:text-bright-turquoise-500 text-curious-blue-500 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"
+                  target="_blank"
                   >
-                    HAZ UNA CITA
-                  </button>
+                    <button
+                      type="submit"
+                      className=""
+                    >
+                      HAZ UNA CITA
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
