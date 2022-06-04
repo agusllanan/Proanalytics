@@ -259,7 +259,7 @@ export const blackBelt = () => {
               </div>
               <div className="space-y-5">
                 <div className="flex flex-col justify-evenly lg:flex-row  ">
-                  <Link href="/climaLaboral/diagnostico.js">
+                  <Link href="/contactanos">
                     <button
                       type="submit"
                       className="w-full sm:w-2/3 flex justify-center bg-transparent  hover:bg-[#333333] text-[#333333] hover:text-white border-2 border-[#333333] p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"

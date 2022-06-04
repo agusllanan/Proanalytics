@@ -270,7 +270,7 @@ export const yellowBelt = () => {
               </div>
               <div className="space-y-5">
                 <div className="flex flex-col justify-evenly lg:flex-row  ">
-                  <Link href="/climaLaboral/diagnostico.js">
+                  <Link href="/contactanos">
                     <button
                       type="submit"
                       className="w-full sm:w-2/3 flex justify-center bg-transparent  hover:bg-[#f6b433] hover:text-gray-500 text-gray-500 border-2 border-gray-500 hover:border-[#f6b433] p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold cursor-pointer transition ease-in duration-250"

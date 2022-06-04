@@ -140,7 +140,7 @@ export const nivel1DesingDeploy = () => {
               </div>
               <div className="space-y-5">
                 <div className="flex flex-col justify-evenly lg:flex-row  ">
-                  <Link href="/climaLaboral/diagnostico.js">
+                  <Link href="/contactanos">
                     <button
                       type="submit"
                       className="w-full flex justify-center bg-scooter-500  hover:bg-keppel-600 text-gray-100 p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"

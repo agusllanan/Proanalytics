@@ -148,7 +148,7 @@ const subscribe = async () => {
               </svg>
             </a>
             <a className="ml-3 text-white"
-            href="#"
+            href="https://www.linkedin.com/company/proanalytics-consultoria-y-capacitacion/"
             target="_blank"
             >
               <svg

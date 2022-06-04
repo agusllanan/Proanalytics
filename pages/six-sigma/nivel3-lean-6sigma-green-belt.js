@@ -321,7 +321,7 @@ export const greenBelt = () => {
               </div>
               <div className="space-y-5">
                 <div className="flex flex-col justify-evenly lg:flex-row  ">
-                  <Link href="/climaLaboral/diagnostico.js">
+                  <Link href="/contactanos">
                     <button
                       type="submit"
                       className="w-full sm:w-2/3 flex justify-center border-2 border-[#006837] bg-transparent hover:text-white hover:bg-[#006837] text-[#006837] p-3 my-2 lg:my-0 rounded-xl tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-250"

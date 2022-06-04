@@ -242,7 +242,7 @@ export const whiteBelt = () => {
               </div>
               <div className="space-y-5">
                 <div className="flex flex-col justify-evenly lg:flex-row  ">
-                  <Link href="/climaLaboral/diagnostico.js">
+                  <Link href="/contactanos">
                     <button
                       type="submit"
                       className="w-full sm:w-2/3 flex justify-center bg-transparent  hover:bg-gray-500 text-gray-500 p-3 my-2 lg:my-0 rounded-xl tracking-wide hover:text-white font-semibold border-2 border-gray-500 cursor-pointer transition ease-in duration-250"
