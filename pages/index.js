@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Servicios from "../components/Servicios";
@@ -7,7 +6,6 @@ import Dropdown from "../components/Dropdown";
 import "animate.css";
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
-import Script from "next/script";
 
 export default function Home() {
   configureAnchors({offset: 28, scrollDuration: 1000})

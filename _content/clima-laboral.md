@@ -72,4 +72,4 @@ No hay una herramienta que sea exclusiva para que todas las empresas evalúen su
 
 La forma de **comunicar** que se evaluará el clima, la aplicación de **instrumentos** de medición, el análisis de los **resultados**, la entrega y comunicación de éstos son cruciales en este proceso. Todo importa para que sea un ejercicio transparente, cuidado y que arroje información útil para la toma de decisiones. 
 
-Conoce más sobre Tres errores en la evaluación del **clima laboral**
+Conoce más sobre [Tres errores en la evaluación del **clima laboral**](https://www.proanalytics.mx/blog/evaluacion-clima-laboral "Tres errores en la evaluación del clima laboral").
