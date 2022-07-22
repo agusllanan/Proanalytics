@@ -32,7 +32,7 @@ Si pensamos en los por qués de la rotación haríamos lo mismo que la mayoría 
 
 Cuando un(a) colaborador(a) está insatisfecho(a) por algo, terminará por expresarlo de alguna manera, lo que no es predecibles el cómo: renunciando, perdiendo el tiempo, agrediendo (cómo el síndrome del niño malcriado), robando, "divorciándose" o "desvinculándose". 
 
-Conoce más sobre los [**ambientes favorabeles de trabajo**](https://www.proanalytics.mx/blog/nom-035-ambientes-favorables-trabajo) 
+Conoce más sobre los [**ambientes favorables de trabajo**](https://www.proanalytics.mx/blog/nom-035-ambientes-favorables-trabajo) 
 
 >## El divorcio técnico. 
 
