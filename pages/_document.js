@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
             }}
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossoOrigin="true" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossoorigin="true" />
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
             rel="stylesheet"
