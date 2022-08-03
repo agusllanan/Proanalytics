@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Layout from "../../components/Layout";
 import Swal from 'sweetalert2';
-import axios from "axios";
 
 export default function contactanos () {
     
