@@ -104,7 +104,8 @@ export default function contactanos () {
             </button>
         </div>
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-            <a className="text-green-500">contacto@proanalytics.com.mx</a> <br /> <br />
+            <a className="text-green-500">contacto@proanalytics.com.mx</a> <br />
+            <p className="text-green-500 mb-3">ProAnalytics - Tel - +52 444 445 9010</p>
             <span className="inline-flex">
             <a className="text-green-500" href="https://www.linkedin.com/in/rosy-mart%C3%ADnez-reyes/" target="_blank">
             <g color="text-green-500">
