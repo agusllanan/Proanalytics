@@ -1,5 +1,5 @@
 ---
-title: El síndrome del niño malcriado y la cultura del "no pasa nada"
+title: Las personas tóxicas en los ambientes de trabajo
 img: /img/blog/cultura-laboral-sindrome.png
 date: 2022-07-27t12:00:00.220z
 description: Trabajar con personas insatisfechas tiene sus consecuencias, una de ellas el ambiente tenso, mira cómo resolverlo
@@ -7,7 +7,7 @@ description: Trabajar con personas insatisfechas tiene sus consecuencias, una de
 
 ![El síndrome del niño malcriado y la cultura del "no pasa nada"](/img/blog/cultura-laboral-sindrome.png "El síndrome del niño malcriado y la cultura del "no pasa nada"")
 
-#  **El síndrome del niño malcriado y la cultura del "no pasa nada".**
+# **Las personas tóxicas en los ambientes de trabajo.**
 
 A veces podemos estar trabajando con personas que demuestran su insatisfacción por algo actuando como si fuera un **berrinche, una rabieta o queriendo llamar la atención**. Esto tiene sus consecuencias, una de ellas el **ambiente tenso de trabajo** que puede generar, por eso es importante tomar acciones y no ser como los papás que quieren creer o hacerle creer a los demás que *no pasa nada*. 
 
@@ -16,11 +16,13 @@ A veces podemos estar trabajando con personas que demuestran su insatisfacción 
 
 
 CONTENIDO:
+- Los ambientes tóxicos de trabajo.
 - Señales del “síndrome del niño malcriado”
-- Cuando se convierte en **“violencia laboral”**.
+- Cuando se convierte en “violencia laboral”.
 - Cómo debemos actuar con personas con estos comportamientos. 
 
->##  Señales del “síndrome del niño malcriado”.
+
+>##  Los **ambientes tóxicos** de trabajo.
 
 No **hacerse cargo** de sus responsabilidades, hacer berrinches para obtener lo que desea, llamar la atención constantemente sin pensar en el otro, **desobedecer** las normas y los límites, cuestionar la autoridad y actuar constantemente con rebeldía, mostrar actitudes agresivas, demostrar insatisfacción permanente o tener necesidad de premios o reconocimientos para obedecer. 
 Son actitudes recurrentes no solo en niños y niñas, también en adultos y pueden estar **trabajando** contigo en la misma empresa. 
