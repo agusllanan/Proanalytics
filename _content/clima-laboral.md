@@ -36,7 +36,7 @@ Motivadores que promueven el **compromiso** con la organización.
 Validar las prácticas (buenas o no) de sus **líderes**.
 Trabajar en su cultura, *attrition y engagement*.
 
-Cuando el **clima laboral** se evalúa, se logra entender el por qué de las conductas de las personas y también modificar sus comportamientos. Medir el **clima laboral** es como tomar una fotografía en la que se alcanzará a percibir la *esencia de la empresa, su personalidad y la atmósfera*. 
+Cuando el **clima laboral** se evalúa, se logra entender el por qué de las conductas de las personas y también modificar sus comportamientos. [Medir el **clima laboral**](https://www.sesamehr.mx/blog/caracteristicas-encuesta-de-clima-laboral/ "Medir el clima laboral")  es como tomar una fotografía en la que se alcanzará a percibir la *esencia de la empresa, su personalidad y la atmósfera*. 
 
 
 ![Ambientes Toxicos](/img/blog/ambientes-toxicos.jpeg "Ambientes Toxicos")
